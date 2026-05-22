@@ -1,5 +1,9 @@
 {
-  "version": "1.0.2.0",
+  "version": "1.0.3.0",
+  "app": {
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.0.3/MyShop_1.0.3.zip",
+    "sha256": "5E3D409F214CAD3EB570863E3CB0BCD2E65125900F8A6AF84940FD6548489214"
+  },
   "sqlScripts": [
     {
       "migrationId": "2026_05_23_v1_0_2",
