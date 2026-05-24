@@ -1,14 +1,14 @@
 {
   "version": "1.0.5.2",
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.0.5.2/MyShop.1.0.5.2.zip",
-    "sha256": "B0782D2E09B30236DB236F324FF90211271FE82EE7E43E907D8F7B5038F2C515"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.0.5.3/MyShop.1.0.5.3.zip",
+    "sha256": "BF910E004BC2D0F337B16029F800D65874C759179416CB4F6E3A0F98871E3808"
   },
   "sqlScripts": [
     {
       "migrationId": "2026_05_24_v1_0_3_drop_test_table",
-      "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/2026_05_24_v1_0_3_drop_test_table.sql",
-      "sha256": "5488277E90340E54B0CA00EB76FBD0F57CFAF2B89CDF18E3ABE76494D86C4669"
+      "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/2026_05_25_v1_0_4.sql",
+      "sha256": "EC872B1F930EED22E8B610917BA8EB9B9DFC65108A54752BCD7A8DF9E6C014ED"
     }
   ]
 }
