@@ -6,7 +6,7 @@
   },
   "sqlScripts": [
     {
-      "migrationId": "2026_05_24_v1_0_3_drop_test_table",
+      "migrationId": "2026_05_25_v1_0_4",
       "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/2026_05_25_v1_0_4.sql",
       "sha256": "EC872B1F930EED22E8B610917BA8EB9B9DFC65108A54752BCD7A8DF9E6C014ED"
     }
