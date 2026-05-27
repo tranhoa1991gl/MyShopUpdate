@@ -1,8 +1,8 @@
 {
-  "version": "1.0.5.4",
+  "version": "1.0.5.5",
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/V1.0.5.4/MyShop.1.0.5.4.zip",
-    "sha256": "0247984E035624ED147EC6883317584249CBE30ECBAD5DE8FBC37A75BBDE330B"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/V1.0.5.5/MyShop.1.0.5.5.zip",
+    "sha256": "61281A300377A51D0BC58C34F496382AB2B4710B5FA005D2D7D4533095CEC1F8"
   },
   "sqlScripts": [
     {
