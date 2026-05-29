@@ -1,8 +1,14 @@
 {
   "version": "1.0.5.7",
+  "releaseNotes": [
+    "Bổ sung hình ảnh sản phẩm.",
+    "Cập nhật giao diện kiểm tra phiên bản, hiển thị nội dung bản cập nhật mới.",
+    "Cải thiện cơ chế cập nhật online và vá SQL tự động.",
+    "Sửa lỗi cache version.json khi kiểm tra bản cập nhật."
+  ],
   "app": {
     "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/V1.0.5.7/MyShop.1.0.5.7.zip",
-    "sha256": "4e6de0c47bcab161515ffc1bf264aed60ffd11335845aaccd7dd40457456aeb5"
+    "sha256": "4E6DE0C47BCAB161515FFC1BF264AED60FFD11335845AACCD7DD40457456AEB5"
   },
   "sqlScripts": [
     {
