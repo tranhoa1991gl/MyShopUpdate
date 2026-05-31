@@ -1,12 +1,12 @@
 {
-  "version": "1.0.5.8",
+  "version": "1.0.5.9",
   "releaseNotes": [
     "Cập nhật giao diện",
-    "Update phiên bản không mất key"
+    "Update hóa đơn"
   ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.0.5.8/MyShop.1.0.5.8.zip",
-    "sha256": "86cbdf83ad2b4bfb8bce62e020fcf3699452d833cd963645867526e44753a769"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.0.5.9/MyShop.1.0.5.9.zip",
+    "sha256": "6444e31ab2ff5b390ce55632b946fa15022d634c257d7a9c4cb9753d9e6547d1"
   },
   "sqlScripts": [
     {
