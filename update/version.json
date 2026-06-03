@@ -1,21 +1,25 @@
 {
-  "version": "1.0.6.1",
+  "version": "1.0.6.2",
   "releaseNotes": [
-    "Tối ưu hiệu năng",
-    "Tối ưu xử lý dữ liệu",
-    "Tăng độ an toàn",
-    "Đã cải thiện UI",
-    "DataGridView mượt hơn, giảm nhấp nháy khi load dữ liệu"
+    "Bổ sung reset dữ liệu",
+    "Tự động sao lưu trước khi reset",
+    "Ghi log sao lưu, khôi phục, reset dữ liệu",
+    "Sửa lỗi khôi phục dữ liệu LocalDB/SQL Server"
   ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.0.6.1/MyShop.1.0.6.1.zip",
-    "sha256": "a6260071be8e13c643499fcd550ac506f4a552506e7130b132c7aec3415125b3"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.0.6.2/MyShop.1.0.6.2.zip",
+    "sha256": "36c61899e8da4f859a071e9868eecc39f0d4b521202e93d5781ef35b5f627e69"
   },
   "sqlScripts": [
     {
       "migrationId": "DBMyShop_SQL_CoreOnly_Cleanup",
       "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/DBMyShop_SQL_CoreOnly_Cleanup.sql",
       "sha256": "9593af351c25754b03d67eb1f0a7d98685f4d5083476cf50eb1faf47e17855d8"
+    },
+    {
+      "migrationId": "Database_ResetData",
+      "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/Database_ResetData.sql",
+      "sha256": "f5f069b61865cf9ba35cc2422d4a147ef87ad44ee2bd2cf0ad77c8efe76d2854"
     }
   ]
 }
