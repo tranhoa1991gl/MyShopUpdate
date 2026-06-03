@@ -1,18 +1,21 @@
 {
-  "version": "1.0.6.0",
+  "version": "1.0.6.1",
   "releaseNotes": [
-    "Cập nhật giao diện bán hàng",
-    "Cập nhật lịch sử kiểm kê"
+    "Tối ưu hiệu năng",
+    "Tối ưu xử lý dữ liệu",
+    "Tăng độ an toàn",
+    "Đã cải thiện UI",
+    "DataGridView mượt hơn, giảm nhấp nháy khi load dữ liệu"
   ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.0.6.0/MyShop.1.0.6.0.zip",
-    "sha256": "a3324e31b36cf3398db5564ecd330cdbab3c7bb30c3c1cf942e8cc1d76953aeb"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.0.6.1/MyShop.1.0.6.1.zip",
+    "sha256": "a6260071be8e13c643499fcd550ac506f4a552506e7130b132c7aec3415125b3"
   },
   "sqlScripts": [
     {
-      "migrationId": "product_image-patch_2026_05_28_v1_0_5",
-      "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/product_image-patch_2026_05_28_v1_0_5.sql",
-      "sha256": "396061616AAEE1000DF6CC92BC816FD37E8152C7627F55998F1F9FA9E8925BE1"
+      "migrationId": "DBMyShop_SQL_CoreOnly_Cleanup",
+      "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/DBMyShop_SQL_CoreOnly_Cleanup.sql",
+      "sha256": "9593af351c25754b03d67eb1f0a7d98685f4d5083476cf50eb1faf47e17855d8"
     }
   ]
 }
