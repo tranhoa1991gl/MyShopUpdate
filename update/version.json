@@ -1,14 +1,13 @@
 {
-  "version": "1.0.6.2",
+  "version": "1.0.6.3",
   "releaseNotes": [
-    "Bổ sung reset dữ liệu",
-    "Tự động sao lưu trước khi reset",
-    "Ghi log sao lưu, khôi phục, reset dữ liệu",
-    "Sửa lỗi khôi phục dữ liệu LocalDB/SQL Server"
+    "Thêm tùy chọn giá nhập",
+    "Hỗ trợ tính giá nhập theo bình quân gia quyền",
+    "Hỗ trợ tính giá nhập theo giá mới nhất"
   ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.0.6.2/MyShop.1.0.6.2.zip",
-    "sha256": "36c61899e8da4f859a071e9868eecc39f0d4b521202e93d5781ef35b5f627e69"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.0.6.3/MyShop.1.0.6.3.zip",
+    "sha256": "6b49dcaa012e993c73196f657706cdc167102680fc2134ac32103967ed0dffe7"
   },
   "sqlScripts": [
     {
@@ -20,6 +19,11 @@
       "migrationId": "Database_ResetData",
       "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/Database_ResetData.sql",
       "sha256": "f5f069b61865cf9ba35cc2422d4a147ef87ad44ee2bd2cf0ad77c8efe76d2854"
+    },
+    {
+      "migrationId": "26_06_04_import_price_method_patch",
+      "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/26_06_04_import_price_method_patch.sql",
+      "sha256": "6c31b313ba13e32e499fb7ee950912da8e21d53bd63451aee13b663e99c4ed88"
     }
   ]
 }
