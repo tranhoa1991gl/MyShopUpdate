@@ -1,13 +1,11 @@
 {
-  "version": "1.0.6.3",
+  "version": "1.0.6.4",
   "releaseNotes": [
-    "Thêm tùy chọn giá nhập",
-    "Hỗ trợ tính giá nhập theo bình quân gia quyền",
-    "Hỗ trợ tính giá nhập theo giá mới nhất"
+    "Cập nhật giao diện"
   ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.0.6.3/MyShop.1.0.6.3.zip",
-    "sha256": "6b49dcaa012e993c73196f657706cdc167102680fc2134ac32103967ed0dffe7"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.0.6.4/MyShop.1.0.6.4.zip",
+    "sha256": "a4020b43c1abceea8af7d7f50b5577bf7aa61e9c7d2cafabc4029f4c97e09531"
   },
   "sqlScripts": [
     {
