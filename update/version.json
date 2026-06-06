@@ -1,9 +1,9 @@
 {
   "version": "1.0.6.6",
   "releaseNotes": [
-    "Cập nhật giao diện",
-    "Tự động cập nhật CSDL",
-    "Tự động thông báo cập nhật khi có phiên bản mới"
+    "Cập nhật giao diện, thay đổi icon",
+    "Làm đẹp lại giao diện công nợ",
+    "Làm đẹp lại lịch sử thu / chi"
   ],
   "app": {
     "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.0.6.6/MyShop.1.0.6.6.zip",
