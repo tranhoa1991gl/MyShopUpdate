@@ -1,13 +1,13 @@
 {
-  "version": "1.0.6.5",
+  "version": "1.0.6.6",
   "releaseNotes": [
     "Cập nhật giao diện",
     "Tự động cập nhật CSDL",
     "Tự động thông báo cập nhật khi có phiên bản mới"
   ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.0.6.5/MyShop.1.0.6.5.zip",
-    "sha256": "df330bbf61ddf8ad2147643b9b2cf3cccd86832116d99e3fcf266f52e62587f6"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.0.6.6/MyShop.1.0.6.6.zip",
+    "sha256": "ca00e26ce8410279a5db993f6d68de0d2d38782a1010a40328ace0442634db81"
   },
   "sqlScripts": [
     {
