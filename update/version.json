@@ -17,9 +17,9 @@
             "sha256": "c5e376a1b0e66c57ef4ec5a01846d75c99231f0611fe14eb51136ab2e6021b42"
         },
         {
-            "migrationId": "2026-06-10-product-barcode-online-full-v2",
-            "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/2026-06-10-product-barcode-online-full-v2.sql",
-            "sha256": "4834613bc0a7650e6704b47f12637e1d658401e59a301cac5aac1397a8508488"
+            "migrationId": "2026-06-10-product-barcode-online-full-v3.sql",
+            "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/2026-06-10-product-barcode-online-full-v3.sql",
+            "sha256": "788f1a1aacb1f7c2596feb5b76208d0cbadebf4977206c0ffcd8f18d4bb47f26"
         }
     ]
 }
