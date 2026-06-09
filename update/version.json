@@ -1,5 +1,5 @@
 {
-    "version": "1.0.6.9",
+    "version": "1.0.7.0",
     "releaseNotes": [
         "Thêm mã vạch cho sản phẩm, hỗ trợ quét mã để bán hàng nhanh và chính xác hơn",
         "Nâng cấp in tem mã vạch, cho phép chọn in theo Mã SP hoặc Mã vạch",
@@ -8,8 +8,8 @@
         "Cập nhật cơ sở dữ liệu tự động, đảm bảo tương thích với dữ liệu cũ của khách hàng"
     ],
     "app": {
-        "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.0.6.9/MyShop.1.0.6.9.zip",
-        "sha256": "c9cd68d78d8c3249034d80637556962f37a1c102931cb33db298cd336767c69f"
+        "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.0.7.0/MyShop.1.0.7.0.zip",
+        "sha256": "e616598b64f13cc1d4fbe68eb3f8af7ada36f1192887c087f8d09a2764ef5458"
     },
     "sqlScripts": [{
             "migrationId": "2026-06-09-cong-no-ncc-fix",
