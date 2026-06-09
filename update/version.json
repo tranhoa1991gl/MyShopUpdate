@@ -1,5 +1,5 @@
 {
-    "version": "1.0.6.8",
+    "version": "1.0.6.9",
     "releaseNotes": [
         "Thêm mã vạch cho sản phẩm, hỗ trợ quét mã để bán hàng nhanh và chính xác hơn",
         "Nâng cấp in tem mã vạch, cho phép chọn in theo Mã SP hoặc Mã vạch",
@@ -17,9 +17,9 @@
             "sha256": "c5e376a1b0e66c57ef4ec5a01846d75c99231f0611fe14eb51136ab2e6021b42"
         },
         {
-            "migrationId": "2026-06-09-product-barcode-online-full",
-            "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/2026-06-09-product-barcode-online-full.sql",
-            "sha256": "7385c3cd17fbba1d1e9c7664f84660c3d6eacfbb9b391bf4243d90bb00d76218"
+            "migrationId": "2026-06-10-product-barcode-online-full-v2",
+            "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/2026-06-10-product-barcode-online-full-v2.sql",
+            "sha256": "4834613bc0a7650e6704b47f12637e1d658401e59a301cac5aac1397a8508488"
         }
     ]
 }
