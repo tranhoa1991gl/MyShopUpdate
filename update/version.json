@@ -1,17 +1,25 @@
 {
-  "version": "1.0.6.7",
-  "releaseNotes": [
-    "Fix số tiền nợ NCC ở hóa đơn - trùng với mục báo cáo"
-  ],
-  "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.0.6.7/MyShop.1.0.6.7.zip",
-    "sha256": "76b45350b8e06a475dba005d84bb09bba5ad3e5dd79232a894a32f9b3713e911"
-  },
-  "sqlScripts": [
-    {
-      "migrationId": "2026-06-09-cong-no-ncc-fix",
-      "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/2026-06-09-cong-no-ncc-fix.sql",
-      "sha256": "c5e376a1b0e66c57ef4ec5a01846d75c99231f0611fe14eb51136ab2e6021b42"
-    }
-  ]
+    "version": "1.0.6.8",
+    "releaseNotes": [
+        "Thêm mã vạch cho sản phẩm, hỗ trợ quét mã để bán hàng nhanh và chính xác hơn",
+        "Nâng cấp in tem mã vạch, cho phép chọn in theo Mã SP hoặc Mã vạch",
+        "Thêm bán hàng nhiều tab, hỗ trợ tạo nhiều hóa đơn và phục vụ nhiều khách cùng lúc",
+        "Tối ưu phím tắt bán hàng: Ctrl+N để thêm hóa đơn, Ctrl+W để đóng hóa đơn",
+        "Cập nhật cơ sở dữ liệu tự động, đảm bảo tương thích với dữ liệu cũ của khách hàng"
+    ],
+    "app": {
+        "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.0.6.8/MyShop.1.0.6.8.zip",
+        "sha256": "65e4e916d30ecae231310aea8b22820273fccc76eb08143440c1be30dff96dd8"
+    },
+    "sqlScripts": [{
+            "migrationId": "2026-06-09-cong-no-ncc-fix",
+            "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/2026-06-09-cong-no-ncc-fix.sql",
+            "sha256": "c5e376a1b0e66c57ef4ec5a01846d75c99231f0611fe14eb51136ab2e6021b42"
+        },
+        {
+            "migrationId": "2026-06-09-product-barcode-online-full",
+            "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/2026-06-09-product-barcode-online-full.sql",
+            "sha256": "7385c3cd17fbba1d1e9c7664f84660c3d6eacfbb9b391bf4243d90bb00d76218"
+        }
+    ]
 }
