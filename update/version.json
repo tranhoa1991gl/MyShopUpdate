@@ -1,29 +1,17 @@
 {
-  "version": "1.0.6.6",
+  "version": "1.0.6.7",
   "releaseNotes": [
-    "Cập nhật giao diện, thay đổi icon",
-    "Làm đẹp lại giao diện các hóa đơn, mục công nợ",
-    "Làm đẹp lại lịch sử thu / chi"
+    "Fix số tiền nợ NCC ở hóa đơn - trùng với mục báo cáo"
   ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.0.6.6/MyShop.1.0.6.6.zip",
-    "sha256": "ca00e26ce8410279a5db993f6d68de0d2d38782a1010a40328ace0442634db81"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.0.6.7/MyShop.1.0.6.7.zip",
+    "sha256": "76b45350b8e06a475dba005d84bb09bba5ad3e5dd79232a894a32f9b3713e911"
   },
   "sqlScripts": [
     {
-      "migrationId": "DBMyShop_SQL_CoreOnly_Cleanup",
-      "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/DBMyShop_SQL_CoreOnly_Cleanup.sql",
-      "sha256": "9593af351c25754b03d67eb1f0a7d98685f4d5083476cf50eb1faf47e17855d8"
-    },
-    {
-      "migrationId": "Database_ResetData",
-      "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/Database_ResetData.sql",
-      "sha256": "f5f069b61865cf9ba35cc2422d4a147ef87ad44ee2bd2cf0ad77c8efe76d2854"
-    },
-    {
-      "migrationId": "26_06_04_import_price_method_patch",
-      "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/26_06_04_import_price_method_patch.sql",
-      "sha256": "6c31b313ba13e32e499fb7ee950912da8e21d53bd63451aee13b663e99c4ed88"
+      "migrationId": "2026-06-09-cong-no-ncc-fix",
+      "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/2026-06-09-cong-no-ncc-fix.sql",
+      "sha256": "c5e376a1b0e66c57ef4ec5a01846d75c99231f0611fe14eb51136ab2e6021b42"
     }
   ]
 }
