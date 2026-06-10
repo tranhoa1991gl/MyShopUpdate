@@ -1,15 +1,11 @@
 {
-    "version": "1.0.7.0",
+    "version": "1.0.7.1",
     "releaseNotes": [
-        "Thêm mã vạch cho sản phẩm, hỗ trợ quét mã để bán hàng nhanh và chính xác hơn",
-        "Nâng cấp in tem mã vạch, cho phép chọn in theo Mã SP hoặc Mã vạch",
-        "Thêm bán hàng nhiều tab, hỗ trợ tạo nhiều hóa đơn và phục vụ nhiều khách cùng lúc",
-        "Tối ưu phím tắt bán hàng: Ctrl+N để thêm hóa đơn, Ctrl+W để đóng hóa đơn",
-        "Cập nhật cơ sở dữ liệu tự động, đảm bảo tương thích với dữ liệu cũ của khách hàng"
+        "Cập nhật TAB bán hàng",
     ],
     "app": {
-        "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.0.7.0/MyShop.1.0.7.0.zip",
-        "sha256": "e616598b64f13cc1d4fbe68eb3f8af7ada36f1192887c087f8d09a2764ef5458"
+        "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.0.7.1/MyShop.1.0.7.1.zip",
+        "sha256": "ca6275166f05ed93facb545f2a11cb8d7d69ee36636f6bca996252969fc1dc3a"
     },
     "sqlScripts": [{
             "migrationId": "2026-06-09-cong-no-ncc-fix",
