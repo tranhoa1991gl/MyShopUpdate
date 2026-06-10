@@ -1,11 +1,12 @@
 {
-    "version": "1.0.7.1",
+    "version": "1.0.7.2",
     "releaseNotes": [
         "Cập nhật TAB bán hàng",
+        "Khắc phục nhấp nháy giao diện khi thanh toán xong hóa đơn"
     ],
     "app": {
-        "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.0.7.1/MyShop.1.0.7.1.zip",
-        "sha256": "ca6275166f05ed93facb545f2a11cb8d7d69ee36636f6bca996252969fc1dc3a"
+        "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.0.7.2/MyShop.1.0.7.2.zip",
+        "sha256": "bc1f4ec16f7fca2ad1deda777eecf989a6b60616b8f4aba6526eb9d05372f7a3"
     },
     "sqlScripts": [{
             "migrationId": "2026-06-09-cong-no-ncc-fix",
