@@ -4,7 +4,7 @@
         "Cập nhật Import/Export Excel cho các danh mục chính",
         "Bổ sung file mẫu Excel và xuất danh sách lỗi khi import",
         "Bổ sung kiểm tra trùng SĐT/MST khi nhập và lưu dữ liệu",
-        "Chuẩn hóa xử lý ảnh sản phẩm theo tên file trong thư mục ProductImages",
+        "Chuẩn hóa ảnh sản phẩm theo tên file",
         "Tối ưu menu thao tác và mở nhanh form sửa sản phẩm"
     ],
     "app": {
