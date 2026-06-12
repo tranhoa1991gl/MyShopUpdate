@@ -1,14 +1,11 @@
 {
-  "version": "1.0.7.6",
+  "version": "1.0.7.7",
   "releaseNotes": [
-    "Thêm chức năng trả hàng nhà cung cấp theo phiếu nhập, hỗ trợ trừ tồn kho và giảm công nợ NCC",
-    "Thêm lịch sử trả hàng NCC, hỗ trợ xem chi tiết, in phiếu, hủy phiếu và xuất Excel",
-    "Thêm báo cáo xuất - nhập - tồn kho, hỗ trợ theo dõi nhập mua, xuất bán, trả hàng và tồn cuối kỳ",
-    "Cập nhật báo cáo tổng quan, tính thêm trả hàng NCC và tính lại lợi nhuận/công nợ chính xác hơn"
+    "Sửa báo cáo lợi nhuận, bổ sung lưu giá vốn khi bán hàng và tính đúng giá vốn hàng bán"
   ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.0.7.6/MyShop.1.0.7.6.zip",
-    "sha256": "db166dc2f03742620873b83011f549a5c0de03fb7ad0535c2b31420b074c01fe"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.0.7.7/MyShop.1.0.7.7.zip",
+    "sha256": "bb03f543acbafbd195b3c488a2609c30d3a4b986b7ce843e2f106595e157fc25"
   },
   "sqlScripts": [
     {
@@ -25,6 +22,11 @@
       "migrationId": "2026-06-12-myshop-report-purchase-return-full-v2",
       "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/2026-06-12-myshop-report-purchase-return-full-v2.sql",
       "sha256": "d31d7c5b812124b83d6831af9916aa229f1298d68416de65fd98f762a3cabc17"
+    },
+        {
+      "migrationId": "2026-06-12-report-cost-price-profit-fix",
+      "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/2026-06-12-report-cost-price-profit-fix.sql",
+      "sha256": "efde3b7379d498067fec7d9392b9d03994432bdfdc5cf1de23c2b2be1561f6a5"
     }
   ]
 }
