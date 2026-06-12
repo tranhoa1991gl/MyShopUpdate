@@ -1,22 +1,30 @@
 {
-    "version": "1.0.7.5",
-    "releaseNotes": [
-        "Cập nhật cài đặt máy in",
-        "Hỗ trợ tùy chỉnh độ rộng nội dung bill cho K57/K80"
-    ],
-    "app": {
-        "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.0.7.5/MyShop.1.0.7.5.zip",
-        "sha256": "d0bb88fddcaf065eda47510d8a13a5d08b17a983152938d3103fd95aa2419626"
+  "version": "1.0.7.6",
+  "releaseNotes": [
+    "Thêm chức năng trả hàng nhà cung cấp theo phiếu nhập, hỗ trợ trừ tồn kho và giảm công nợ NCC",
+    "Thêm lịch sử trả hàng NCC, hỗ trợ xem chi tiết, in phiếu, hủy phiếu và xuất Excel",
+    "Thêm báo cáo xuất - nhập - tồn kho, hỗ trợ theo dõi nhập mua, xuất bán, trả hàng và tồn cuối kỳ",
+    "Cập nhật báo cáo tổng quan, tính thêm trả hàng NCC và tính lại lợi nhuận/công nợ chính xác hơn"
+  ],
+  "app": {
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.0.7.6/MyShop.1.0.7.6.zip",
+    "sha256": "db166dc2f03742620873b83011f549a5c0de03fb7ad0535c2b31420b074c01fe"
+  },
+  "sqlScripts": [
+    {
+      "migrationId": "2026-06-09-cong-no-ncc-fix",
+      "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/2026-06-09-cong-no-ncc-fix.sql",
+      "sha256": "c5e376a1b0e66c57ef4ec5a01846d75c99231f0611fe14eb51136ab2e6021b42"
     },
-    "sqlScripts": [{
-            "migrationId": "2026-06-09-cong-no-ncc-fix",
-            "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/2026-06-09-cong-no-ncc-fix.sql",
-            "sha256": "c5e376a1b0e66c57ef4ec5a01846d75c99231f0611fe14eb51136ab2e6021b42"
-        },
-        {
-            "migrationId": "2026-06-10-product-barcode-online-full-v3.sql",
-            "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/2026-06-10-product-barcode-online-full-v3.sql",
-            "sha256": "788f1a1aacb1f7c2596feb5b76208d0cbadebf4977206c0ffcd8f18d4bb47f26"
-        }
-    ]
+    {
+      "migrationId": "2026-06-10-product-barcode-online-full-v3",
+      "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/2026-06-10-product-barcode-online-full-v3.sql",
+      "sha256": "788f1a1aacb1f7c2596feb5b76208d0cbadebf4977206c0ffcd8f18d4bb47f26"
+    },
+    {
+      "migrationId": "2026-06-12-myshop-report-purchase-return-full",
+      "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/2026-06-12-myshop-report-purchase-return-full.sql",
+      "sha256": "f50c2e9a272ca09ba508e513bb32194d74fded2f1fd93608c5953fef91e96414"
+    }
+  ]
 }
