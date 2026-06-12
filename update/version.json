@@ -27,6 +27,11 @@
       "migrationId": "2026-06-12-report-cost-price-profit-fix",
       "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/2026-06-12-report-cost-price-profit-fix.sql",
       "sha256": "efde3b7379d498067fec7d9392b9d03994432bdfdc5cf1de23c2b2be1561f6a5"
+    },
+            {
+      "migrationId": "2026-06-12-database-reset-purchase-return-fix",
+      "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/2026-06-12-database-reset-purchase-return-fix.sql",
+      "sha256": "ff76321daaecc6cafa7a295923d117511edc50ba039d5051b73681c77fc6cce5"
     }
   ]
 }
