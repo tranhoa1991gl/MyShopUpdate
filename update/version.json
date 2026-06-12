@@ -1,37 +1,44 @@
 {
-  "version": "1.0.7.7",
-  "releaseNotes": [
-    "Sửa báo cáo lợi nhuận, bổ sung lưu giá vốn khi bán hàng và tính đúng giá vốn hàng bán"
-  ],
-  "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.0.7.7/MyShop.1.0.7.7.zip",
-    "sha256": "bb03f543acbafbd195b3c488a2609c30d3a4b986b7ce843e2f106595e157fc25"
-  },
-  "sqlScripts": [
-    {
-      "migrationId": "2026-06-09-cong-no-ncc-fix",
-      "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/2026-06-09-cong-no-ncc-fix.sql",
-      "sha256": "c5e376a1b0e66c57ef4ec5a01846d75c99231f0611fe14eb51136ab2e6021b42"
+    "version": "1.0.7.8",
+    "releaseNotes": [
+        "Đồng bộ số lượng kho hàng khi bán nhiều TAB hóa đơn cùng lúc",
+        "Cập nhật giao diện báo cáo tổng quan dạng thẻ (Tab)",
+        "Tích hợp nút Xuất dữ liệu ra file Excel riêng cho từng bảng báo cáo",
+        "Bổ sung Bảng xếp hạng Top 20 Khách hàng VIP và tính năng Nhắn Zalo nhanh"
+    ],
+    "app": {
+        "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.0.7.8/MyShop.1.0.7.8.zip",
+        "sha256": "4bc2c50105e8c1fdd173e96db94f42299bc260e35f4bd99d9fef825058ad59b1"
     },
-    {
-      "migrationId": "2026-06-10-product-barcode-online-full-v3",
-      "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/2026-06-10-product-barcode-online-full-v3.sql",
-      "sha256": "788f1a1aacb1f7c2596feb5b76208d0cbadebf4977206c0ffcd8f18d4bb47f26"
-    },
-    {
-      "migrationId": "2026-06-12-myshop-report-purchase-return-full-v2",
-      "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/2026-06-12-myshop-report-purchase-return-full-v2.sql",
-      "sha256": "d31d7c5b812124b83d6831af9916aa229f1298d68416de65fd98f762a3cabc17"
-    },
+    "sqlScripts": [{
+            "migrationId": "2026-06-09-cong-no-ncc-fix",
+            "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/2026-06-09-cong-no-ncc-fix.sql",
+            "sha256": "c5e376a1b0e66c57ef4ec5a01846d75c99231f0611fe14eb51136ab2e6021b42"
+        },
         {
-      "migrationId": "2026-06-12-report-cost-price-profit-fix",
-      "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/2026-06-12-report-cost-price-profit-fix.sql",
-      "sha256": "efde3b7379d498067fec7d9392b9d03994432bdfdc5cf1de23c2b2be1561f6a5"
-    },
-            {
-      "migrationId": "2026-06-12-database-reset-purchase-return-fix",
-      "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/2026-06-12-database-reset-purchase-return-fix.sql",
-      "sha256": "ff76321daaecc6cafa7a295923d117511edc50ba039d5051b73681c77fc6cce5"
-    }
-  ]
+            "migrationId": "2026-06-10-product-barcode-online-full-v3",
+            "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/2026-06-10-product-barcode-online-full-v3.sql",
+            "sha256": "788f1a1aacb1f7c2596feb5b76208d0cbadebf4977206c0ffcd8f18d4bb47f26"
+        },
+        {
+            "migrationId": "2026-06-12-myshop-report-purchase-return-full-v2",
+            "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/2026-06-12-myshop-report-purchase-return-full-v2.sql",
+            "sha256": "d31d7c5b812124b83d6831af9916aa229f1298d68416de65fd98f762a3cabc17"
+        },
+        {
+            "migrationId": "2026-06-12-report-cost-price-profit-fix",
+            "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/2026-06-12-report-cost-price-profit-fix.sql",
+            "sha256": "efde3b7379d498067fec7d9392b9d03994432bdfdc5cf1de23c2b2be1561f6a5"
+        },
+        {
+            "migrationId": "2026-06-12-database-reset-purchase-return-fix",
+            "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/2026-06-12-database-reset-purchase-return-fix.sql",
+            "sha256": "ff76321daaecc6cafa7a295923d117511edc50ba039d5051b73681c77fc6cce5"
+        },
+        {
+            "migrationId": "2026-06-13-report-customer-fix",
+            "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/2026-06-13-report-customer-fix.sql",
+            "sha256": "8f0eba9d0442dae9f6dd664501d639ae0bfb65c61dd56332d1f85652aa830b10"
+        }
+    ]
 }
