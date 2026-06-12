@@ -22,9 +22,9 @@
       "sha256": "788f1a1aacb1f7c2596feb5b76208d0cbadebf4977206c0ffcd8f18d4bb47f26"
     },
     {
-      "migrationId": "2026-06-12-myshop-report-purchase-return-full",
-      "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/2026-06-12-myshop-report-purchase-return-full.sql",
-      "sha256": "f50c2e9a272ca09ba508e513bb32194d74fded2f1fd93608c5953fef91e96414"
+      "migrationId": "2026-06-12-myshop-report-purchase-return-full-v2",
+      "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/2026-06-12-myshop-report-purchase-return-full-v2.sql",
+      "sha256": "d31d7c5b812124b83d6831af9916aa229f1298d68416de65fd98f762a3cabc17"
     }
   ]
 }
