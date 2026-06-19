@@ -1,47 +1,12 @@
 {
-    "version": "1.0.7.9",
-    "releaseNotes": [
-        "Cập nhật giao diện",
-        "Thêm thống kê Nhà cung cấp ở thống kê tổng quan"
-    ],
-    "app": {
-        "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v.1.0.7.9/MyShop.1.0.7.9.zip",
-        "sha256": "14e7cffb5a4ff8da6ff4144d54a1e41c17e004ca67147400615693af94566230"
-    },
-    "sqlScripts": [{
-            "migrationId": "2026-06-09-cong-no-ncc-fix",
-            "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/2026-06-09-cong-no-ncc-fix.sql",
-            "sha256": "c5e376a1b0e66c57ef4ec5a01846d75c99231f0611fe14eb51136ab2e6021b42"
-        },
-        {
-            "migrationId": "2026-06-10-product-barcode-online-full-v3",
-            "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/2026-06-10-product-barcode-online-full-v3.sql",
-            "sha256": "788f1a1aacb1f7c2596feb5b76208d0cbadebf4977206c0ffcd8f18d4bb47f26"
-        },
-        {
-            "migrationId": "2026-06-12-myshop-report-purchase-return-full-v2",
-            "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/2026-06-12-myshop-report-purchase-return-full-v2.sql",
-            "sha256": "d31d7c5b812124b83d6831af9916aa229f1298d68416de65fd98f762a3cabc17"
-        },
-        {
-            "migrationId": "2026-06-12-report-cost-price-profit-fix",
-            "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/2026-06-12-report-cost-price-profit-fix.sql",
-            "sha256": "efde3b7379d498067fec7d9392b9d03994432bdfdc5cf1de23c2b2be1561f6a5"
-        },
-        {
-            "migrationId": "2026-06-12-database-reset-purchase-return-fix",
-            "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/2026-06-12-database-reset-purchase-return-fix.sql",
-            "sha256": "ff76321daaecc6cafa7a295923d117511edc50ba039d5051b73681c77fc6cce5"
-        },
-        {
-            "migrationId": "2026-06-13-report-customer-fix",
-            "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/2026-06-13-report-customer-fix.sql",
-            "sha256": "8f0eba9d0442dae9f6dd664501d639ae0bfb65c61dd56332d1f85652aa830b10"
-        },
-        {
-            "migrationId": "2026-06-14-Report_GetSupplierStatistics",
-            "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/2026-06-14-Report_GetSupplierStatistics.sql",
-            "sha256": "5d4dd32299fe4b8be7653f5fe670f286c2de87cc3db5a5680e600327b02e0840"
-        }
-    ]
+  "version": "1.0.8.0",
+  "releaseNotes": [
+    "Tạo phiếu nhập hàng đới với nhân viên",
+    "Ẩn toàn bộ giá nhập với nhân viên"
+  ],
+  "app": {
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.0.8.0/MyShop.1.0.8.0.zip",
+    "sha256": "e843ca0578cab3e3e58f537897d881db105f5e8ac511170944470c58d598dc30"
+  },
+  "sqlScripts": []
 }
