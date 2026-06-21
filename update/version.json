@@ -1,12 +1,12 @@
 {
-  "version": "1.0.8.0",
+  "version": "1.0.8.1",
   "releaseNotes": [
-    "Tạo phiếu nhập hàng đới với nhân viên",
-    "Ẩn toàn bộ giá nhập với nhân viên"
+    "Cập nhật lớn về giao diện",
+    "Không ảnh hưởng gì tới CSDL"
   ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.0.8.0/MyShop.1.0.8.0.zip",
-    "sha256": "e843ca0578cab3e3e58f537897d881db105f5e8ac511170944470c58d598dc30"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.0.8.1/MyShop.1.0.8.1.zip",
+    "sha256": "3606538d765c866efa60e57d71ec544aa8b5644eec3e588247bb570bb31a378f"
   },
   "sqlScripts": []
 }
