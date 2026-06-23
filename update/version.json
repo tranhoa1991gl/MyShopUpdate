@@ -1,12 +1,12 @@
 {
-  "version": "1.0.8.1",
+  "version": "1.0.8.2",
   "releaseNotes": [
-    "Cập nhật lớn về giao diện",
-    "Không ảnh hưởng gì tới CSDL"
+    "Cập nhật POS bán hàng giống KiotViet",
+    "Chỉ cập nhật layout, không ảnh hưởng gì tới CSDL"
   ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.0.8.1/MyShop.1.0.8.1.zip",
-    "sha256": "3606538d765c866efa60e57d71ec544aa8b5644eec3e588247bb570bb31a378f"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.0.8.2/MyShop.1.0.8.2.zip",
+    "sha256": "d7f152f422f040625f6bcf47182349c95264d8137a270461950a66ba137da455"
   },
   "sqlScripts": []
 }
