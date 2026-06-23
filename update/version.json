@@ -1,7 +1,7 @@
 {
   "version": "1.0.8.2",
   "releaseNotes": [
-    "Cập nhật POS bán hàng giống KiotViet",
+    "Cập nhật POS bán hàng mới",
     "Chỉ cập nhật layout, không ảnh hưởng gì tới CSDL"
   ],
   "app": {
