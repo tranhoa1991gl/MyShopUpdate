@@ -1,12 +1,12 @@
 {
-  "version": "1.0.8.3",
+  "version": "1.0.8.4",
   "releaseNotes": [
-    "Cập nhật và đồng bộ font chữ trên giao diện phần mềm.",
-    "Tối ưu bố cục hiển thị, giúp các màn hình rõ ràng và dễ sử dụng hơn."
+    "Nâng cấp giao diện nhập hàng",
+    "Nhằm hoàn thiện phần mềm sẽ được update liên tục"
   ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.0.8.3/MyShop.1.0.8.3.zip",
-    "sha256": "4efd672b37b443be6146a0d8fab83e6de8c2c021e568018c207f26489ed20c25"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.0.8.4/MyShop.1.0.8.4.zip",
+    "sha256": "108ec817309a63a371f5682dd7d59cd2b648ed44ab2f678d8081a80018bed13e"
   },
   "sqlScripts": []
 }
