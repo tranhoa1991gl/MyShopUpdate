@@ -1,12 +1,12 @@
 {
-  "version": "1.0.8.4",
+  "version": "1.0.8.5",
   "releaseNotes": [
-    "Nâng cấp giao diện nhập hàng",
-    "Nhằm hoàn thiện phần mềm sẽ được update liên tục"
+    "Nâng cấp chức năng kho hàng.",
+    "Lưu ý quan trọng: Một số máy có thể bị Windows Defender hoặc phần mềm diệt virus chặn tải/cài đặt do nhận diện nhầm. Nếu gặp lỗi này, vui lòng tạm thời cho phép MyShop trong phần mềm bảo vệ hoặc thêm thư mục MyShop vào danh sách loại trừ, sau đó bật lại bảo vệ sau khi cài đặt xong."
   ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.0.8.4/MyShop.1.0.8.4.zip",
-    "sha256": "108ec817309a63a371f5682dd7d59cd2b648ed44ab2f678d8081a80018bed13e"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.0.8.5/MyShop.1.0.8.5.zip",
+    "sha256": "07655641f2bc4fa5a654ee56f9807566bc9b8108c0d6eceb3c1b0a75a840ec6f"
   },
   "sqlScripts": []
 }
