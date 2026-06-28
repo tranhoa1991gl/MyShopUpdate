@@ -1,12 +1,20 @@
 {
-  "version": "1.0.8.5",
-  "releaseNotes": [
-    "Nâng cấp chức năng kho hàng.",
-    "Lưu ý quan trọng: Một số máy có thể bị Windows Defender hoặc phần mềm diệt virus chặn tải/cài đặt do nhận diện nhầm. Nếu gặp lỗi này, vui lòng tạm thời cho phép MyShop trong phần mềm bảo vệ hoặc thêm thư mục MyShop vào danh sách loại trừ, sau đó bật lại bảo vệ sau khi cài đặt xong."
-  ],
-  "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.0.8.5/MyShop.1.0.8.5.zip",
-    "sha256": "07655641f2bc4fa5a654ee56f9807566bc9b8108c0d6eceb3c1b0a75a840ec6f"
-  },
-  "sqlScripts": []
+    "version": "1.0.8.6",
+    "releaseNotes": [
+        "Cập nhật kho hàng",
+        "Thêm dự tính hết hàng",
+        "Thêm Tồn kho cuối mỗi lần xuất"
+    ],
+    "app": {
+        "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.0.8.6/MyShop.1.0.8.6.zip",
+        "sha256": "179e03978b66428c2b04670ce5f4cb10d78489cac57a92f3c253e37817167515"
+    },
+    "sqlScripts": [
+
+        {
+            "migrationId": "20260628_order_item_stock_snapshot",
+            "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260628_order_item_stock_snapshot.sql",
+            "sha256": "df448b3ed12b86243c730a8a60b9a888096fc3fa605ce0a981f2120e3e2f5d99"
+        }
+    ]
 }
