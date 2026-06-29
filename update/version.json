@@ -1,11 +1,12 @@
 {
-    "version": "1.0.8.7",
+    "version": "1.0.8.8",
     "releaseNotes": [
-        "Bổ sung chỉnh giá vốn, giá bán lẻ hàng loạt bằng file Excel"
+        "1.0.8.7: Bổ sung chỉnh giá vốn, giá bán lẻ hàng loạt bằng file Excel",
+        "1.0.8.8: Thêm tiêu đề cho form Bán hàng, Nhập hàng dễ nhận diện (1 vài điều chỉnh khác)"
     ],
     "app": {
-        "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.0.8.7/MyShop.1.0.8.7.zip",
-        "sha256": "4159f00410c9b3098b141e5974bc5658f037c2e2c9df597be95dec86dd94859c"
+        "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.0.8.8/MyShop.1.0.8.8.zip",
+        "sha256": "fa739f9a2933a33aa68b04c642d66af5047ec70491863e6d2cb8bf07406133c5"
     },
     "sqlScripts": [
 
