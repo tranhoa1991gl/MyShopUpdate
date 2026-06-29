@@ -2,7 +2,8 @@
     "version": "1.0.8.8",
     "releaseNotes": [
         "1.0.8.7: Bổ sung chỉnh giá vốn, giá bán lẻ hàng loạt bằng file Excel",
-        "1.0.8.8: Thêm tiêu đề cho form Bán hàng, Nhập hàng dễ nhận diện (1 vài điều chỉnh khác)"
+        "1.0.8.8: Thêm tiêu đề cho form Bán hàng, Nhập hàng dễ nhận diện",
+        "1.0.8.8: 1 vài điều chỉnh khác tối ưu hơn"
     ],
     "app": {
         "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.0.8.8/MyShop.1.0.8.8.zip",
