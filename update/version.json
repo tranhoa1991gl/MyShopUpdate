@@ -1,18 +1,21 @@
 {
-    "version": "1.0.8.9",
-    "releaseNotes": [
-        "Nâng cấp chức năng sản phẩm",
-    ],
-    "app": {
-        "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.0.8.9/MyShop.1.0.8.9.zip",
-        "sha256": "135c318f1bbd9aa7251b88558190d7636f1d13a77ca710b7abfdf19d32084a7b"
-    },
-    "sqlScripts": [
-
-        {
-            "migrationId": "20260628_order_item_stock_snapshot",
-            "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260628_order_item_stock_snapshot.sql",
-            "sha256": "df448b3ed12b86243c730a8a60b9a888096fc3fa605ce0a981f2120e3e2f5d99"
-        }
-    ]
+  "version": "1.0.9.0",
+  "releaseNotes": ["Phân quyền tài khoản: Admin tự cài cho nhân viên ở bảng tài khoản", "(Nếu phát hiện ra lỗi vui lòng liên hệ với mình để fix nhé)"],
+  "app": {
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.0.9.0/MyShop.1.0.9.0.zip",
+    "sha256": "35358a72e708f903723ae213e6dc2d34e63d72e97e5ff7318be89ccc1c42fe14"
+  },
+  "sqlScripts": [{
+    "migrationId": "20260628_order_item_stock_snapshot",
+    "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260628_order_item_stock_snapshot.sql",
+    "sha256": "df448b3ed12b86243c730a8a60b9a888096fc3fa605ce0a981f2120e3e2f5d99"
+  }, {
+    "migrationId": "20260630_user_permissions",
+    "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260630_user_permissions.sql",
+    "sha256": "4042f0759e27a1815a018381b10f448003ee1d40a15893caa5cd30c46cb3d448"
+  }, {
+    "migrationId": "20260630_more_user_permissions",
+    "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260630_more_user_permissions.sql",
+    "sha256": "ea727095311d21c3383105b8b041d8f74755d2210da32dbde5cfbd511f0182ab"
+  }]
 }
