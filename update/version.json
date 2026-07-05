@@ -3,7 +3,7 @@
     "releaseNotes": ["Tối ưu bán hàng nhiều máy qua SQL Server LAN", "Bổ sung transaction khi lưu, xác nhận và hủy hóa đơn", "Chống trừ kho lặp, chống âm tồn khi nhiều máy cùng bán", "Tối ưu mã hóa đơn và mã phiếu nhập tránh trùng"],
     "app": {
         "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.0.0/MyShop.1.1.0.0.zip",
-        "sha256": "sha256:d69f8d4cf368bf31453d6fdb17d74bf5a66c4c0fcea6978148f241ae7ad8dd42"
+        "sha256": "d69f8d4cf368bf31453d6fdb17d74bf5a66c4c0fcea6978148f241ae7ad8dd42"
     },
     "sqlScripts": [{
         "migrationId": "20260628_order_item_stock_snapshot",
