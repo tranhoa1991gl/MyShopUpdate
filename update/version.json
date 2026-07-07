@@ -1,9 +1,11 @@
 {
-    "version": "1.1.0.0",
-    "releaseNotes": ["Tối ưu bán hàng nhiều máy qua SQL Server LAN", "Bổ sung transaction khi lưu, xác nhận và hủy hóa đơn", "Chống trừ kho lặp, chống âm tồn khi nhiều máy cùng bán", "Tối ưu mã hóa đơn và mã phiếu nhập tránh trùng"],
+    "version": "1.1.0.1",
+    "releaseNotes": [
+        "Thêm màn hình khởi tạo tài khoản quản trị trong lần đăng nhập đầu tiên",
+    ],
     "app": {
-        "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.0.0/MyShop.1.1.0.0.zip",
-        "sha256": "1fbe1f9d09937f89cda949e1c8b6a33b3c3b022e4b68d576a367430c23656f35"
+        "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.0.1/MyShop.1.1.0.1.zip",
+        "sha256": "9319903a8ff5cc2941c642c761b20f6993d2cab6a5c38947b5cdab43f193539e"
     },
     "sqlScripts": [{
         "migrationId": "20260628_order_item_stock_snapshot",
@@ -21,5 +23,11 @@
         "migrationId": "20260705_lan_concurrency_hardening",
         "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260705_lan_concurrency_hardening.sql",
         "sha256": "8c8ea73bfb6c751f5d1e21cb08d85f3b05161ed9e0ed300f91642482f41f8cab"
-    }]
+    }
+    , {
+        "migrationId": "20260707_first_run_admin_setup",
+        "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260707_first_run_admin_setup.sql",
+        "sha256": "a0859a4b82ff2d7f7d2c921c90d3e70ae32e77b36cf44fcbe269714f3a1aa177"
+    }
+    ]
 }
