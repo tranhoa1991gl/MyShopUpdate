@@ -1,11 +1,14 @@
 {
-    "version": "1.1.0.1",
+    "version": "1.1.0.2",
     "releaseNotes": [
-        "Thêm màn hình khởi tạo tài khoản quản trị trong lần đăng nhập đầu tiên",
+        "Bổ sung 2 gói kích hoạt: Basic và Pro",
+        "Gói Basic: sử dụng phần mềm trọn đời, cập nhật trong 1 năm.",
+        "Gói Pro: sử dụng phần mềm trọn đời, cập nhật trọn đời.",
+        "Khách hàng cũ được tự động nhận diện là gói Pro để đảm bảo quyền lợi khách hàng hiện tại"
     ],
     "app": {
-        "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.0.1/MyShop.1.1.0.1.zip",
-        "sha256": "9319903a8ff5cc2941c642c761b20f6993d2cab6a5c38947b5cdab43f193539e"
+        "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.0.2/MyShop.1.1.0.2.zip",
+        "sha256": "5686d9ea1340fc1128d6797decf709eb95cd291f08f94011918101c3f25f9edc"
     },
     "sqlScripts": [{
         "migrationId": "20260628_order_item_stock_snapshot",
