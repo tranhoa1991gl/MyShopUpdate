@@ -1,12 +1,11 @@
 {
-    "version": "1.1.0.3",
+    "version": "1.1.0.4",
     "releaseNotes": [
-        "Bổ sung biến thể sản phẩm và nhóm giá khách hàng",
-        "Cập nhật biến thể sản phẩm, tồn kho theo màu/size, nhóm giá khách hàng và sửa giá từng món."
+        "Cập nhật liên quan đến nhóm khách hàng, giá bán 1,2,3,4: Import Excel, Điều chỉnh giá bán hàng loạt",
     ],
     "app": {
-        "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.0.3/MyShop.1.1.0.3.zip",
-        "sha256": "d7d05b24c78cc593dd3018f3d14306933ac7aa05b26a69e414fd1c5752e0cb79"
+        "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.0.4/MyShop.1.1.0.4.zip",
+        "sha256": "66ebe35b9bb5a33b404b992351607a073200e0c75a75007bb8ca3174774020c6"
     },
     "sqlScripts": [{
         "migrationId": "20260628_order_item_stock_snapshot",
