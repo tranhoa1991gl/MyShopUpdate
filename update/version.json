@@ -1,14 +1,12 @@
 {
-    "version": "1.1.0.2",
+    "version": "1.1.0.3",
     "releaseNotes": [
-        "Bổ sung 2 gói kích hoạt: Basic và Pro",
-        "Gói Basic: sử dụng phần mềm trọn đời, cập nhật trong 1 năm.",
-        "Gói Pro: sử dụng phần mềm trọn đời, cập nhật trọn đời.",
-        "Khách hàng cũ được tự động nhận diện là gói Pro để đảm bảo quyền lợi khách hàng hiện tại"
+        "Bổ sung biến thể sản phẩm và nhóm giá khách hàng",
+        "Cập nhật biến thể sản phẩm, tồn kho theo màu/size, nhóm giá khách hàng và sửa giá từng món."
     ],
     "app": {
-        "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.0.2/MyShop.1.1.0.2.zip",
-        "sha256": "5686d9ea1340fc1128d6797decf709eb95cd291f08f94011918101c3f25f9edc"
+        "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.0.3/MyShop.1.1.0.3.zip",
+        "sha256": "d7d05b24c78cc593dd3018f3d14306933ac7aa05b26a69e414fd1c5752e0cb79"
     },
     "sqlScripts": [{
         "migrationId": "20260628_order_item_stock_snapshot",
@@ -31,6 +29,16 @@
         "migrationId": "20260707_first_run_admin_setup",
         "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260707_first_run_admin_setup.sql",
         "sha256": "a0859a4b82ff2d7f7d2c921c90d3e70ae32e77b36cf44fcbe269714f3a1aa177"
+    }
+        , {
+        "migrationId": "20260708_product_variants_basic",
+        "url": "https://cdn.jsdelivr.net/gh/tranhoa1991gl/MyShopUpdate@main/sql/20260708_product_variants_basic.sql",
+        "sha256": "740503bf2e391d66213c1f6f691bb7d1cf2a03a8e44b828c6ca8df1db0c98488"
+    }
+                , {
+        "migrationId": "20260709_price_groups",
+        "url": "https://cdn.jsdelivr.net/gh/tranhoa1991gl/MyShopUpdate@main/sql/20260709_price_groups.sql",
+        "sha256": "00e7f69241ca28c1155e216a719d44f9f24933b9eba92a9ed89943bee5614ae2"
     }
     ]
 }
