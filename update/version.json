@@ -1,35 +1,15 @@
 {
-    "version": "1.1.0.4",
+    "version": "1.1.0.5",
     "releaseNotes": [
-        "Cập nhật liên quan đến nhóm khách hàng, giá bán 1,2,3,4: Import Excel, Điều chỉnh giá bán hàng loạt",
+        "Cập nhật: Tùy chỉnh mã KH, Bán hàng Popup sửa giá, thêm vị trí của sản phẩm",
+        "Tổng nợ lên bill, lọc hóa đơn theo mã KH, báo cáo xem theo TM và CK",
+        "Cài đặt tích điểm trong form Cửa hàng, 1 vài update khác..."
     ],
     "app": {
-        "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.0.4/MyShop.1.1.0.4.zip",
-        "sha256": "66ebe35b9bb5a33b404b992351607a073200e0c75a75007bb8ca3174774020c6"
+        "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.0.5/MyShop.1.1.0.5.zip",
+        "sha256": "4fd8932da2244c5ce359e7b73d96bbdde3474d9d2089c3cc0a58a1bad4f9d794"
     },
-    "sqlScripts": [{
-        "migrationId": "20260628_order_item_stock_snapshot",
-        "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260628_order_item_stock_snapshot.sql",
-        "sha256": "df448b3ed12b86243c730a8a60b9a888096fc3fa605ce0a981f2120e3e2f5d99"
-    }, {
-        "migrationId": "20260630_user_permissions",
-        "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260630_user_permissions.sql",
-        "sha256": "4042f0759e27a1815a018381b10f448003ee1d40a15893caa5cd30c46cb3d448"
-    }, {
-        "migrationId": "20260630_more_user_permissions",
-        "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260630_more_user_permissions.sql",
-        "sha256": "ea727095311d21c3383105b8b041d8f74755d2210da32dbde5cfbd511f0182ab"
-    }, {
-        "migrationId": "20260705_lan_concurrency_hardening",
-        "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260705_lan_concurrency_hardening.sql",
-        "sha256": "8c8ea73bfb6c751f5d1e21cb08d85f3b05161ed9e0ed300f91642482f41f8cab"
-    }
-    , {
-        "migrationId": "20260707_first_run_admin_setup",
-        "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260707_first_run_admin_setup.sql",
-        "sha256": "a0859a4b82ff2d7f7d2c921c90d3e70ae32e77b36cf44fcbe269714f3a1aa177"
-    }
-        , {
+    "sqlScripts": [ {
         "migrationId": "20260708_product_variants_basic",
         "url": "https://cdn.jsdelivr.net/gh/tranhoa1991gl/MyShopUpdate@main/sql/20260708_product_variants_basic.sql",
         "sha256": "740503bf2e391d66213c1f6f691bb7d1cf2a03a8e44b828c6ca8df1db0c98488"
@@ -38,6 +18,11 @@
         "migrationId": "20260709_price_groups",
         "url": "https://cdn.jsdelivr.net/gh/tranhoa1991gl/MyShopUpdate@main/sql/20260709_price_groups.sql",
         "sha256": "00e7f69241ca28c1155e216a719d44f9f24933b9eba92a9ed89943bee5614ae2"
+    }
+        , {
+        "migrationId": "20260710_customer_code_location_payment_method",
+        "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260710_customer_code_location_payment_method.sql",
+        "sha256": "8197ceaf05b67bddfb7d183f38ba85eed01d984ccf1bbdb74d7820bf0df20b27"
     }
     ]
 }
