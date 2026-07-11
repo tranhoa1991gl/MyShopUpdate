@@ -1,13 +1,11 @@
 {
-    "version": "1.1.0.5",
+    "version": "1.1.0.6",
     "releaseNotes": [
-        "Cập nhật: Tùy chỉnh mã KH, Bán hàng Popup sửa giá, thêm vị trí của sản phẩm",
-        "Tổng nợ lên bill, lọc hóa đơn theo mã KH, báo cáo xem theo TM và CK",
-        "Cài đặt tích điểm trong form Cửa hàng, 1 vài update khác..."
+        "Thêm chức năng sửa hàng loạt Kho hàng như: tên, vị trí..."
     ],
     "app": {
-        "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.0.5/MyShop.1.1.0.5.zip",
-        "sha256": "4fd8932da2244c5ce359e7b73d96bbdde3474d9d2089c3cc0a58a1bad4f9d794"
+        "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.0.6/MyShop.1.1.0.6.zip",
+        "sha256": "d1332e736ba065219c128a3c1dd206127ed8614eddc8ed35f0faab827fad5aa5"
     },
     "sqlScripts": [ {
         "migrationId": "20260708_product_variants_basic",
