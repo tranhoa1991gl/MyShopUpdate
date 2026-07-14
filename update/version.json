@@ -1,11 +1,12 @@
 {
-    "version": "1.1.0.6",
+    "version": "1.1.0.7",
     "releaseNotes": [
-        "Thêm chức năng sửa hàng loạt Kho hàng như: tên, vị trí..."
+        "Bổ sung ví tiền, nạp tiền trước tiêu tiền sau",
+        "Lịch sử ví tiền, xuất Excel, trả ví còn dư khi khách hàng ngưng dùng"
     ],
     "app": {
-        "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.0.6/MyShop.1.1.0.6.zip",
-        "sha256": "d1332e736ba065219c128a3c1dd206127ed8614eddc8ed35f0faab827fad5aa5"
+        "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.0.7/MyShop.1.1.0.7.zip",
+        "sha256": "7f1a84e4915bcc5a9e48802673369701c3bb3650fe0befe8dfaf9c3d89e6be8d"
     },
     "sqlScripts": [ {
         "migrationId": "20260708_product_variants_basic",
@@ -21,6 +22,11 @@
         "migrationId": "20260710_customer_code_location_payment_method",
         "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260710_customer_code_location_payment_method.sql",
         "sha256": "8197ceaf05b67bddfb7d183f38ba85eed01d984ccf1bbdb74d7820bf0df20b27"
+    }
+        , {
+        "migrationId": "20260714_customer_wallet",
+        "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260714_customer_wallet.sql",
+        "sha256": "adbb19b2ab3e21eae7d488a8fd4c7207d1c0ea1efb18b053fb9fdaa925a266fd"
     }
     ]
 }
