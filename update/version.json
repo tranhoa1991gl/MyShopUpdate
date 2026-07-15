@@ -1,12 +1,12 @@
 {
-    "version": "1.1.0.7",
+    "version": "1.1.0.8",
     "releaseNotes": [
-        "Bổ sung ví tiền, nạp tiền trước tiêu tiền sau",
-        "Lịch sử ví tiền, xuất Excel, trả ví còn dư khi khách hàng ngưng dùng"
+        "Nâng cấp giao diện Lịch sử ví tiền của khách",
+        "Nâng cấp Quản lý dữ liệu: Thêm tùy chọn tự động sao lưu khi đóng phần mềm, chọn thư mục"
     ],
     "app": {
-        "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.0.7/MyShop.1.1.0.7.zip",
-        "sha256": "7f1a84e4915bcc5a9e48802673369701c3bb3650fe0befe8dfaf9c3d89e6be8d"
+        "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.0.8/MyShop.1.1.0.8.zip",
+        "sha256": "ee576d2dc0df048459b7210c2106fe0503bcf885ad540a3d4a7539bfb74327f3"
     },
     "sqlScripts": [ {
         "migrationId": "20260708_product_variants_basic",
