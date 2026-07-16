@@ -1,12 +1,11 @@
 {
-    "version": "1.1.0.8",
+    "version": "1.1.0.9",
     "releaseNotes": [
-        "Nâng cấp giao diện Lịch sử ví tiền của khách",
-        "Nâng cấp Quản lý dữ liệu: Thêm tùy chọn tự động sao lưu khi đóng phần mềm, chọn thư mục"
+        "Cập nhật sửa lỗi nhập hàng Excel, bán hàng khách lẻ, reset dữ liệu toàn bộ và tối ưu giao diện quản lý dữ liệu/lịch sử ví/lịch sử kiểm kê."
     ],
     "app": {
-        "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.0.8/MyShop.1.1.0.8.zip",
-        "sha256": "ee576d2dc0df048459b7210c2106fe0503bcf885ad540a3d4a7539bfb74327f3"
+        "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.0.9/MyShop.1.1.0.9.zip",
+        "sha256": "968f1138db935b1426a3dc0c9a21a6d5604056cc6847244bc89cdf071ecffc19"
     },
     "sqlScripts": [ {
         "migrationId": "20260708_product_variants_basic",
@@ -27,6 +26,11 @@
         "migrationId": "20260714_customer_wallet",
         "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260714_customer_wallet.sql",
         "sha256": "adbb19b2ab3e21eae7d488a8fd4c7207d1c0ea1efb18b053fb9fdaa925a266fd"
+    }
+         , {
+        "migrationId": "20260716_full_reset_all_data",
+        "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260716_full_reset_all_data.sql",
+        "sha256": "8d14e02999991fd209dd48d51f6bfda64eaec065f8f5b568339ee49478c18aa2"
     }
     ]
 }
