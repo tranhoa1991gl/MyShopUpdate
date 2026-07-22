@@ -1,15 +1,15 @@
 {
-  "version": "1.1.1.0",
+  "version": "1.1.1.1",
   "releaseNotes": [
-    "Sửa lỗi trả hàng nhà cung cấp: bấm lưu lại sau khi báo lỗi không còn bị trừ kho/trừ công nợ lần 2",
-    "Sửa lỗi kiểm kê kho lần đầu sau reset: không còn tạo phiếu kiểm kê rỗng 0 SP, đảm bảo lưu chi tiết và cân bằng kho đúng.", 
-    "Tự dọn các phiếu kiểm kê rỗng phát sinh do lỗi cũ", 
-    "Cập nhật cơ chế reset dữ liệu để lần reset sau không sinh mã kiểm kê lỗi.", 
-    "Cải thiện xử lý lỗi khi lưu kiểm kê kho, tránh báo thành công khi dữ liệu chưa lưu đúng"
+    "Tạo 3 chuỗi kết nối: LAN, LocalDB, SQL Server",
+    "Sửa Bill A4/A5 cho phù hợp với cty", 
+    "Sửa Form bán hàng: Giảm giá, Tặng kèm...", 
+    "Cho phép sửa lại giá nhập trên hóa đơn", 
+    "Tối ưu khác..."
   ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.1.0/MyShop.1.1.1.0.zip",
-    "sha256": "aee07154cbce7b2e9ae9ff411c0704bf38bb733c1583d8ebd008b6bfce8674c9"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.1.1/MyShop.1.1.1.1.zip",
+    "sha256": "9a480195eba31689727ed6c3dd48a8610e621b56c4a2eff04e3cf5696b2d4727"
   },
   "sqlScripts": [{
     "migrationId": "20260708_product_variants_basic",
@@ -35,5 +35,21 @@
     "migrationId": "20260717_customer_hotfix_purchase_return_stocktake",
     "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260717_customer_hotfix_purchase_return_stocktake.sql",
     "sha256": "609020778c65b089130e2b2fb3e54040fdae0ab9a0bb3fc3a2fcfb851fef3feb"
-  }]
+  }
+  , {
+    "migrationId": "20260722_supplier_debt_no_credit_carryover",
+    "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260722_supplier_debt_no_credit_carryover.sql",
+    "sha256": "baab54fa80b16e949226fa34e73fc7b4c71b591de59d10855eae33715bbe8d7a"
+  }
+  , {
+    "migrationId": "20260722_supplier_debt_return_amount",
+    "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260722_supplier_debt_return_amount.sql",
+    "sha256": "b82103743dd2ce7905c360e2d7874e5de8cee399828b219f1138dc567661f50c"
+  }
+      , {
+    "migrationId": "20260722_sales_gift_quantity",
+    "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260722_sales_gift_quantity.sql",
+    "sha256": "3df644f28d6aacb90ba4adbfa12be14307e1a025fd89869349b03a8bab804ee0"
+  }
+  ]
 }
