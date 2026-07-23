@@ -1,15 +1,15 @@
 {
-  "version": "1.1.1.1",
+  "version": "1.1.1.2",
   "releaseNotes": [
     "Tạo 3 chuỗi kết nối: LAN, LocalDB, SQL Server",
     "Sửa Bill A4/A5 cho phù hợp với cty", 
     "Sửa Form bán hàng: Giảm giá, Tặng kèm...", 
     "Cho phép sửa lại giá nhập trên hóa đơn", 
-    "Tối ưu khác..."
+    "Nâng cấp, fix lỗi update"
   ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.1.1/MyShop.1.1.1.1.zip",
-    "sha256": "9a480195eba31689727ed6c3dd48a8610e621b56c4a2eff04e3cf5696b2d4727"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.1.2/MyShop.1.1.1.2.zip",
+    "sha256": "1977fa77f114e48e083eea9247170fc5943d771e3a9e4a77f42270d1a44f9820"
   },
   "sqlScripts": [{
     "migrationId": "20260708_product_variants_basic",
@@ -35,6 +35,11 @@
     "migrationId": "20260717_customer_hotfix_purchase_return_stocktake",
     "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260717_customer_hotfix_purchase_return_stocktake.sql",
     "sha256": "609020778c65b089130e2b2fb3e54040fdae0ab9a0bb3fc3a2fcfb851fef3feb"
+  }
+  , {
+    "migrationId": "20260722_order_import_quantity_schema_compat",
+    "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260722_order_import_quantity_schema_compat.sql",
+    "sha256": "9A9330C5F264BED026EB9B1E6A008E05AB0B230C7EB6B21F09AE3B5F6DA0F24B"
   }
   , {
     "migrationId": "20260722_supplier_debt_no_credit_carryover",
