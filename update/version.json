@@ -1,11 +1,11 @@
 {
-  "version": "1.1.1.5",
+  "version": "1.1.1.6",
   "releaseNotes": [
-    "Nâng cấp giao diện"
+    "Bổ sung tính năng: Mở rộng, thu gọn khi xem hóa đơn"
   ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.1.5/MyShop.1.1.1.5.zip",
-    "sha256": "9ac49dcb01732bec657a5e5d233971107c1a5312c09e8e5404a6a788861e69f4"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.1.6/MyShop.1.1.1.6.zip",
+    "sha256": "30ecf3c67925b349411641f5eea42dc39dc206b003ee42be59b5a353ca88d26e"
   },
   "sqlScripts": [{
     "migrationId": "20260722_order_import_quantity_schema_compat",
