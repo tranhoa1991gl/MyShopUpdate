@@ -1,11 +1,11 @@
 {
-  "version": "1.1.1.4",
+  "version": "1.1.1.5",
   "releaseNotes": [
-    "Cập nhật cấu trúc, sắp xếp và đổi tên menu theo đúng nghiệp vụ, tinh gọn lại menu"
+    "Nâng cấp giao diện"
   ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.1.4/MyShop.1.1.1.4.zip",
-    "sha256": "5be1006d1c0265b9f80315a5153e62e165138dc16c414b90471185324c71d0e3"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.1.5/MyShop.1.1.1.5.zip",
+    "sha256": "9ac49dcb01732bec657a5e5d233971107c1a5312c09e8e5404a6a788861e69f4"
   },
   "sqlScripts": [{
     "migrationId": "20260722_order_import_quantity_schema_compat",
