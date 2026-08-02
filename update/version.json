@@ -1,11 +1,11 @@
 {
-  "version": "1.1.1.7",
+  "version": "1.1.1.8",
   "releaseNotes": [
-    "Thêm chức năng ghi nhớ username", "Nâng cấp form công nợ"
+    "Thêm chức năng xem lại lịch sử mua hàng của khách ở form khách hàng"
   ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.1.7/MyShop.1.1.1.7.zip",
-    "sha256": "59c6339f2f2b06878bd1e225d4bbe9bba71a07f1042cfb66b289223af3cc2017"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.1.8/MyShop.1.1.1.8.zip",
+    "sha256": "c74c31d470ab9404d93917714927c7898d8a5c87aa7be3729f0f5ea3c170a783"
   },
   "sqlScripts": [{
     "migrationId": "20260722_order_import_quantity_schema_compat",
