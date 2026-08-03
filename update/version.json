@@ -1,8 +1,10 @@
 {
-  "version": "1.1.1.8",
+  "version": "1.1.1.9",
   "releaseNotes": [
-    "Thêm chức năng xem lại lịch sử mua hàng của khách ở form khách hàng"
-  ],
+  "Thêm chức năng cho phép bán âm, phù hợp với trường hợp cửa hàng chưa kịp nhập hàng vào phần mềm.",
+  "Có thể bật/tắt chức năng này trong phần Cài đặt cửa hàng khi có nhu cầu.",
+  "Phần mềm hỗ trợ kết nối mạng LAN. Quý khách có nhu cầu mua thêm key để sử dụng trên nhiều máy, vui lòng liên hệ nhà cung cấp."
+],
   "app": {
     "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.1.8/MyShop.1.1.1.8.zip",
     "sha256": "c74c31d470ab9404d93917714927c7898d8a5c87aa7be3729f0f5ea3c170a783"
