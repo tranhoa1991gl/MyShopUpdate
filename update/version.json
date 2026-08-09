@@ -1,9 +1,9 @@
 {
-  "version": "1.1.2.1",
-  "releaseNotes": ["Bổ sung xem lợi nhuận từng khách hàng", "Bổ sung Sổ quỹ"],
+  "version": "1.1.2.2",
+  "releaseNotes": ["Bổ sung xem lợi nhuận từng khách hàng", "Bổ sung Sổ quỹ", "Bổ sung chủ đề"],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.2.1/MyShop.1.1.2.1.zip",
-    "sha256": "1c94dcee8141b70ce7460fee97268dfd178f32c4c6132a318f0f37628cbae37e"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.2.2/MyShop.1.1.2.2.zip",
+    "sha256": "36225b40a87957c11016d198c313a2d56fcdc2724b4e0c1b5057ceb63161bf84"
   },
   "sqlScripts": [{
     "migrationId": "20260722_order_import_quantity_schema_compat",
