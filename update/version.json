@@ -1,31 +1,41 @@
 {
-  "version": "1.1.2.0",
-  "releaseNotes": [
-  "Thêm nút mở bán hàng nhanh góc phải thanh menu.",
-],
+  "version": "1.1.2.1",
+  "releaseNotes": ["Bổ sung xem lợi nhuận từng khách hàng", "Bổ sung Sổ quỹ"],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.2.0/MyShop.1.1.2.0.zip",
-    "sha256": "dc8d9bd1b7db31a9805bfe4f82eddf872318b30afbb7ad5d9fed16f2191c9669"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.2.1/MyShop.1.1.2.1.zip",
+    "sha256": "1c94dcee8141b70ce7460fee97268dfd178f32c4c6132a318f0f37628cbae37e"
   },
   "sqlScripts": [{
     "migrationId": "20260722_order_import_quantity_schema_compat",
     "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260722_order_import_quantity_schema_compat.sql",
     "sha256": "9A9330C5F264BED026EB9B1E6A008E05AB0B230C7EB6B21F09AE3B5F6DA0F24B"
-  }
-  , {
+  }, {
     "migrationId": "20260722_supplier_debt_no_credit_carryover",
     "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260722_supplier_debt_no_credit_carryover.sql",
     "sha256": "baab54fa80b16e949226fa34e73fc7b4c71b591de59d10855eae33715bbe8d7a"
-  }
-  , {
+  }, {
     "migrationId": "20260722_supplier_debt_return_amount",
     "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260722_supplier_debt_return_amount.sql",
     "sha256": "b82103743dd2ce7905c360e2d7874e5de8cee399828b219f1138dc567661f50c"
-  }
-      , {
+  }, {
     "migrationId": "20260722_sales_gift_quantity",
     "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260722_sales_gift_quantity.sql",
     "sha256": "3df644f28d6aacb90ba4adbfa12be14307e1a025fd89869349b03a8bab804ee0"
-  }
-  ]
+  }, {
+    "migrationId": "20260809_customer_profit_report",
+    "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260809_customer_profit_report.sql",
+    "sha256": "a62089c5df0a7742c121e87d7fdb95a416a23a6ee28da0d143871c3781be83fc"
+  }, {
+    "migrationId": "20260809_cashbook_module",
+    "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260809_cashbook_module.sql",
+    "sha256": "962931766664aafdbeb69d74472e80fa2dd04ad3f4825b36785a66081b3847e4"
+  }, {
+    "migrationId": "20260809_report_cashbook_net_profit",
+    "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260809_report_cashbook_net_profit.sql",
+    "sha256": "c8feffc1d0c14f92e0c9b9b78bf7c5a8637dddd62311765e436acb2fd618e136"
+  }, {
+    "migrationId": "20260809_cashbook_profit_flags_hotfix",
+    "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260809_cashbook_profit_flags_hotfix.sql",
+    "sha256": "4e9ffabd0785bd4a80dd61e8fadf6cb91ea76466262a73834be745d3a0014d1d"
+  }]
 }
