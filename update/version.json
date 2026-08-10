@@ -1,9 +1,9 @@
 {
-  "version": "1.1.2.4",
-  "releaseNotes": ["Nâng cấp Thống kê Báo cáo"],
+  "version": "1.1.2.5",
+  "releaseNotes": ["Thêm tùy chọn ghi nhớ giá bán gần nhất theo từng khách hàng (bật trong Thiết lập cửa hàng), phù hợp với khách quen có giá bán riêng", "Tối ưu giao diện Thiết lập cửa hàng"],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.2.4/MyShop.1.1.2.4.zip",
-    "sha256": "c668ca28e762ed2ec15cbd83a5db8b9e14689993ecac3e3ca07f4065e84b622b"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.2.5/MyShop.1.1.2.5.zip",
+    "sha256": "c32cfb6d2eac621c97dbd1c5b7aac9fced4faf8dd61a3a8f96de4b77211f2fe8"
   },
   "sqlScripts": [{
     "migrationId": "20260722_order_import_quantity_schema_compat",
@@ -53,5 +53,9 @@
     "migrationId": "20260810_report_top_products_limit",
     "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260810_report_top_products_limit.sql",
     "sha256": "6ce010eab5f462c64948fd47e82897f3bcef50ff4caf36af74d3021ee8f3bf6f"
+  }, {
+    "migrationId": "20260810_store_remember_last_customer_price",
+    "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260810_store_remember_last_customer_price.sql",
+    "sha256": "db18e3e3b31e241067ca6653300baba92ce9296d042ea75aae5866231748d551"
   }]
 }
