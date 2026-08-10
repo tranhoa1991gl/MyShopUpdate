@@ -1,9 +1,9 @@
 {
-  "version": "1.1.2.3",
-  "releaseNotes": ["Nâng cấp sổ quỹ"],
+  "version": "1.1.2.4",
+  "releaseNotes": ["Nâng cấp Thống kê Báo cáo"],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.2.3/MyShop.1.1.2.3.zip",
-    "sha256": "5f9afc475d69e3c9edd03877c56de5512d298d0c47b5be4cf9ffb37e9039a600"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.2.4/MyShop.1.1.2.4.zip",
+    "sha256": "c668ca28e762ed2ec15cbd83a5db8b9e14689993ecac3e3ca07f4065e84b622b"
   },
   "sqlScripts": [{
     "migrationId": "20260722_order_import_quantity_schema_compat",
@@ -49,5 +49,9 @@
     "migrationId": "20260810_report_cashbook_full_day_totals",
     "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260810_report_cashbook_full_day_totals.sql",
     "sha256": "35f0e8e86c47b3f0c61609eefed406afc53d202f2d1c60ad8b6ce12913de18fe"
+  }, {
+    "migrationId": "20260810_report_top_products_limit",
+    "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260810_report_top_products_limit.sql",
+    "sha256": "6ce010eab5f462c64948fd47e82897f3bcef50ff4caf36af74d3021ee8f3bf6f"
   }]
 }
