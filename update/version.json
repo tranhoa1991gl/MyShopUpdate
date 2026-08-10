@@ -1,9 +1,9 @@
 {
-  "version": "1.1.2.2",
-  "releaseNotes": ["Bổ sung xem lợi nhuận từng khách hàng", "Bổ sung Sổ quỹ", "Bổ sung chủ đề"],
+  "version": "1.1.2.3",
+  "releaseNotes": ["Nâng cấp sổ quỹ"],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.2.2/MyShop.1.1.2.2.zip",
-    "sha256": "36225b40a87957c11016d198c313a2d56fcdc2724b4e0c1b5057ceb63161bf84"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.2.3/MyShop.1.1.2.3.zip",
+    "sha256": "5f9afc475d69e3c9edd03877c56de5512d298d0c47b5be4cf9ffb37e9039a600"
   },
   "sqlScripts": [{
     "migrationId": "20260722_order_import_quantity_schema_compat",
@@ -37,5 +37,17 @@
     "migrationId": "20260809_cashbook_profit_flags_hotfix",
     "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260809_cashbook_profit_flags_hotfix.sql",
     "sha256": "4e9ffabd0785bd4a80dd61e8fadf6cb91ea76466262a73834be745d3a0014d1d"
+  }, {
+    "migrationId": "20260810_cashbook_auto_business_links",
+    "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260810_cashbook_auto_business_links.sql",
+    "sha256": "5477e05ad11ceb7e697a847424572f3179437476717aa3af04ddca612e672704"
+  }, {
+    "migrationId": "20260810_cashbook_all_time_filter",
+    "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260810_cashbook_all_time_filter.sql",
+    "sha256": "ea205efefae3652d4c51643c50403005490e63fdfac811b8cc5334f0de5489a3"
+  }, {
+    "migrationId": "20260810_report_cashbook_full_day_totals",
+    "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260810_report_cashbook_full_day_totals.sql",
+    "sha256": "35f0e8e86c47b3f0c61609eefed406afc53d202f2d1c60ad8b6ce12913de18fe"
   }]
 }
