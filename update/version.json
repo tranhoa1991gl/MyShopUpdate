@@ -1,9 +1,9 @@
 {
-  "version": "1.1.2.5",
-  "releaseNotes": ["Thêm tùy chọn ghi nhớ giá bán gần nhất theo từng khách hàng (bật trong Thiết lập cửa hàng), phù hợp với khách quen có giá bán riêng", "Tối ưu giao diện Thiết lập cửa hàng"],
+  "version": "1.1.2.6",
+  "releaseNotes": ["Tích hợp màn hiển thị mã QR KV99 của Kiotviet, tự động nhận qua cổng USB"],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.2.5/MyShop.1.1.2.5.zip",
-    "sha256": "c32cfb6d2eac621c97dbd1c5b7aac9fced4faf8dd61a3a8f96de4b77211f2fe8"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.2.6/MyShop.1.1.2.6.zip",
+    "sha256": "4a370a73d2848a106377312b7941df399bf703b17d7a6d8de39eefd43aefc5fe"
   },
   "sqlScripts": [{
     "migrationId": "20260722_order_import_quantity_schema_compat",
