@@ -1,15 +1,13 @@
 {
-    "version": "1.1.2.7",
-    "releaseNotes": ["Thêm số tài khoản cho nhà cung cấp",
-        "Thêm trả tiền nhà cung cấp bằng mã QR",
-        "Thêm thu tiền khách bằng mã QR",
-        "Nhập hàng thêm thanh toán bằng mã QR",
-        "Nâng cấp giao diện công nợ",
-        "Tối ưu lại hiển thị màn QR"
+    "version": "1.1.2.8",
+    "releaseNotes": [
+        "Thêm thu công nợ trực tiếp từ form bán hàng",
+        "Bổ sung nợ cần thu từ khách hàng: Xuất đối chiếu công nợ, xuất lịch sử, Chiết khấu, thanh toán, tạo mã QR (tương tự kiotviet: Đối tác -> Khách hàng)",
+        "Thay đổi key kích hoạt gói 5 năm or vĩnh viễn, khách mua trước đó vẫn được hưởng gói vĩnh viễn và cập nhật phiên bản trong vòng 5 năm"
     ],
     "app": {
-        "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.2.7/MyShop.1.1.2.7.zip",
-        "sha256": "13203d676d7044468010cc90d8a5036b22bbaef5309ceb7daa4a4ccc9079b840"
+        "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.2.8/MyShop.1.1.2.8.zip",
+        "sha256": "16ba226fd96e37a3306f10b01dbcfbfc8b15e12b234f5f859559cbc8923af273"
     },
     "sqlScripts": [{
             "migrationId": "20260809_customer_profit_report",
@@ -60,5 +58,19 @@
             "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260814_supplier_bank_code_catalog.sql",
             "sha256": "94ecde4bddcac7ca2af62157f654bbf227b9cffc6b0dede485336d4ab82fb9a9"
         }
+
+        , {
+            "migrationId": "20260814_customer_debt_ledger_discount",
+            "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260814_customer_debt_ledger_discount.sql",
+            "sha256": "5e7711a7eafdd8ffb6e9a4a3a5bf7c1d934a7f322c8eab96e6b7b0743f037741"
+        }
+
+        , {
+            "migrationId": "20260814_customer_debt_discount_allocations",
+            "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260814_customer_debt_discount_allocations.sql",
+            "sha256": "d9ce09b87eae4dcaf0d71546b8f48853543fd3ba7332ac8d2a09aaae365a8e6b"
+        }
+
+        
     ]
 }
