@@ -1,80 +1,69 @@
 {
     "version": "1.1.3.0",
-    "releaseNotes": [
-        "Bổ sung thêm 2 chức năng sau:",
-        "Lịch sử nhập/trả hàng NCC",
-        "Nợ cần trả NCC"
-    ],
+    "releaseNotes": ["Bổ sung thêm 2 chức năng sau:", "Lịch sử nhập/trả hàng NCC", "Nợ cần trả NCC"],
     "app": {
         "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.3.0/MyShop.1.1.3.0.zip",
         "sha256": "2dae304656ff68584561fb7c21ceedabf99316bc42ab25b3db091701accbaf82"
     },
     "sqlScripts": [{
-            "migrationId": "20260809_customer_profit_report",
-            "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260809_customer_profit_report.sql",
-            "sha256": "a62089c5df0a7742c121e87d7fdb95a416a23a6ee28da0d143871c3781be83fc"
-        }, {
-            "migrationId": "20260809_cashbook_module",
-            "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260809_cashbook_module.sql",
-            "sha256": "962931766664aafdbeb69d74472e80fa2dd04ad3f4825b36785a66081b3847e4"
-        }, {
-            "migrationId": "20260809_report_cashbook_net_profit",
-            "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260809_report_cashbook_net_profit.sql",
-            "sha256": "c8feffc1d0c14f92e0c9b9b78bf7c5a8637dddd62311765e436acb2fd618e136"
-        }, {
-            "migrationId": "20260809_cashbook_profit_flags_hotfix",
-            "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260809_cashbook_profit_flags_hotfix.sql",
-            "sha256": "4e9ffabd0785bd4a80dd61e8fadf6cb91ea76466262a73834be745d3a0014d1d"
-        }, {
-            "migrationId": "20260810_cashbook_auto_business_links",
-            "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260810_cashbook_auto_business_links.sql",
-            "sha256": "5477e05ad11ceb7e697a847424572f3179437476717aa3af04ddca612e672704"
-        }, {
-            "migrationId": "20260810_cashbook_all_time_filter",
-            "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260810_cashbook_all_time_filter.sql",
-            "sha256": "ea205efefae3652d4c51643c50403005490e63fdfac811b8cc5334f0de5489a3"
-        }, {
-            "migrationId": "20260810_report_cashbook_full_day_totals",
-            "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260810_report_cashbook_full_day_totals.sql",
-            "sha256": "35f0e8e86c47b3f0c61609eefed406afc53d202f2d1c60ad8b6ce12913de18fe"
-        }, {
-            "migrationId": "20260810_report_top_products_limit",
-            "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260810_report_top_products_limit.sql",
-            "sha256": "6ce010eab5f462c64948fd47e82897f3bcef50ff4caf36af74d3021ee8f3bf6f"
-        }, {
-            "migrationId": "20260810_store_remember_last_customer_price",
-            "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260810_store_remember_last_customer_price.sql",
-            "sha256": "db18e3e3b31e241067ca6653300baba92ce9296d042ea75aae5866231748d551"
-        }, {
-            "migrationId": "20260813_supplier_banking_vietqr",
-            "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260813_supplier_banking_vietqr.sql",
-            "sha256": "43d9c4f5809804594aea82f806ea7796605087c993607f8fa4d89c0e1299f5e6"
-        }, {
-            "migrationId": "20260813_import_payment_method",
-            "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260813_import_payment_method.sql",
-            "sha256": "a3b5c5b7837aec77721307fa2567687617572d417223d986a80d428ff4159a71"
-        }, {
-            "migrationId": "20260814_supplier_bank_code_catalog",
-            "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260814_supplier_bank_code_catalog.sql",
-            "sha256": "94ecde4bddcac7ca2af62157f654bbf227b9cffc6b0dede485336d4ab82fb9a9"
-        }
-
-        , {
-            "migrationId": "20260814_customer_debt_ledger_discount",
-            "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260814_customer_debt_ledger_discount.sql",
-            "sha256": "5e7711a7eafdd8ffb6e9a4a3a5bf7c1d934a7f322c8eab96e6b7b0743f037741"
-        }
-
-        , {
-            "migrationId": "20260814_customer_debt_discount_allocations",
-            "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260814_customer_debt_discount_allocations.sql",
-            "sha256": "d9ce09b87eae4dcaf0d71546b8f48853543fd3ba7332ac8d2a09aaae365a8e6b"
-        }
-
-        , {
-            "migrationId": "20260815_supplier_debt_ledger_discount",
-            "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260815_supplier_debt_ledger_discount.sql",
-            "sha256": "20bad2b7098667ca2170507544323f76b47b8f2aa81939ad26bb802ac09beefe"
-        }
-    ]
+        "migrationId": "20260809_customer_profit_report",
+        "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260809_customer_profit_report.sql",
+        "sha256": "a62089c5df0a7742c121e87d7fdb95a416a23a6ee28da0d143871c3781be83fc"
+    }, {
+        "migrationId": "20260809_cashbook_module",
+        "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260809_cashbook_module.sql",
+        "sha256": "962931766664aafdbeb69d74472e80fa2dd04ad3f4825b36785a66081b3847e4"
+    }, {
+        "migrationId": "20260809_report_cashbook_net_profit",
+        "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260809_report_cashbook_net_profit.sql",
+        "sha256": "c8feffc1d0c14f92e0c9b9b78bf7c5a8637dddd62311765e436acb2fd618e136"
+    }, {
+        "migrationId": "20260809_cashbook_profit_flags_hotfix",
+        "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260809_cashbook_profit_flags_hotfix.sql",
+        "sha256": "4e9ffabd0785bd4a80dd61e8fadf6cb91ea76466262a73834be745d3a0014d1d"
+    }, {
+        "migrationId": "20260810_cashbook_auto_business_links",
+        "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260810_cashbook_auto_business_links.sql",
+        "sha256": "5477e05ad11ceb7e697a847424572f3179437476717aa3af04ddca612e672704"
+    }, {
+        "migrationId": "20260810_cashbook_all_time_filter",
+        "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260810_cashbook_all_time_filter.sql",
+        "sha256": "ea205efefae3652d4c51643c50403005490e63fdfac811b8cc5334f0de5489a3"
+    }, {
+        "migrationId": "20260810_report_cashbook_full_day_totals",
+        "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260810_report_cashbook_full_day_totals.sql",
+        "sha256": "35f0e8e86c47b3f0c61609eefed406afc53d202f2d1c60ad8b6ce12913de18fe"
+    }, {
+        "migrationId": "20260810_report_top_products_limit",
+        "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260810_report_top_products_limit.sql",
+        "sha256": "6ce010eab5f462c64948fd47e82897f3bcef50ff4caf36af74d3021ee8f3bf6f"
+    }, {
+        "migrationId": "20260810_store_remember_last_customer_price",
+        "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260810_store_remember_last_customer_price.sql",
+        "sha256": "db18e3e3b31e241067ca6653300baba92ce9296d042ea75aae5866231748d551"
+    }, {
+        "migrationId": "20260813_supplier_banking_vietqr",
+        "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260813_supplier_banking_vietqr.sql",
+        "sha256": "43d9c4f5809804594aea82f806ea7796605087c993607f8fa4d89c0e1299f5e6"
+    }, {
+        "migrationId": "20260813_import_payment_method",
+        "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260813_import_payment_method.sql",
+        "sha256": "a3b5c5b7837aec77721307fa2567687617572d417223d986a80d428ff4159a71"
+    }, {
+        "migrationId": "20260814_supplier_bank_code_catalog",
+        "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260814_supplier_bank_code_catalog.sql",
+        "sha256": "94ecde4bddcac7ca2af62157f654bbf227b9cffc6b0dede485336d4ab82fb9a9"
+    }, {
+        "migrationId": "20260814_customer_debt_ledger_discount",
+        "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260814_customer_debt_ledger_discount.sql",
+        "sha256": "5e7711a7eafdd8ffb6e9a4a3a5bf7c1d934a7f322c8eab96e6b7b0743f037741"
+    }, {
+        "migrationId": "20260814_customer_debt_discount_allocations",
+        "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260814_customer_debt_discount_allocations.sql",
+        "sha256": "d9ce09b87eae4dcaf0d71546b8f48853543fd3ba7332ac8d2a09aaae365a8e6b"
+    }, {
+        "migrationId": "20260815_supplier_debt_ledger_discount",
+        "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260815_supplier_debt_ledger_discount.sql",
+        "sha256": "20bad2b7098667ca2170507544323f76b47b8f2aa81939ad26bb802ac09beefe"
+    }]
 }
