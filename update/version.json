@@ -1,13 +1,15 @@
 {
-    "version": "1.1.2.8",
+    "version": "1.1.2.9",
     "releaseNotes": [
-        "Thêm thu công nợ trực tiếp từ form bán hàng",
-        "Bổ sung nợ cần thu từ khách hàng: Xuất đối chiếu công nợ, xuất lịch sử, Chiết khấu, thanh toán, tạo mã QR (tương tự kiotviet: Đối tác -> Khách hàng)",
-        "Thay đổi key kích hoạt gói 5 năm or vĩnh viễn, khách mua trước đó vẫn được hưởng gói vĩnh viễn và cập nhật phiên bản trong vòng 5 năm"
+        "Nâng cấp form Login",
+        "Nâng cấp form Khách hàng",
+        "Nâng cấp form Nhà cung cấp",
+        "Nâng cấp form Nhân viên",
+        "Nâng cấp form Sổ quỹ"
     ],
     "app": {
-        "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.2.8/MyShop.1.1.2.8.zip",
-        "sha256": "16ba226fd96e37a3306f10b01dbcfbfc8b15e12b234f5f859559cbc8923af273"
+        "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.2.9/MyShop.1.1.2.9.zip",
+        "sha256": "7299e95b8d1f43622c548112271bfdf655d3c3322392616fd482c3fe529336a9"
     },
     "sqlScripts": [{
             "migrationId": "20260809_customer_profit_report",
