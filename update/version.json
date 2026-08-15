@@ -1,15 +1,13 @@
 {
-    "version": "1.1.2.9",
+    "version": "1.1.3.0",
     "releaseNotes": [
-        "Nâng cấp form Login",
-        "Nâng cấp form Khách hàng",
-        "Nâng cấp form Nhà cung cấp",
-        "Nâng cấp form Nhân viên",
-        "Nâng cấp form Sổ quỹ"
+        "Bổ sung thêm 2 chức năng sau:"
+        "Lịch sử nhập/trả hàng NCC",
+        "Nợ cần trả NCC"
     ],
     "app": {
-        "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.2.9/MyShop.1.1.2.9.zip",
-        "sha256": "7299e95b8d1f43622c548112271bfdf655d3c3322392616fd482c3fe529336a9"
+        "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.3.0/MyShop.1.1.3.0.zip",
+        "sha256": "2dae304656ff68584561fb7c21ceedabf99316bc42ab25b3db091701accbaf82"
     },
     "sqlScripts": [{
             "migrationId": "20260809_customer_profit_report",
@@ -73,6 +71,10 @@
             "sha256": "d9ce09b87eae4dcaf0d71546b8f48853543fd3ba7332ac8d2a09aaae365a8e6b"
         }
 
-        
+        , {
+            "migrationId": "20260815_supplier_debt_ledger_discount",
+            "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260815_supplier_debt_ledger_discount.sql",
+            "sha256": "20bad2b7098667ca2170507544323f76b47b8f2aa81939ad26bb802ac09beefe"
+        }
     ]
 }
