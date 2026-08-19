@@ -1,9 +1,9 @@
 {
-    "version": "1.1.3.1",
-    "releaseNotes": ["Nâng cấp giao diện bán hàng: Mở bán nhanh, mở nhập hàng nhanh", "Nâng cấp: Kho hàng, Khách hàng, Nhà cung cấp"],
+    "version": "1.1.3.2",
+    "releaseNotes": ["Nâng cấp giao diện", "Thêm bảng lương nhân viên"],
     "app": {
-        "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.3.1/MyShop.1.1.3.1.zip",
-        "sha256": "df1961ac7bc444c2b23cde9b44463556ddfdd1f7779ecfa9b78509e983b3c3d3"
+        "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.3.2/MyShop.1.1.3.2.zip",
+        "sha256": "6a8c3d600be48f0bc14f36dd87eb8907f9c7db86b5087e3f073aed30c0f12295"
     },
     "sqlScripts": [{
         "migrationId": "20260809_customer_profit_report",
@@ -65,5 +65,17 @@
         "migrationId": "20260815_supplier_debt_ledger_discount",
         "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260815_supplier_debt_ledger_discount.sql",
         "sha256": "20bad2b7098667ca2170507544323f76b47b8f2aa81939ad26bb802ac09beefe"
+    }, {
+        "migrationId": "20260818_employee_payroll",
+        "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260818_employee_payroll.sql",
+        "sha256": "b092b5d8accf261fea47daa30a98a2b8c851745e806941f52f4b084557255338"
+    }, {
+        "migrationId": "20260818_employee_payroll_allowance",
+        "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260818_employee_payroll_allowance.sql",
+        "sha256": "b1c02fd62189a19f190ddbcd6260a7dd6a972c1328954af683b070b41e20c62a"
+    }, {
+        "migrationId": "20260819_payroll_cashbook_integration",
+        "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260819_payroll_cashbook_integration.sql",
+        "sha256": "703397b701de78992e49543a6567da907d46661ba20a75930c781bdc697d5ada"
     }]
 }
