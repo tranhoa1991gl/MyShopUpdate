@@ -1,14 +1,12 @@
 {
-    "version": "1.1.3.3",
+    "version": "1.1.3.4",
     "releaseNotes": [
-        "Nâng cấp hệ thống: Import sản phẩm từ Kiot: bao gồm tải ảnh, biến thể",
-        "Nhập hàng: Riêng Theo biến thể hoặc nhập chung rồi tách sau",
-        "Xử lý Luồng nhập hàng, trả hàng",
-        "Kho hàng: Xuất dữ liệu có thể chọn mẫu chung hoặc theo biến thể"
+        "Nâng cấp hệ thống",
+        "Thêm phân quyền cho nhân viên xem báo cáo"
     ],
     "app": {
-        "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.3.3/MyShop.1.1.3.3.zip",
-        "sha256": "eb86eb28e6870bc82d82f94fd17b48ecbdccfaaee51fa58fd4afe3487fafe0cc"
+        "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.3.4/MyShop.1.1.3.4.zip",
+        "sha256": "7bbf32297ddbabce43ca29ac93ba7e72c9608ee6cc5970f88e05d47caa746895"
     },
     "sqlScripts": [
         {
@@ -60,6 +58,16 @@
             "migrationId": "20260820_import_supplier_credit",
             "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260820_import_supplier_credit.sql",
             "sha256": "b4c5fb55b6ee09e8e77c3ae66bf9edcdde295e938a150d25b195ed68b1f67ea0"
+        },
+        {
+            "migrationId": "20260822_user_report_permissions",
+            "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260822_user_report_permissions.sql",
+            "sha256": "077c7c1a87762a4355fc63d97116af836e355ebac77b73ff4c6dc7e544b5fe3c"
+        },
+                {
+            "migrationId": "20260822_user_report_money_permission",
+            "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260822_user_report_money_permission.sql",
+            "sha256": "921b80739518e8807a067686e41227740986f1808217e67ba1e5b6c236544798"
         }
     ]
 }
