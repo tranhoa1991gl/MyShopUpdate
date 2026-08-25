@@ -55,6 +55,11 @@
       "migrationId": "20260825_audit_transaction_integrity_fixes",
       "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260825_audit_transaction_integrity_fixes.sql",
       "sha256": "11794a5a3411f5d148885f544c899af421ae9bcafa5dd83e6069c65512b905ea"
+    },
+    {
+      "migrationId": "20260825_purchase_return_variants_fix",
+      "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260825_purchase_return_variants_fix.sql",
+      "sha256": "bfcfb8972bed63632842e4b35dbd56e3d324381db36abe10b765779913bb4001"
     }
   ]
 }
