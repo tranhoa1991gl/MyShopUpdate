@@ -1,12 +1,12 @@
 {
-  "version": "1.1.3.6",
+  "version": "1.1.3.7",
   "releaseNotes": [
-    "Nâng cấp hệ thống, tính năng, báo cáo",
-    "Bổ sung xuất sổ kế toán: Bao gồm 7 biểu mẫu"
+    "Thay đổi giao diện bán hàng & nhập hàng",
+    "Nâng cấp chủ đề lên 15 màu thông dụng"
   ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.3.6/MyShop.1.1.3.6.zip",
-    "sha256": "d743855577f2a134bb2f4481dcf396b1f56abc5d64d7318bb305fb469f48d72d"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.3.7/MyShop.1.1.3.7.zip",
+    "sha256": "34d4c1e0be30f0435fd1a209897713245d2c00c4fdf764b2bfff1af4ad9a0b22"
   },
   "sqlScripts": [
     {
