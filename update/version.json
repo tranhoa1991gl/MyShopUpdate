@@ -1,11 +1,11 @@
 {
-  "version": "1.1.4.0",
+  "version": "1.1.4.1",
   "releaseNotes": [
-    "Nâng cấp hệ thống, thay đổi giao diện của tất cả các form"
+    "Thêm chứng năng lên đơn giao hàng tận nơi, bao gồm cả chỉnh sửa hóa đơn, trạng thái hóa đơn."
   ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.4.0/MyShop.1.1.4.0.zip",
-    "sha256": "0a5c5da3c004b41cf39593998f7dc26d5070594a488f940754b6c35b638efed3"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.4.1/MyShop.1.1.4.1.zip",
+    "sha256": "69f8c3c0a2f11e9c0e8a4dcd4b80992f7cd153d170591446d6c7e3a70ff6038c"
   },
   "sqlScripts": [
     {
@@ -32,6 +32,11 @@
       "migrationId": "20260826_payroll_payment_identity_fix",
       "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260826_payroll_payment_identity_fix.sql",
       "sha256": "c86c0c01c7e1c780fab75e18987a23210606ba206a52b0f50b77ae031b9bfe20"
+    },
+    {
+      "migrationId": "20260828_sales_delivery_orders",
+      "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260828_sales_delivery_orders.sql",
+      "sha256": "a7d5bfee46a823343f9db1d56508d076fb0235247b66ead95c0f695d2ed60ae1"
     }
   ]
 }
