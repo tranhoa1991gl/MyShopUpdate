@@ -1,13 +1,11 @@
 {
-  "version": "1.1.3.9",
+  "version": "1.1.4.0",
   "releaseNotes": [
-    "Nâng cấp hệ thống",
-    "Tối ưu Form lịch sử, thêm bộ lọc, dễ theo dõi",
-    "Nâng cấp, tối ưu lại Form Bảng lương"
+    "Nâng cấp hệ thống, thay đổi giao diện của tất cả các form"
   ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.3.9/MyShop.1.1.3.9.zip",
-    "sha256": "49e1eb06b9f0d6fad21ea0b56f3078ac717efa69622058f6938c824027389428"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.4.0/MyShop.1.1.4.0.zip",
+    "sha256": "0a5c5da3c004b41cf39593998f7dc26d5070594a488f940754b6c35b638efed3"
   },
   "sqlScripts": [
     {
