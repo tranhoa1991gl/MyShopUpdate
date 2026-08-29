@@ -1,11 +1,11 @@
 {
-  "version": "1.1.4.1",
+  "version": "1.1.4.2",
   "releaseNotes": [
-    "Thêm chứng năng lên đơn giao hàng tận nơi, bao gồm cả chỉnh sửa hóa đơn, trạng thái hóa đơn."
+    "MyShop bổ sung tính năng Quản lý sửa chữa dành cho cửa hàng điện thoại, máy tính và anh em kỹ thuật"
   ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.4.1/MyShop.1.1.4.1.zip",
-    "sha256": "69f8c3c0a2f11e9c0e8a4dcd4b80992f7cd153d170591446d6c7e3a70ff6038c"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.4.2/MyShop.1.1.4.2.zip",
+    "sha256": "73018b8e24d8a6f68e133f3d3b0a402ac04f8379ce66a49ef47c7860743accaa"
   },
   "sqlScripts": [
     {
@@ -37,6 +37,11 @@
       "migrationId": "20260828_sales_delivery_orders",
       "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260828_sales_delivery_orders.sql",
       "sha256": "a7d5bfee46a823343f9db1d56508d076fb0235247b66ead95c0f695d2ed60ae1"
+    },
+    {
+      "migrationId": "20260828_repair_management",
+      "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260828_repair_management.sql",
+      "sha256": "68ee70d9339bda350eea4d223efcc905b1fe5dd686c649fd9f3d1c79e3cf8afc"
     }
   ]
 }
