@@ -1,12 +1,12 @@
 {
-  "version": "1.1.4.3",
+  "version": "1.1.4.5",
   "releaseNotes ": [
   "Bổ sung số tài khoản ngân hàng cho nhân viên, hỗ trợ trả lương và ứng lương nhanh chóng qua chuyển khoản.",
   "Thay đổi thương hiệu và biểu tượng từ MyShop sang HoaTran POS, đồng thời tự động cập nhật tên và shortcut của phần mềm.",
   "Bổ sung Điều khoản sử dụng phần mềm.",
   "Đây là bản cập nhật lớn. Nếu gặp lỗi trong quá trình nâng cấp hoặc sử dụng, anh/chị vui lòng liên hệ để được hỗ trợ nhanh nhất."], "app": {
-  "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.4.4/HoaTranPOS1.1.4.4.zip",
-  "sha256": "c3e43600b9c892692819c08a6708600259c94c0301fb03b45f423a66483ff4d7"
+  "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.4.5/HoaTranPOS.1.1.4.5.zip",
+  "sha256": "cff5be471e1223a43f7b453a0ca5ca89f1fcde6fdf9661fe6c46f66168455eae"
 }, "sqlScripts": [{
   "migrationId": "20260825_product_multi_units",
   "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260825_product_multi_units.sql",
