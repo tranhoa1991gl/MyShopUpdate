@@ -1,11 +1,11 @@
 {
-  "version": "1.1.4.6",
+  "version": "1.1.4.7",
   "releaseNotes": [
-    "Nâng cấp chức năng bán hàng, nhập hàng, trả hàng, excel,... liên quan đến số lượng là số lẻ ví dụ 1,2kg hoặc 1.2kg đều được."
+    "Nâng cấp tối ưu hệ thống phần mềm"
   ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.4.6/HoaTranPOS.1.1.4.6.zip",
-    "sha256": "fbec7e492554d3002f934f0b8f2fad99629be9c00e4849143a2b818ec335782b"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.4.7/HoaTranPOS-update-v1.1.4.7-20260902-104022.zip",
+    "sha256": "cad0a93fa584c744071d3186996a44995f3cbc2a19717d774689772482223e8e"
   },
   "sqlScripts": [
     {
