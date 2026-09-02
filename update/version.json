@@ -1,11 +1,13 @@
 {
-  "version": "1.1.4.7",
+  "version": "1.1.4.8",
   "releaseNotes": [
-    "Nâng cấp tối ưu hệ thống phần mềm"
+    "Tăng độ ổn định và an toàn dữ liệu khi cập nhật phần mềm.",
+    "Tối ưu quản lý lô, tồn kho, hóa đơn nhập hàng và trả hàng nhà cung cấp.",
+    "Cải thiện giao diện, báo cáo và một số thao tác sử dụng."
   ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.4.7/HoaTranPOS-update-v1.1.4.7-20260902-104022.zip",
-    "sha256": "cad0a93fa584c744071d3186996a44995f3cbc2a19717d774689772482223e8e"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.4.8/HoaTranPOS-update-v1.1.4.8-20260902-161654.zip",
+    "sha256": "21d3edd57764fe613b813dcc04c5aa561afc575188420787d8a81cb7f54183c6"
   },
   "sqlScripts": [
     {
@@ -67,6 +69,16 @@
       "migrationId": "20260901_fractional_quantities",
       "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260901_fractional_quantities.sql",
       "sha256": "5ca68d37e2f093264d415bd0330852fb990c34e09513397501fba44749852a21"
+    },
+    {
+      "migrationId": "20260902_database_integrity_hardening",
+      "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260902_database_integrity_hardening.sql",
+      "sha256": "0ce58d88f35e29d7d332ea02ca4f15f47380e038256948c72adc61fa085262ad"
+    },
+    {
+      "migrationId": "20260902_runtime_schema_consolidation",
+      "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260902_runtime_schema_consolidation.sql",
+      "sha256": "549bcb120ebb9c8201ff213925c6f02acbeaffff4ee9c5bc1bf02b3728dd9ac3"
     }
   ]
 }
