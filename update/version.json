@@ -1,13 +1,11 @@
 {
-  "version": "1.1.4.8",
+  "version": "1.1.4.9",
   "releaseNotes": [
-    "Tăng độ ổn định và an toàn dữ liệu khi cập nhật phần mềm.",
-    "Tối ưu quản lý lô, tồn kho, hóa đơn nhập hàng và trả hàng nhà cung cấp.",
-    "Cải thiện giao diện, báo cáo và một số thao tác sử dụng."
+    "Nâng cấp, tôi ưu hệ thống",
   ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.4.8/HoaTranPOS-update-v1.1.4.8-20260902-161654.zip",
-    "sha256": "21d3edd57764fe613b813dcc04c5aa561afc575188420787d8a81cb7f54183c6"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.4.9/HoaTranPOS-update-v1.1.4.9-20260903-151701.zip",
+    "sha256": "71eb158dc7178ce0ee2127f12379d0cd9a5acf9b0218b4c2ff022b1c53fedf75"
   },
   "sqlScripts": [
     {
