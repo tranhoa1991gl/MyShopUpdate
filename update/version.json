@@ -9,31 +9,6 @@
   },
   "sqlScripts": [
     {
-      "migrationId": "20260825_product_multi_units",
-      "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260825_product_multi_units.sql",
-      "sha256": "ec0674e0e15cb7854bffb4e79ce32804df460fdfeea585fe98afa8ed64c78a84"
-    },
-    {
-      "migrationId": "20260825_purchase_return_multi_units",
-      "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260825_purchase_return_multi_units.sql",
-      "sha256": "4b776d782ba944e86ab86efbae90a24cc756fd059f2a13358270d75ff1bae79f"
-    },
-    {
-      "migrationId": "20260825_audit_transaction_integrity_fixes",
-      "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260825_audit_transaction_integrity_fixes.sql",
-      "sha256": "11794a5a3411f5d148885f544c899af421ae9bcafa5dd83e6069c65512b905ea"
-    },
-    {
-      "migrationId": "20260825_purchase_return_variants_fix",
-      "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260825_purchase_return_variants_fix.sql",
-      "sha256": "bfcfb8972bed63632842e4b35dbd56e3d324381db36abe10b765779913bb4001"
-    },
-    {
-      "migrationId": "20260826_payroll_payment_identity_fix",
-      "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260826_payroll_payment_identity_fix.sql",
-      "sha256": "c86c0c01c7e1c780fab75e18987a23210606ba206a52b0f50b77ae031b9bfe20"
-    },
-    {
       "migrationId": "20260828_sales_delivery_orders",
       "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260828_sales_delivery_orders.sql",
       "sha256": "a7d5bfee46a823343f9db1d56508d076fb0235247b66ead95c0f695d2ed60ae1"
