@@ -1,5 +1,3 @@
-﻿USE [DBMyShop]
-GO
 SET NOCOUNT ON;
 GO
 
