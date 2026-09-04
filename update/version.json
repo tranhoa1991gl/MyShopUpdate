@@ -1,5 +1,5 @@
 {
-  "version": "1.1.5.0",
+  "version": "1.1.4.9",
   "releaseNotes": ["Bản cập nhật tập trung nâng cấp gần như toàn bộ luồng nghiệp vụ chính của hệ thống, bao gồm bán hàng, nhập hàng, trả hàng, kho, Serial/IMEI, công nợ và sổ quỹ. Đồng thời bổ sung kiểm tra dữ liệu, tăng tính đồng bộ giữa các chứng từ và hạn chế sai lệch tồn kho/công nợ khi hủy hoặc hoàn trả giao dịch."],
   "app": {
     "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.5.0/HoaTranPOS-update-v1.1.5.0-20260904-113320.zip",
