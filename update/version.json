@@ -1,5 +1,5 @@
 {
-  "version": "1.1.5.1",
+  "version": "1.1.5.0",
   "releaseNotes": [
     "Nâng cấp độ ổn định và an toàn dữ liệu bán hàng: tối ưu xử lý LAN nhiều máy, Serial/IMEI, biến thể, kiểm kho, trả hàng và điểm khách hàng; tăng kiểm soát transaction, chống bán trùng và hạn chế sai lệch tồn kho. Bản cập nhật này giúp HoaTran POS hoàn thiện và ổn định hơn trong quá trình vận hành thực tế."
   ],
