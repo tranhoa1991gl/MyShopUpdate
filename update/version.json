@@ -1,11 +1,11 @@
 {
-  "version": "1.1.5.0",
+  "version": "1.1.5.1",
   "releaseNotes": [
-    "Bản cập nhật tập trung nâng cấp gần như toàn bộ luồng nghiệp vụ chính của hệ thống, bao gồm bán hàng, nhập hàng, trả hàng, kho, Serial/IMEI, công nợ và sổ quỹ. Đồng thời bổ sung kiểm tra dữ liệu, tăng tính đồng bộ giữa các chứng từ và hạn chế sai lệch tồn kho/công nợ khi hủy hoặc hoàn trả giao dịch."
+    "Nâng cấp độ ổn định và an toàn dữ liệu bán hàng: tối ưu xử lý LAN nhiều máy, Serial/IMEI, biến thể, kiểm kho, trả hàng và điểm khách hàng; tăng kiểm soát transaction, chống bán trùng và hạn chế sai lệch tồn kho. Bản cập nhật này giúp HoaTran POS hoàn thiện và ổn định hơn trong quá trình vận hành thực tế."
   ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.5.0/HoaTranPOS-update-v1.1.5.0-20260904-113320.zip",
-    "sha256": "735104f6a2db058a1fb30edd935e40ba6bbf4180f4832f85b1022ad82c1894f3"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.5.1/HoaTranPOS-update-v1.1.5.1-20260905-170630.zip",
+    "sha256": "d3da25525f7403507b800fdc681007346dab362a3b453f2da8d4d8a6b82e2d0b"
   },
   "sqlScripts": [
     {
@@ -42,6 +42,26 @@
       "migrationId": "20260904_password_pbkdf2",
       "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260904_password_pbkdf2.sql",
       "sha256": "e940d1129c9ab715e4aec3e7dd1905acc489e42b247d16706e6420cb72dd4ddc"
+    },
+    {
+      "migrationId": "20260905_inventory_check_hardening",
+      "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260905_inventory_check_hardening.sql",
+      "sha256": "57b4bd571727be91b9f7f464e69cb94fb084cf8275647286978e08f30a8d1762"
+    },
+    {
+      "migrationId": "20260905_product_stock_hardening",
+      "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260905_product_stock_hardening.sql",
+      "sha256": "59f51446865b4326f7d98668e4f2aa040e269102902c5374fc1688ffec922c07"
+    },
+    {
+      "migrationId": "20260905_serial_scrap_variant_cleanup",
+      "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260905_serial_scrap_variant_cleanup.sql",
+      "sha256": "cae26e781f29c7d91fe6c9e5507a9651a0102937cb176ff5959f1810c058aaab"
+    },
+    {
+      "migrationId": "20260905_release_final_hardening",
+      "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260905_release_final_hardening.sql",
+      "sha256": "de2b3f6e05ce4d41d0ecb66137eac211cca29dc94c8e4d70f40d775b5446a0b5"
     }
   ]
 }
