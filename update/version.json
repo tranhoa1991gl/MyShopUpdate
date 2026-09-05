@@ -1,5 +1,5 @@
 {
-  "version": "1.1.5.0",
+  "version": "1.1.5.1",
   "releaseNotes": [
     "Nâng cấp độ ổn định và an toàn dữ liệu bán hàng: tối ưu xử lý LAN nhiều máy, Serial/IMEI, biến thể, kiểm kho, trả hàng và điểm khách hàng; tăng kiểm soát transaction, chống bán trùng và hạn chế sai lệch tồn kho. Bản cập nhật này giúp HoaTran POS hoàn thiện và ổn định hơn trong quá trình vận hành thực tế."
   ],
@@ -59,9 +59,9 @@
       "sha256": "cae26e781f29c7d91fe6c9e5507a9651a0102937cb176ff5959f1810c058aaab"
     },
     {
-      "migrationId": "20260905_release_final_hardening",
-      "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260905_release_final_hardening.sql",
-      "sha256": "de2b3f6e05ce4d41d0ecb66137eac211cca29dc94c8e4d70f40d775b5446a0b5"
+      "migrationId": "20260905_release_final_hardening_nobom",
+      "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260905_release_final_hardening_nobom.sql",
+      "sha256": "9fe55416c33cfed7b0d0a50b364a56130a7714c28069f5b4bd26de122d35caf0"
     }
   ]
 }
