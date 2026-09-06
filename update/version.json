@@ -1,11 +1,13 @@
 {
-  "version": "1.1.5.1",
+  "version": "1.1.5.2",
   "releaseNotes": [
-    "Nâng cấp độ ổn định và an toàn dữ liệu bán hàng: tối ưu xử lý LAN nhiều máy, Serial/IMEI, biến thể, kiểm kho, trả hàng và điểm khách hàng; tăng kiểm soát transaction, chống bán trùng và hạn chế sai lệch tồn kho. Bản cập nhật này giúp HoaTran POS hoàn thiện và ổn định hơn trong quá trình vận hành thực tế."
+    "Nâng cấp bảo mật đăng nhập, reset mật khẩu ngẫu nhiên và tối ưu import ảnh URL; chỉ lấy ảnh đầu tiên khi có nhiều link, đồng thời tăng kiểm soát an toàn dữ liệu tải từ Internet.",
+    "Thêm import sản phẩm có tồn âm.",
+    "Thêm import khách hàng có công nợ."
   ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.5.1/HoaTranPOS-update-v1.1.5.1-20260905-170630.zip",
-    "sha256": "d3da25525f7403507b800fdc681007346dab362a3b453f2da8d4d8a6b82e2d0b"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.5.2/HoaTranPOS-update-v1.1.5.2-20260906-131836.zip",
+    "sha256": "601eaa62de7b20331e929c762cb828aadbe8fda6b5d56c96b855bbd2b2cbb5ac"
   },
   "sqlScripts": [
     {
@@ -62,6 +64,16 @@
       "migrationId": "20260905_release_final_hardening_nobom",
       "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260905_release_final_hardening_nobom.sql",
       "sha256": "9fe55416c33cfed7b0d0a50b364a56130a7714c28069f5b4bd26de122d35caf0"
+    },
+    {
+      "migrationId": "20260906_login_lockout_hardening",
+      "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260906_login_lockout_hardening_fixed.sql",
+      "sha256": "467c5b7f47c6b59040faaf7c9b79038e130f756200d48aca88d4b7edd716c79b"
+    },
+    {
+      "migrationId": "20260906_password_reset_hardening",
+      "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260906_password_reset_hardening.sql",
+      "sha256": "ae25b43d6f29d852c490d7e1803965424262acdd5df9b601f154e62ed0c8a7c9"
     }
   ]
 }
