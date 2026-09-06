@@ -1,13 +1,13 @@
 {
-  "version": "1.1.5.2",
+  "version": "1.1.5.3",
   "releaseNotes": [
-    "Nâng cấp bảo mật đăng nhập, reset mật khẩu ngẫu nhiên và tối ưu import ảnh URL; chỉ lấy ảnh đầu tiên khi có nhiều link, đồng thời tăng kiểm soát an toàn dữ liệu tải từ Internet.",
-    "Thêm import sản phẩm có tồn âm.",
-    "Thêm import khách hàng có công nợ."
+    "Thêm chọn số lượng khi mua hàng - bật barocde (giống như tít mã vạch)",
+    "Thêm full khi xem trước hóa đơn",
+    "Fix chọn đúng khách hàng thanh toán nợ ở form khách hàng"
   ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.5.2/HoaTranPOS-update-v1.1.5.2-20260906-131836.zip",
-    "sha256": "601eaa62de7b20331e929c762cb828aadbe8fda6b5d56c96b855bbd2b2cbb5ac"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.5.3/HoaTranPOS-update-v1.1.5.3-20260906-155444.zip",
+    "sha256": "30094108d76681ae123190690225be16bee1a5e7dac2bd32759029812b7008d2"
   },
   "sqlScripts": [
     {
