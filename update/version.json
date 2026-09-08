@@ -1,15 +1,15 @@
 {
-  "version": "1.1.5.4",
+  "version": "1.1.5.5",
   "releaseNotes": [
-    "Nâng cấp và hoàn thiện nghiệp vụ bán hàng, công nợ và báo cáo",
-    "Sửa đơn tạm giữ đúng lô đã chọn khi xác nhận thanh toán",
-    "Sửa trả hàng có giảm giá, thu nợ sửa chữa và tổng công nợ",
-    "Tăng độ chính xác báo cáo khách hàng và các báo cáo nghiệp vụ",
-    "Hỗ trợ đổi máy khi cần liên hệ HoaTranPOS để kích hoạt máy mới"
+    "Sửa chọn biến thể khi bán hàng và hoàn thiện luồng thêm biến thể vào giỏ",
+    "Bổ sung kiểm kê kho theo biến thể và theo lô/hạn sử dụng",
+    "Sửa báo cáo biến động kho với hóa đơn thanh toán một phần",
+    "Sửa giới hạn ngày trong báo cáo Sổ quỹ và báo cáo khách hàng",
+    "Nâng cấp độ ổn định nghiệp vụ kho và báo cáo"
   ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.5.4/HoaTranPOS-update-v1.1.5.4-20260908-170713.zip",
-    "sha256": "b6aace661a3a4e1e8f5b0a39cdf3b7fb59987925290691a11e2eab0c3722414b"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.5.5/HoaTranPOS-update-v1.1.5.5-20260909-045038.zip",
+    "sha256": "35e617f573b7a59ccd7d4889f45f185b8f7ff4b64f2703c1e23b13366687564e"
   },
   "sqlScripts": [
     {
@@ -96,6 +96,26 @@
       "migrationId": "20260908_customer_reporting_followup",
       "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260908_customer_reporting_followup.sql",
       "sha256": "323ce44d1ba6231821c955e07b777c11f8fe5244cd35a4e7b3b3a526d72f92c9"
+    },
+    {
+      "migrationId": "20260908_report_date_boundary_followup",
+      "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260908_report_date_boundary_followup.sql",
+      "sha256": "2dcb2cfb05b6c35d624f23d7f3ec2292467a475159f4f49bf99bf6b576d78ce8"
+    },
+    {
+      "migrationId": "20260909_inventory_movement_partial",
+      "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260909_inventory_movement_partial.sql",
+      "sha256": "fb334d1016737a9eab28a12bc583848c4bca6cdbf92aa2e6401677a7b3c4e827"
+    },
+    {
+      "migrationId": "20260909_variant_inventory_stocktake",
+      "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260909_variant_inventory_stocktake.sql",
+      "sha256": "c145f7004e19938d3a5a9e3c5785f060a4fc10ee4050015dc02dfe7bcbbcd450"
+    },
+    {
+      "migrationId": "20260909_batch_inventory_stocktake",
+      "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260909_batch_inventory_stocktake.sql",
+      "sha256": "3c737c2e6730a5cf3b8002cc235b97e79e810a13e641e233119845e79786be2b"
     }
   ]
 }
