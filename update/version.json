@@ -1,13 +1,15 @@
 {
-  "version": "1.1.5.3",
+  "version": "1.1.5.4",
   "releaseNotes": [
-    "Thêm chọn số lượng khi mua hàng - bật barocde (giống như tít mã vạch)",
-    "Thêm full khi xem trước hóa đơn",
-    "Fix chọn đúng khách hàng thanh toán nợ ở form khách hàng"
+    "Nâng cấp và hoàn thiện nghiệp vụ bán hàng, công nợ và báo cáo",
+    "Sửa đơn tạm giữ đúng lô đã chọn khi xác nhận thanh toán",
+    "Sửa trả hàng có giảm giá, thu nợ sửa chữa và tổng công nợ",
+    "Tăng độ chính xác báo cáo khách hàng và các báo cáo nghiệp vụ",
+    "Hỗ trợ đổi máy khi cần liên hệ HoaTranPOS để kích hoạt máy mới"
   ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.5.3/HoaTranPOS-update-v1.1.5.3-20260906-155444.zip",
-    "sha256": "30094108d76681ae123190690225be16bee1a5e7dac2bd32759029812b7008d2"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.5.4/HoaTranPOS-update-v1.1.5.4-20260908-170713.zip",
+    "sha256": "b6aace661a3a4e1e8f5b0a39cdf3b7fb59987925290691a11e2eab0c3722414b"
   },
   "sqlScripts": [
     {
@@ -74,6 +76,26 @@
       "migrationId": "20260906_password_reset_hardening",
       "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260906_password_reset_hardening.sql",
       "sha256": "ae25b43d6f29d852c490d7e1803965424262acdd5df9b601f154e62ed0c8a7c9"
+    },
+    {
+      "migrationId": "20260908_sales_audit_reports",
+      "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260908_sales_audit_reports.sql",
+      "sha256": "9918f3c5b4a0bbdec427d5a32ee7b1a4ccf9d16e11e03b5b239d4af1fa5587a3"
+    },
+    {
+      "migrationId": "20260908_sales_audit_followup",
+      "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260908_sales_audit_followup.sql",
+      "sha256": "ccef9999396e01a77e8108b07f9cc7a4bc06eed64e382b0fe81e1162534386ad"
+    },
+    {
+      "migrationId": "20260908_full_business_audit",
+      "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260908_full_business_audit.sql",
+      "sha256": "c297428ef5156c3c8174f0c317b7152031cd398a4859f00554e1ba491bb8d63f"
+    },
+    {
+      "migrationId": "20260908_customer_reporting_followup",
+      "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260908_customer_reporting_followup.sql",
+      "sha256": "323ce44d1ba6231821c955e07b777c11f8fe5244cd35a4e7b3b3a526d72f92c9"
     }
   ]
 }
