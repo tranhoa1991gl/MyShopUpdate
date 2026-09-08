@@ -115,7 +115,7 @@
     {
       "migrationId": "20260909_batch_inventory_stocktake",
       "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260909_batch_inventory_stocktake.sql",
-      "sha256": "7ea534f03515765deef31a503799f5ac50f0571ca1d4b2e5e4d329abca8f1819"
+      "sha256": "676ec5808a2b38cc61b0c8cce6bdb53e6c29a3c0b666d8b5062cd50b6b52a399"
     }
   ]
 }
