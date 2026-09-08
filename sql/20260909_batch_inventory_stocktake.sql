@@ -1,4 +1,4 @@
-﻿/*
+/*
 MigrationId: 20260909_batch_inventory_stocktake
 Purpose: Luu kiem ke theo tung lo / han su dung (batch/expiry date), tuong tu kiem ke bien the.
 Safe: Chi bo sung cot batch_id, index, khoa ngoai va cap nhat thu tuc xem chi tiet phieu; khong sua so ton hay du lieu lich su.
