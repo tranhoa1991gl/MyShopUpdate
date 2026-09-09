@@ -1,15 +1,18 @@
 {
-  "version": "1.1.5.7",
-"releaseNotes": [
-    "Cập nhật phiên bản nâng cao độ ổn định và tối ưu hóa vận hành:",
+  "version": "1.1.5.8",
+  "releaseNotes": [
+    "v1.1.5.8: Bản vá của 1.1.5.7",
+    "Thêm ca làm việc (đang thử nghiệm)",
+    "-------------------------------------------------",
+    "v1.1.5.7: Cập nhật phiên bản nâng cao độ ổn định và tối ưu hóa vận hành:",
     "- Chuẩn hóa nghiệp vụ liên hoàn giữa Bán hàng → Sổ quỹ → Công nợ → Kho hàng, đảm bảo số liệu chính xác tuyệt đối.",
     "- Tối ưu luồng thanh toán Ví khách hàng và hoàn trả hàng thông minh, minh bạch dòng tiền.",
     "- Nâng cấp tốc độ xử lý và khả năng kiểm soát dữ liệu an toàn.",
     "Sắp tới: Bổ sung tính năng Quản lý ca & Bàn giao ca thu ngân (Z-Report) cho cửa hàng nhiều nhân viên."
-],
+  ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.5.7/HoaTranPOS-update-v1.1.5.7-20260909-141835.zip",
-    "sha256": "fcc522537a8dc4bb9170d0d6cc145678d9319e6cf50759ed68bf10a787189d93"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.5.8/HoaTranPOS-update-v1.1.5.8-20260909-203911.zip",
+    "sha256": "9eef3ffec173f3926dedcb4d74c1083119be71576ab228d99cf13f860b948139"
   },
   "sqlScripts": [
     {
@@ -121,6 +124,11 @@
       "migrationId": "20260909_Fix_HistoricalGiftQuantity_Reports",
       "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260909_Fix_HistoricalGiftQuantity_Reports.sql",
       "sha256": "fc55520b7b7f2e61459c6988073bf825020b865724b3727c6141af8239ae476f"
+    },
+        {
+      "migrationId": "20260909_Add_Optional_Shift_Management",
+      "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260909_Add_Optional_Shift_Management.sql",
+      "sha256": "609e4734d85b099f88e6fec8acaa6f98824ef4705faa0f775b40f8fd723976a2"
     }
   ]
 }
