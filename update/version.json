@@ -1,15 +1,11 @@
 {
-  "version": "1.1.5.5",
+  "version": "1.1.5.6",
   "releaseNotes": [
-    "Sửa chọn biến thể khi bán hàng và hoàn thiện luồng thêm biến thể vào giỏ",
-    "Bổ sung kiểm kê kho theo biến thể và theo lô/hạn sử dụng",
-    "Sửa báo cáo biến động kho với hóa đơn thanh toán một phần",
-    "Sửa giới hạn ngày trong báo cáo Sổ quỹ và báo cáo khách hàng",
-    "Nâng cấp độ ổn định nghiệp vụ kho và báo cáo"
+    "Nâng cấp hệ thống"
   ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.5.5/HoaTranPOS-update-v1.1.5.5-20260909-045038.zip",
-    "sha256": "35e617f573b7a59ccd7d4889f45f185b8f7ff4b64f2703c1e23b13366687564e"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.5.6/HoaTranPOS-update-v1.1.5.6-20260909-103504.zip",
+    "sha256": "aa5e8ad98b45eb3764ddf0324a75a74163e8c57a9e6ce06858a88ce04a5b8311"
   },
   "sqlScripts": [
     {
