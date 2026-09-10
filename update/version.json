@@ -1,18 +1,13 @@
 {
-  "version": "1.1.5.8",
+  "version": "1.1.5.9",
   "releaseNotes": [
-    "v1.1.5.8: Bản vá của 1.1.5.7",
-    "Thêm ca làm việc (đang thử nghiệm)",
-    "-------------------------------------------------",
-    "v1.1.5.7: Cập nhật phiên bản nâng cao độ ổn định và tối ưu hóa vận hành:",
-    "- Chuẩn hóa nghiệp vụ liên hoàn giữa Bán hàng → Sổ quỹ → Công nợ → Kho hàng, đảm bảo số liệu chính xác tuyệt đối.",
-    "- Tối ưu luồng thanh toán Ví khách hàng và hoàn trả hàng thông minh, minh bạch dòng tiền.",
-    "- Nâng cấp tốc độ xử lý và khả năng kiểm soát dữ liệu an toàn.",
-    "Sắp tới: Bổ sung tính năng Quản lý ca & Bàn giao ca thu ngân (Z-Report) cho cửa hàng nhiều nhân viên."
+    "Hoàn chỉnh tính năng Kết ca & Giao diện bán hàng, bật lên trong cài đặt Cửa hàng - Menu - Kết ca",
+    "Chuẩn hóa mốc thời gian (Thêm Giờ:Phút) dễ theo dõi",
+    "Tích hợp tính năng Bù lệch trái/phải cho máy in hóa đơn (KiotViet, v.v.)"
   ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.5.8/HoaTranPOS-update-v1.1.5.8-20260909-203911.zip",
-    "sha256": "9eef3ffec173f3926dedcb4d74c1083119be71576ab228d99cf13f860b948139"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.5.9/HoaTranPOS-update-v1.1.5.9-20260910-085523.zip",
+    "sha256": "31147d4bde1aa1d3f764f54d0e04024494b655a9ce06263f0012e3534b55bd2a"
   },
   "sqlScripts": [
     {
