@@ -1,13 +1,13 @@
 {
-  "version": "1.1.5.9",
+  "version": "1.1.6.0",
   "releaseNotes": [
-    "Hoàn chỉnh tính năng Kết ca & Giao diện bán hàng, bật lên trong cài đặt Cửa hàng - Menu - Kết ca",
-    "Chuẩn hóa mốc thời gian (Thêm Giờ:Phút) dễ theo dõi",
-    "Tích hợp tính năng Bù lệch trái/phải cho máy in hóa đơn (KiotViet, v.v.)"
+    "Lần cập nhật này có gì:",
+    " 1. Cho phép chỉnh sửa tên mặc định Khách lẻ -> tùy ý (Bán cho người tiêu dùng)",
+    " 2. Cho phép chỉnh sửa tài khoản mặc định admin, cả nhân viên, đổi tên đăng nhập, đổi tên admin"
   ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.5.9/HoaTranPOS-update-v1.1.5.9-20260910-085523.zip",
-    "sha256": "31147d4bde1aa1d3f764f54d0e04024494b655a9ce06263f0012e3534b55bd2a"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.6.0/HoaTranPOS-update-v1.1.6.0-20260911-175641.zip",
+    "sha256": "fdd7383a300feaddc3b504669c17a8dfc2aee2ca9b02194f57f8aac269b545ed"
   },
   "sqlScripts": [
     {
