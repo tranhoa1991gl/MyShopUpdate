@@ -1,11 +1,11 @@
 {
-  "version": "1.1.6.2",
+  "version": "1.1.6.3",
   "releaseNotes": [
-    "Fix lỗi Mã khách lẻ bị trùng với khách hàng, chỉ ảnh hưởng tới 1 số shop nếu như import đối tác trước khi có mã khách lẻ tự sinh."
+    "Thêm cấu hình tên khách lẻ (khách vãng lai) hiển thị trên hóa đơn: Cài đặt → Cửa hàng → Hóa đơn → Khách hàng mặc định"
   ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.6.2/HoaTranPOS-update-v1.1.6.2-20260912-182722.zip",
-    "sha256": "e12794d68d260bf90f8d05407a022af19298ef24e52d791cfca38ffcdcda138b"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.6.3/HoaTranPOS-update-v1.1.6.3-20260912-193329.zip",
+    "sha256": "141125b07445d55174ef1d2343980c716836f7920ced386554b7d7a0ca5d97ed"
   },
   "sqlScripts": [
     {
