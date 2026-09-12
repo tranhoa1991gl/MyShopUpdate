@@ -1,13 +1,13 @@
 {
-  "version": "1.1.6.0",
+  "version": "1.1.6.1",
   "releaseNotes": [
-    "Lần cập nhật này có gì:",
-    " 1. Cho phép chỉnh sửa tên mặc định Khách lẻ -> tùy ý (Bán cho người tiêu dùng)",
-    " 2. Cho phép chỉnh sửa tài khoản mặc định admin, cả nhân viên, đổi tên đăng nhập, đổi tên admin"
+    "Fix cho phép thu hồi công nợ cũ vào đơn giao hàng tận nơi",
+    "Tích hợp chức năng đồng bộ ca làm việc lên Firebase Cloud, xem doanh thu ca làm việc từ xa online qua trang web.",
+    "Tích hợp sẵn theme blogger làm Dasboad theo dõi doanh thu theo ca từ xa"
   ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.6.0/HoaTranPOS-update-v1.1.6.0-20260911-175641.zip",
-    "sha256": "fdd7383a300feaddc3b504669c17a8dfc2aee2ca9b02194f57f8aac269b545ed"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.6.1/HoaTranPOS-update-v1.1.6.1-20260912-100859.zip",
+    "sha256": "5909e724ae478ec9d22b6f4f0ad8ff8a5bb46acfd69df409fa48994d742135be"
   },
   "sqlScripts": [
     {
