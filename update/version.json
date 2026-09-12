@@ -1,13 +1,11 @@
 {
-  "version": "1.1.6.1",
+  "version": "1.1.6.2",
   "releaseNotes": [
-    "Fix cho phép thu hồi công nợ cũ vào đơn giao hàng tận nơi",
-    "Tích hợp chức năng đồng bộ ca làm việc lên Firebase Cloud, xem doanh thu ca làm việc từ xa online qua trang web.",
-    "Tích hợp sẵn theme blogger làm Dasboad theo dõi doanh thu theo ca từ xa"
+    "Fix lỗi Mã khách lẻ bị trùng với khách hàng, chỉ ảnh hưởng tới 1 số shop nếu như import đối tác trước khi có mã khách lẻ tự sinh."
   ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.6.1/HoaTranPOS-update-v1.1.6.1-20260912-100859.zip",
-    "sha256": "5909e724ae478ec9d22b6f4f0ad8ff8a5bb46acfd69df409fa48994d742135be"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.6.2/HoaTranPOS-update-v1.1.6.2-20260912-182722.zip",
+    "sha256": "e12794d68d260bf90f8d05407a022af19298ef24e52d791cfca38ffcdcda138b"
   },
   "sqlScripts": [
     {
