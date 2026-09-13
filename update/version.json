@@ -1,11 +1,11 @@
 {
-  "version": "1.1.6.3",
+  "version": "1.1.6.4",
   "releaseNotes": [
-    "Thêm cấu hình tên khách lẻ (khách vãng lai) hiển thị trên hóa đơn: Cài đặt → Cửa hàng → Hóa đơn → Khách hàng mặc định"
+    "Nâng cấp hệ thống, tối ưu, thêm backup ảnh"
   ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.6.3/HoaTranPOS-update-v1.1.6.3-20260912-193329.zip",
-    "sha256": "141125b07445d55174ef1d2343980c716836f7920ced386554b7d7a0ca5d97ed"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.6.4/HoaTranPOS-update-v1.1.6.4-20260914-063055.zip",
+    "sha256": "febe9e27beb3bc5db5e2fec958226d5dfaf397991f0ecb191c29a519c90fb235"
   },
   "sqlScripts": [
     {
