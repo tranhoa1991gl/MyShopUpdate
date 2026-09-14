@@ -1,11 +1,13 @@
 {
-  "version": "1.1.6.4",
+  "version": "1.1.6.5",
   "releaseNotes": [
-    "Nâng cấp hệ thống, tối ưu, thêm backup ảnh"
+    "Sửa mục Trả hàng nhanh: Hóa đơn trả hết sẽ tự ẩn ngay. Hóa đơn trả một phần vẫn hiện để trả tiếp. Hủy phiếu trả thì hóa đơn xuất hiện lại khi tải lại danh sách.",
+    "Sửa nâng cấp tối giản giao diện báo cáo, bổ sung bộ lọc cho tab Hàng hóa, thêm 1 tab Nhóm hàng",
+    "Sửa nâng cấp form Sửa chữa"
   ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.6.4/HoaTranPOS-update-v1.1.6.4-20260914-063055.zip",
-    "sha256": "febe9e27beb3bc5db5e2fec958226d5dfaf397991f0ecb191c29a519c90fb235"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.6.5/HoaTranPOS-update-v1.1.6.5-20260915-062445.zip",
+    "sha256": "6e8093772f111ea6b1b9fa5df1d2522b82546eb39ad59d95f9192af836a6535b"
   },
   "sqlScripts": [
     {
