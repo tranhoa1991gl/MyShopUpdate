@@ -1,13 +1,14 @@
 {
-  "version": "1.1.6.5",
+  "version": "1.1.6.6",
   "releaseNotes": [
-    "Sửa mục Trả hàng nhanh: Hóa đơn trả hết sẽ tự ẩn ngay. Hóa đơn trả một phần vẫn hiện để trả tiếp. Hủy phiếu trả thì hóa đơn xuất hiện lại khi tải lại danh sách.",
-    "Sửa nâng cấp tối giản giao diện báo cáo, bổ sung bộ lọc cho tab Hàng hóa, thêm 1 tab Nhóm hàng",
-    "Sửa nâng cấp form Sửa chữa"
+    "QR lấy đúng khoản còn cần thanh toán; đã trả đủ thì không in QR thu tiền.",
+    "A4/A5 không cộng nợ cũ khi không chọn thu.",
+    "In lại phiếu giao hàng giới hạn thu nợ theo dư nợ hiện tại. Đổi nhãn thành “Thu nợ cũ”.",
+    "Đơn ví tạm không ghi đã thanh toán; ghi rõ: Ví sẽ trừ khi chốt giao"
   ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.6.5/HoaTranPOS-update-v1.1.6.5-20260915-062445.zip",
-    "sha256": "6e8093772f111ea6b1b9fa5df1d2522b82546eb39ad59d95f9192af836a6535b"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.6.6/HoaTranPOS-update-v1.1.6.6-20260915-175650.zip",
+    "sha256": "6044b32997a9f12db823e73a29f2a9ca7056ea0d46b776a3d00aae182a9c888e"
   },
   "sqlScripts": [
     {
