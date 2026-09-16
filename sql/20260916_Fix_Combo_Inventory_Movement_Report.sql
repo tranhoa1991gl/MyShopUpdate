@@ -5,19 +5,87 @@
     các linh kiện đã thực sự biến động, lấy từ snapshot lúc bán; không
     ghi thêm biến động ở sản phẩm Combo cha.
 
-    Yêu cầu: bản nâng cấp Combo đã tạo dbo.order_item_combo_snapshots.
-    Script có thể chạy lại an toàn.
+    Tự động khởi tạo schema Combo & Hạn mức nợ nếu chưa có để đảm bảo chạy mượt mà
+    trong mọi quy trình cập nhật online/offline từ phiên bản cũ.
+    Script có thể chạy lại an toàn (idempotent).
 */
 
 SET NOCOUNT ON;
 SET XACT_ABORT ON;
 GO
 
-IF OBJECT_ID(N'dbo.order_item_combo_snapshots', N'U') IS NULL
-    THROW 51610, N'Thiếu bảng snapshot Combo. Hãy cập nhật tính năng Combo trước khi chạy bản vá báo cáo.', 1;
+-- 1. Đảm bảo cột is_combo trên bảng products
+IF NOT EXISTS (
+    SELECT 1 FROM sys.columns 
+    WHERE object_id = OBJECT_ID(N'dbo.products') AND name = N'is_combo'
+)
+BEGIN
+    ALTER TABLE dbo.products ADD is_combo BIT NOT NULL CONSTRAINT DF_products_is_combo DEFAULT (0);
+END;
+GO
 
+-- 2. Đảm bảo bảng định nghĩa linh kiện Combo dbo.product_combo_items
+IF OBJECT_ID(N'dbo.product_combo_items', N'U') IS NULL
+BEGIN
+    CREATE TABLE dbo.product_combo_items
+    (
+        combo_item_id INT IDENTITY(1,1) NOT NULL PRIMARY KEY,
+        combo_product_id INT NOT NULL,
+        component_product_id INT NOT NULL,
+        component_variant_id INT NULL,
+        quantity DECIMAL(18,3) NOT NULL CONSTRAINT DF_combo_item_qty DEFAULT (1),
+        note NVARCHAR(255) NULL,
+        created_at DATETIME NOT NULL CONSTRAINT DF_combo_item_created DEFAULT (GETDATE()),
+        CONSTRAINT FK_combo_parent FOREIGN KEY (combo_product_id) REFERENCES dbo.products(product_id) ON DELETE CASCADE,
+        CONSTRAINT FK_combo_component FOREIGN KEY (component_product_id) REFERENCES dbo.products(product_id),
+        CONSTRAINT CHK_combo_no_self CHECK (combo_product_id <> component_product_id)
+    );
+
+    CREATE NONCLUSTERED INDEX IX_combo_parent ON dbo.product_combo_items(combo_product_id);
+    CREATE NONCLUSTERED INDEX IX_combo_component ON dbo.product_combo_items(component_product_id);
+END;
+GO
+
+IF COL_LENGTH(N'dbo.product_combo_items', N'component_variant_id') IS NULL
+BEGIN
+    ALTER TABLE dbo.product_combo_items ADD component_variant_id INT NULL;
+END;
+GO
+
+-- 3. Đảm bảo bảng snapshot linh kiện Combo dbo.order_item_combo_snapshots
+IF OBJECT_ID(N'dbo.order_item_combo_snapshots', N'U') IS NULL
+BEGIN
+    CREATE TABLE dbo.order_item_combo_snapshots
+    (
+        snapshot_id INT IDENTITY(1,1) NOT NULL PRIMARY KEY,
+        order_id INT NOT NULL,
+        order_item_id INT NOT NULL,
+        combo_product_id INT NOT NULL,
+        component_product_id INT NOT NULL,
+        component_variant_id INT NULL,
+        component_name NVARCHAR(150) NULL,
+        quantity_per_combo DECIMAL(18,3) NOT NULL,
+        total_quantity DECIMAL(18,3) NOT NULL,
+        component_cost_price DECIMAL(18,2) NOT NULL,
+        created_at DATETIME NOT NULL CONSTRAINT DF_combo_snap_created DEFAULT (GETDATE())
+    );
+    CREATE NONCLUSTERED INDEX IX_combo_snap_order ON dbo.order_item_combo_snapshots(order_id);
+    CREATE NONCLUSTERED INDEX IX_combo_snap_item ON dbo.order_item_combo_snapshots(order_item_id);
+END;
+GO
+
+-- 4. Đảm bảo cột credit_limit trên bảng customers (hỗ trợ tính năng Hạn mức nợ)
+IF COL_LENGTH(N'dbo.customers', N'credit_limit') IS NULL
+BEGIN
+    ALTER TABLE dbo.customers ADD credit_limit DECIMAL(18,2) NULL;
+END;
+GO
+
+-- 5. Khởi tạo stored procedure trước nếu chưa có để lệnh ALTER PROCEDURE luôn thành công
 IF OBJECT_ID(N'dbo.Report_GetInventoryMovement', N'P') IS NULL
-    THROW 51611, N'Không tìm thấy stored procedure báo cáo xuất nhập tồn để cập nhật.', 1;
+BEGIN
+    EXEC(N'CREATE PROCEDURE [dbo].[Report_GetInventoryMovement] AS BEGIN SET NOCOUNT ON; END;');
+END;
 GO
 
 ALTER PROCEDURE [dbo].[Report_GetInventoryMovement]
