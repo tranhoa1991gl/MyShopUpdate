@@ -130,6 +130,16 @@
       "migrationId": "20260913_Fix_Guest_Invoice_Compatibility",
       "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260913_Fix_Guest_Invoice_Compatibility.sql",
       "sha256": "8e0cbf20413c848510ba56d81c4cc7d5efc590c2d5e4f12fbc1fc5e7991873a3"
+    },
+    {
+      "migrationId": "20260916_Fix_Combo_Inventory_Movement_Report",
+      "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260916_Fix_Combo_Inventory_Movement_Report.sql",
+      "sha256": "dacac139b560cdec74a47d249c4440c31bc273634f64eb6e3e1ca33bfb9d2744"
+    },
+      {
+      "migrationId": "20260913_Fix_Guest_Invoice_Compatibility",
+      "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260913_Fix_Guest_Invoice_Compatibility.sql",
+      "sha256": "ef99e10529b150522d8b1c2fdcd6815ab34f06fdb4370d8a2af8ad1c70b21556"
     }
   ]
 }
