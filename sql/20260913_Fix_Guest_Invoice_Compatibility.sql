@@ -1,4 +1,4 @@
-/*
+﻿/*
 HoaTran POS - 20260913_guest_invoice_compatibility_v1
 Shared by the embedded offline migration and OnlineSqlUpdater.
 Only upgrades guest/invoice metadata; does not replace a shop database.
