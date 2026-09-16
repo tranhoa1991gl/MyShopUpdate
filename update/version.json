@@ -1,11 +1,11 @@
 {
-  "version": "1.1.6.6",
-"releaseNotes": [
-  "BỔ SUNG 2 CHỨC NĂNG MỚI THEO YÊU CẦU CỦA KHÁCH HÀNG:",
-  "Thêm Gói combo sản phẩm: Sản phẩm -> Thêm mới -> Thêm combo -> Nhập thông tin và chọn các sản phẩm trong combo.",
-  "Thêm chức năng Hạn mức công nợ: Cho phép thiết lập số tiền nợ tối đa cho từng khách hàng.",
-  "Các chức năng đã được kiểm thử bằng cả phương pháp thủ công và AI. Hiện tại chưa ghi nhận lỗi. Quý khách vui lòng trải nghiệm và thông báo cho Admin nếu phát hiện vấn đề để được kiểm tra và khắc phục."
-],
+  "version": "1.1.6.7",
+  "releaseNotes": [
+    "BỔ SUNG 2 CHỨC NĂNG MỚI THEO YÊU CẦU CỦA KHÁCH HÀNG:",
+    "Thêm Gói combo sản phẩm: Sản phẩm -> Thêm mới -> Thêm combo -> Nhập thông tin và chọn các sản phẩm trong combo.",
+    "Thêm chức năng Hạn mức công nợ: Cho phép thiết lập số tiền nợ tối đa cho từng khách hàng.",
+    "Các chức năng đã được kiểm thử bằng cả phương pháp thủ công và AI. Hiện tại chưa ghi nhận lỗi. Quý khách vui lòng trải nghiệm và thông báo cho Admin nếu phát hiện vấn đề để được kiểm tra và khắc phục."
+  ],
   "app": {
     "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.6.7/HoaTranPOS-update-v1.1.6.7-20260917-055957.zip",
     "sha256": "f8a10b1e84ebeafb9fe607ea0de199a23f76219171577acd8df9dbd39e9d99e5"
@@ -121,25 +121,20 @@
       "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260909_Fix_HistoricalGiftQuantity_Reports.sql",
       "sha256": "fc55520b7b7f2e61459c6988073bf825020b865724b3727c6141af8239ae476f"
     },
-        {
+    {
       "migrationId": "20260909_Add_Optional_Shift_Management",
       "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260909_Add_Optional_Shift_Management.sql",
       "sha256": "609e4734d85b099f88e6fec8acaa6f98824ef4705faa0f775b40f8fd723976a2"
     },
-     {
+    {
       "migrationId": "20260913_Fix_Guest_Invoice_Compatibility",
       "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260913_Fix_Guest_Invoice_Compatibility.sql",
-      "sha256": "8e0cbf20413c848510ba56d81c4cc7d5efc590c2d5e4f12fbc1fc5e7991873a3"
+      "sha256": "ef99e10529b150522d8b1c2fdcd6815ab34f06fdb4370d8a2af8ad1c70b21556"
     },
     {
       "migrationId": "20260916_Fix_Combo_Inventory_Movement_Report",
       "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260916_Fix_Combo_Inventory_Movement_Report.sql",
-      "sha256": "dacac139b560cdec74a47d249c4440c31bc273634f64eb6e3e1ca33bfb9d2744"
-    },
-      {
-      "migrationId": "20260913_Fix_Guest_Invoice_Compatibility",
-      "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260913_Fix_Guest_Invoice_Compatibility.sql",
-      "sha256": "ef99e10529b150522d8b1c2fdcd6815ab34f06fdb4370d8a2af8ad1c70b21556"
+      "sha256": "d6fe6666f1d05294006cf74cd5540610432dae687cfc72d8aa679fd66d9b3bb6"
     }
   ]
 }
