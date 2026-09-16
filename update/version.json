@@ -1,14 +1,14 @@
 {
-  "version": "1.1.6.6",
-  "releaseNotes": [
-    "QR lấy đúng khoản còn cần thanh toán; đã trả đủ thì không in QR thu tiền.",
-    "A4/A5 không cộng nợ cũ khi không chọn thu.",
-    "In lại phiếu giao hàng giới hạn thu nợ theo dư nợ hiện tại. Đổi nhãn thành “Thu nợ cũ”.",
-    "Đơn ví tạm không ghi đã thanh toán; ghi rõ: Ví sẽ trừ khi chốt giao"
-  ],
+  "version": "1.1.6.7",
+"releaseNotes": [
+  "BỔ SUNG 2 CHỨC NĂNG MỚI THEO YÊU CẦU CỦA KHÁCH HÀNG:",
+  "Thêm Gói combo sản phẩm: Sản phẩm -> Thêm mới -> Thêm combo -> Nhập thông tin và chọn các sản phẩm trong combo.",
+  "Thêm chức năng Hạn mức công nợ: Cho phép thiết lập số tiền nợ tối đa cho từng khách hàng.",
+  "Các chức năng đã được kiểm thử bằng cả phương pháp thủ công và AI. Hiện tại chưa ghi nhận lỗi. Quý khách vui lòng trải nghiệm và thông báo cho Admin nếu phát hiện vấn đề để được kiểm tra và khắc phục."
+],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.6.6/HoaTranPOS-update-v1.1.6.6-20260915-175650.zip",
-    "sha256": "6044b32997a9f12db823e73a29f2a9ca7056ea0d46b776a3d00aae182a9c888e"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.6.7/HoaTranPOS-update-v1.1.6.7-20260917-055957.zip",
+    "sha256": "f8a10b1e84ebeafb9fe607ea0de199a23f76219171577acd8df9dbd39e9d99e5"
   },
   "sqlScripts": [
     {
