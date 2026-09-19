@@ -1,12 +1,12 @@
 {
-  "version": "1.1.6.8",
+  "version": "1.1.6.9",
   "releaseNotes": [
-    "Thêm xuất Excel ở toàn bộ hóa đơn (bán, nhập)",
-    "Thêm hàng hóa loại Dịch vụ"
+    "Bổ sung Màn hình phụ cho khách hàng: kết nối với Tivi, Màn hình máy tính bằng cáp HDMI",
+    "Thêm sản phẩm -> Sản xuất nguyên vật liệu"
   ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.6.8/HoaTranPOS-update-v1.1.6.8-20260918-101619.zip",
-    "sha256": "5d728b12815198a32126f435a148349883f9b493acc076d4ca5aebe6dc516208"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.6.9/HoaTranPOS-update-v1.1.6.9-20260919-174503.zip",
+    "sha256": "18adb475eaf63ba2a775028602f7a0bb73b001f468ccee6b67b8e5348738017c"
   },
   "sqlScripts": [
     {
@@ -138,6 +138,11 @@
       "migrationId": "20260917_Fix_Service_Product_Support",
       "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260917_Fix_Service_Product_Support.sql",
       "sha256": "729070af43608c106de4a81eac6c5a2ddee721bf98b9efe4d42d028e5558c5ef"
+    },
+    {
+      "migrationId": "20260919_Add_Manufacturing_Module",
+      "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260919_Add_Manufacturing_Module.sql",
+      "sha256": "afe9d90a499cc8edf79ef2d564fb2d394fb69952f3057cea5e4edcff96d237ac"
     }
   ]
 }
