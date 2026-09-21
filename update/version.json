@@ -1,12 +1,12 @@
 {
-  "version": "1.1.6.9",
+  "version": "1.1.7.0",
   "releaseNotes": [
-    "Bổ sung Màn hình phụ cho khách hàng: kết nối với Tivi, Màn hình máy tính bằng cáp HDMI",
-    "Thêm sản phẩm -> Sản xuất nguyên vật liệu"
+    "Bổ sung thêm 2 tính năng cho Kho hàng: 1. Xuất hàng hóa dùng nội bộ | 2. Xuất hủy hàng hóa",
+    "Sắp xếp lại Menu của Hàng hóa cho phù hợp, 1 vài thay đổi trên giao diện, không ảnh hưởng tới dữ liệu gốc"
   ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.6.9/HoaTranPOS-update-v1.1.6.9-20260919-174503.zip",
-    "sha256": "18adb475eaf63ba2a775028602f7a0bb73b001f468ccee6b67b8e5348738017c"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.7.0/HoaTranPOS-update-v1.1.7.0-20260921-094209.zip",
+    "sha256": "25db587727f300fd31804e9ed3bb58b5e1485524de8cea026220e3735f62ba40"
   },
   "sqlScripts": [
     {
@@ -143,6 +143,11 @@
       "migrationId": "20260919_Add_Manufacturing_Module",
       "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260919_Add_Manufacturing_Module.sql",
       "sha256": "afe9d90a499cc8edf79ef2d564fb2d394fb69952f3057cea5e4edcff96d237ac"
+    },
+    {
+      "migrationId": "20260920_Add_Stock_Export_Module",
+      "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260920_Add_Stock_Export_Module.sql",
+      "sha256": "36f4464097de9dfa7fee64b8717bf158945cdea998dd87d61c90961a2d299164"
     }
   ]
 }
