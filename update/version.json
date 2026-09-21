@@ -1,12 +1,14 @@
 {
-  "version": "1.1.7.0",
+  "version": "1.1.7.1",
   "releaseNotes": [
-    "Bổ sung thêm 2 tính năng cho Kho hàng: 1. Xuất hàng hóa dùng nội bộ | 2. Xuất hủy hàng hóa",
-    "Sắp xếp lại Menu của Hàng hóa cho phù hợp, 1 vài thay đổi trên giao diện, không ảnh hưởng tới dữ liệu gốc"
+    "Bổ sung chọn nhiều hàng hóa cùng lúc khi tìm sản phẩm trong lúc bán hàng",
+    "Bổ sung cài đặt độ rộng của khung tìm kiếm hiển thỉ sản phẩm: Cài đặt - Cửa hàng - Bán hàng và tồn kho",
+    "Bổ sung Hóa đơn 2 (quý shop muốn tạo kiểu hóa đơn riêng A4/A5 vui lòng liên hệ chúng tôi sẽ tạo thêm các hóa đơn 3,4,5,6,7,8 theo nhu cầu)",
+    "Bổ sung bật tắt tùy chọn hiển thị các cột của giỏ hàng: Menu - Tùy chọn hiển thị"
   ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.7.0/HoaTranPOS-update-v1.1.7.0-20260921-094209.zip",
-    "sha256": "25db587727f300fd31804e9ed3bb58b5e1485524de8cea026220e3735f62ba40"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.7.1/HoaTranPOS-update-v1.1.7.1-20260922-064112.zip",
+    "sha256": "83d820fc8f853929d03e497ce8c60cfc8f1e48556f0e62c72661f4f5bcc019f4"
   },
   "sqlScripts": [
     {
