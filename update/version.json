@@ -1,7 +1,7 @@
 {
   "version": "1.1.7.3",
 "releaseNotes": [
-  "Tự động xác nhận đơn hàng khi thanh toán QR thành công. (xem hướng dẫn tích hợp: Cửa hàng - Tài khoản)",
+  "Tự động xác nhận đơn hàng khi thanh toán QR thành công. (xem hướng dẫn tích hợp: Cửa hàng - Thanh toán QR)",
   "Tối ưu tốc độ tải form bán hàng, giúp thao tác nhanh và mượt hơn.",
   "Tối ưu không gian giao diện bán hàng, hiển thị thông tin gọn gàng và thuận tiện hơn."
 ],
