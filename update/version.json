@@ -1,12 +1,13 @@
 {
-  "version": "1.1.7.2",
+  "version": "1.1.7.3",
 "releaseNotes": [
-  "Fix form Công nợ - Khách hàng",
-  "Phần mềm hiện đã hoàn thiện đầy đủ các chức năng chính. Sau bản cập nhật này, phần mềm sẽ ưu tiên ổn định hệ thống và hạn chế cập nhật không cần thiết. Các bản cập nhật tiếp theo sẽ được thực hiện tùy theo nhu cầu và yêu cầu thực tế của các shop."
+  "Tự động xác nhận đơn hàng khi thanh toán QR thành công. (xem hướng dẫn tích hợp: Cửa hàng - Tài khoản)",
+  "Tối ưu tốc độ tải form bán hàng, giúp thao tác nhanh và mượt hơn.",
+  "Tối ưu không gian giao diện bán hàng, hiển thị thông tin gọn gàng và thuận tiện hơn."
 ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.7.2/HoaTranPOS-update-v1.1.7.2-20260922-225344.zip",
-    "sha256": "65abd6cd00b5f6272bf91f31c55093da2c81c42cc8c67c0ccf64d5fc68b327b3"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.7.3/HoaTranPOS-update-v1.1.7.3-20260925-191812.zip",
+    "sha256": "51BF79F707F841B5492CDFCFAAB39D5A3CF4586E2AF67CF90E1AFD30F63D814E"
   },
   "sqlScripts": [
     {
