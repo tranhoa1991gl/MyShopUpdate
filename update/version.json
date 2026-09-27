@@ -1,13 +1,11 @@
 {
-  "version": "1.1.7.3",
+  "version": "1.1.7.4",
 "releaseNotes": [
-  "Tự động xác nhận đơn hàng khi thanh toán QR thành công. (xem hướng dẫn tích hợp: Cửa hàng - Thanh toán QR)",
-  "Tối ưu tốc độ tải form bán hàng, giúp thao tác nhanh và mượt hơn.",
-  "Tối ưu không gian giao diện bán hàng, hiển thị thông tin gọn gàng và thuận tiện hơn."
+  "Bổ sung thêm nhiều tài khoản thanh toán theo yêu cầu của khách hàng, tích hợp xác minh tự động khi quét thanh toán thành công (Sepay + Gooogle Sheet) có kèm hướng dẫn"
 ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.7.3/HoaTranPOS-update-v1.1.7.3-20260925-191812.zip",
-    "sha256": "51BF79F707F841B5492CDFCFAAB39D5A3CF4586E2AF67CF90E1AFD30F63D814E"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.7.4/HoaTranPOS-update-v1.1.7.4-20260927-233205.zip",
+    "sha256": "99a4461a552bfb86ccc244dd0d7e76951faec42b1321c1875644bde1ae73dd8f"
   },
   "sqlScripts": [
     {
@@ -29,6 +27,16 @@
       "migrationId": "20260920_Add_Stock_Export_Module",
       "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260920_Add_Stock_Export_Module.sql",
       "sha256": "36f4464097de9dfa7fee64b8717bf158945cdea998dd87d61c90961a2d299164"
+    },
+    {
+      "migrationId": "20260927_Repair_Sales_Warranty_Link",
+      "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260927_Repair_Sales_Warranty_Link.sql",
+      "sha256": "272d429d9b4f545d2b74daa712275eb933eb4ccdaa5e01aa493804835a13c8de"
+    },
+    {
+      "migrationId": "20260927_Multiple_Qr_Accounts",
+      "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260927_Multiple_Qr_Accounts.sql",
+      "sha256": "6732fbee6d5621cb4c001a5cf7f1bae0b55df3952cf7b297aff03816051635b1"
     }
   ]
 }
