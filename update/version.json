@@ -1,13 +1,12 @@
 {
-  "version": "1.1.7.5",
+  "version": "1.1.7.6",
 "releaseNotes": [
-  "Hóa đơn Bán hàng, Nhập hàng, Trả hàng NCC: Bổ sung tùy chọn cột hiển thị, giúp các shop chủ động thiết lập giao diện phù hợp với nhu cầu quản lý và theo dõi.",
-  "Công nợ Khách hàng & Nhà cung cấp: Đổi mới giao diện, tối ưu bố cục và bổ sung tùy chọn cột hiển thị.",
-  "Báo cáo Xuất nhập tuần: Đổi mới giao diện trực quan hơn, tối ưu bố cục và bổ sung tùy chọn cột hiển thị."
+  "Tối ưu giao diện và bố cục một số màn hình, mở rộng không gian hiển thị, giúp xem dữ liệu và thao tác thuận tiện hơn.",
+  "Bổ sung tùy chọn tắt cập nhật vĩnh viễn khi phiên bản hiện tại đã ổn định và phù hợp với nhu cầu. Phần mềm sẽ giữ nguyên phiên bản đang dùng và không thông báo phiên bản mới. Bạn có thể đổi ý và bật lại trong vòng 3 ngày."
 ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.7.5/HoaTranPOS-update-v1.1.7.5-20260928-112340.zip",
-    "sha256": "9e0e4b879044fd7de7fb4a3fe192dcbb9810e77c768d51033e3d53245bdf3ecf"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.7.6/HoaTranPOS-update-v1.1.7.6-20260929-062844.zip",
+    "sha256": "6bc336cb1d5cbc05db01684bf3a37730474ca8f2e0acd0be3773571850d6beca"
   },
   "sqlScripts": [
     {
