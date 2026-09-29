@@ -1,12 +1,13 @@
 {
-  "version": "1.1.7.6",
+  "version": "1.1.7.7",
 "releaseNotes": [
-  "Tối ưu giao diện và bố cục một số màn hình, mở rộng không gian hiển thị, giúp xem dữ liệu và thao tác thuận tiện hơn.",
-  "Bổ sung tùy chọn tắt cập nhật vĩnh viễn khi phiên bản hiện tại đã ổn định và phù hợp với nhu cầu. Phần mềm sẽ giữ nguyên phiên bản đang dùng và không thông báo phiên bản mới. Bạn có thể đổi ý và bật lại trong vòng 3 ngày."
+  "Thêm chức năng ghi nhớ sản phẩm trong giỏ",
+  "Thêm chức năng kéo thả, di chuyển vị trí sản phẩm trong giỏ",
+  "Thêm chức năng tăng, giảm kích thước font thanh menu chính"
 ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.7.6/HoaTranPOS-update-v1.1.7.6-20260929-062844.zip",
-    "sha256": "6bc336cb1d5cbc05db01684bf3a37730474ca8f2e0acd0be3773571850d6beca"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.7.7/HoaTranPOS-update-v1.1.7.7-20260929-135959.zip",
+    "sha256": "35b5ef4afb5a9a5a9471634a8329acba6e7fb012b0ac41c8bd07ee5b34f5b980"
   },
   "sqlScripts": [
     {
