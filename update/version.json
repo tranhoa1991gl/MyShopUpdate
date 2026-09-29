@@ -1,13 +1,16 @@
 {
-  "version": "1.1.7.7",
+  "version": "1.1.7.8",
 "releaseNotes": [
+  "1.1.7.7:",
   "Thêm chức năng ghi nhớ sản phẩm trong giỏ",
   "Thêm chức năng kéo thả, di chuyển vị trí sản phẩm trong giỏ",
-  "Thêm chức năng tăng, giảm kích thước font thanh menu chính"
+  "Thêm chức năng tăng, giảm kích thước font thanh menu chính",
+  "1.1.7.8:",
+  "Fix: Bỏ tự động điền thông tin tài khoản vào ghi chú khi thanh toán CK"
 ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.7.7/HoaTranPOS-update-v1.1.7.7-20260929-135959.zip",
-    "sha256": "35b5ef4afb5a9a5a9471634a8329acba6e7fb012b0ac41c8bd07ee5b34f5b980"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.7.8/HoaTranPOS-update-v1.1.7.8-20260929-171322.zip",
+    "sha256": "6a8c419f5760e817199901756c03a8499881246f0ed905bfba562f01744e8f13"
   },
   "sqlScripts": [
     {
