@@ -1,11 +1,16 @@
 {
-  "version": "1.1.7.9",
-"releaseNotes": [
-  "Tối ưu mục Thiết lập & Hiển thị, gom các tùy chỉnh vào một nơi với các tab dễ sử dụng."
-],
+  "version": "1.1.8.0",
+  "releaseNotes": [
+    "Thêm cài đặt bật nút Tạm tính ở màn Order, cho phép khách hàng tùy chọn bật/tắt trong mục Tùy chọn hiển thị.",
+    "Điều chỉnh hóa đơn tạm tính: nhấn In lại chỉ thực hiện in. Muốn thanh toán, chọn Sửa, nhập đủ tiền, thanh toán rồi cập nhật lại đơn.",
+    "Thêm phím tắt F6 để mở nhanh danh sách hóa đơn tạm tính (báo giá), chọn hóa đơn để đưa lại vào giỏ hàng.",
+    "Thêm mẫu thiết kế hóa đơn số 3 theo yêu cầu của shop.",
+    "Thêm ghi chú cho từng sản phẩm khi bán hàng; ghi chú chỉ hiển thị trong lúc bán và không lưu vào database.",
+    "Thêm chức năng sắp xếp sản phẩm trong giỏ hàng bằng cách nhấp vào tiêu đề cột để sắp xếp."
+  ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.7.9/HoaTranPOS-update-v1.1.7.9-20260930-062324.zip",
-    "sha256": "aaec4ff1099b606654005c40ea28fa81e8965ef59304a3b808cf65124318d8de"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.8.0/HoaTranPOS-update-v1.1.8.0-20260930-152501.zip",
+    "sha256": "38941f27cf1a0cd2999c33264e683b331eae44e8bbe397cb24e6ab6cab8934a3"
   },
   "sqlScripts": [
     {
