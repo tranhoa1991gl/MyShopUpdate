@@ -1,11 +1,12 @@
 {
-  "version": "1.1.8.2",
+  "version": "1.1.8.3",
  "releaseNotes": [
-  "Bổ sung tính năng tự thiết kế hóa đơn Custom tại Menu - Máy in - Hóa đơn. Nếu phát sinh lỗi, vui lòng liên hệ để được hỗ trợ."
+  "Bổ sung tính năng tự thiết kế hóa đơn Custom tại Menu - Máy in - Hóa đơn. Nếu phát sinh lỗi, vui lòng liên hệ để được hỗ trợ.",
+   "Nâng cấp Custom Hóa đơn, tối ưu hóa đơn A4/A5 khi nhiều trang"
 ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.8.2/HoaTranPOS-update-v1.1.8.2-20261001-102313.zip",
-    "sha256": "a7d79577c4774286d24e08e9de357f7d411053b5c1b804b7568a909bbe905e4d"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.8.3/HoaTranPOS-update-v1.1.8.3-20261001-121851.zip",
+    "sha256": "92c755a6c33aa10786bb6a5c34f5bbd5e9e91acf9437e2f6317215a9c3cf0982"
   },
   "sqlScripts": [
     {
