@@ -1,11 +1,13 @@
 {
-  "version": "1.1.8.4",
+  "version": "1.1.8.5",
  "releaseNotes": [
-  "Thêm cài đặt tùy chỉnh hiển thị tên sản phẩm ở giỏ hàng: ngắt hàng hoặc xuống dòng, phù hợp khi tên sản phẩm quá dài"
+  "Thêm ghi nhớ mật khẩu",
+   "Thêm nhân bản sản phẩm khi bán hàng",
+   "Thêm 1 tab báo cáo doanh thu theo tháng/ năm"
 ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.8.4/HoaTranPOS-update-v1.1.8.4-20261002-084041.zip",
-    "sha256": "91765389c17a761ece9b454b8fe8626ff36526e9623911094cfb18ca620744d0"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.8.5/HoaTranPOS-update-v1.1.8.5-20261002-173041.zip",
+    "sha256": "c3e40b9daf079c6ae19bf9564d717f7e5193f34c34258dd2e35ccd6cfdc5f6b2"
   },
   "sqlScripts": [
     {
