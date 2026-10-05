@@ -1,13 +1,15 @@
 {
-  "version": "1.1.8.5",
+  "version": "1.1.8.6",
  "releaseNotes": [
-  "Thêm ghi nhớ mật khẩu",
-   "Thêm nhân bản sản phẩm khi bán hàng",
-   "Thêm 1 tab báo cáo doanh thu theo tháng/ năm"
+  "Thêm 1 kiểu custom xem trước khi in, có thể chọn máy in, chỉnh cỡ chữ, tùy chọn in (Menu - Máy in Hóa đơn)",
+   "Thêm chức năng ghim sản phẩm phù hợp khi sp đó bán liên tục, hoặc KM (cài đặt vào : Kho hàng - danh sách hàng hóa - nhấp dấu sao)",
+   "Thêm nút xem chi tiết (khi bán hàng), dưới Nhân bản hàng",
+   "Thêm phím tắt mở nhanh 1 popup sản phẩm được ghim (sản phẩm nổi bật)",
+   "Thêm chức năng bảo vệ database tránh mất dữ liệu khi update (chống ghi đè database nếu như bản nén có ném nhầm cả database từ nhà phát triển)"
 ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.8.5/HoaTranPOS-update-v1.1.8.5-20261002-173041.zip",
-    "sha256": "c3e40b9daf079c6ae19bf9564d717f7e5193f34c34258dd2e35ccd6cfdc5f6b2"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.8.6/HoaTranPOS-update-v1.1.8.6-20261005-123659.zip",
+    "sha256": "fd2c103e9e91443ffd009eca21e054e6bd3462904ab17e5b7ca3682f82945ce4"
   },
   "sqlScripts": [
     {
@@ -39,6 +41,16 @@
       "migrationId": "20260927_Multiple_Qr_Accounts",
       "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260927_Multiple_Qr_Accounts.sql",
       "sha256": "6732fbee6d5621cb4c001a5cf7f1bae0b55df3952cf7b297aff03816051635b1"
+    },
+    {
+      "migrationId": "20261003_Pinned_Products",
+      "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20261003_Pinned_Products.sql",
+      "sha256": "ba4b5e96115544d9195fd1d8acbb1651ef8096e7502f230cbaae531feef0c237"
+    },
+    {
+      "migrationId": "20261004_Delivery_Stock_Integrity",
+      "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20261004_Delivery_Stock_Integrity.sql",
+      "sha256": "552a52d2702edcae9566be1aafcc9393e2b538756b3139dabd4286621686ad33"
     }
   ]
 }
