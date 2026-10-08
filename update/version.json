@@ -1,12 +1,12 @@
 {
-  "version": "1.1.8.7",
+  "version": "1.1.8.8",
  "releaseNotes": [
-  "Tối ưu lại in tem nhãn giúp máy quét nhận diện tốt",
-  "Một vài tối ưu khác."
+  "Thêm chức năng che tên sản phẩm trên hóa đơn nếu như khách yêu cầu (sp có tên nhạy cảm)",
+  "Thêm tính năng tải ảnh chữ ký, dấu mộc trong mục custom hóa đơn (tạo phiếu báo giá)"
 ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.8.7/HoaTranPOS-update-v1.1.8.7-20261007-064840.zip",
-    "sha256": "58aa29d0a4b395c8b3d8f8e5ffe980aa4a0dffae8ab6a65c9102432666b8c4cb"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.8.8/HoaTranPOS-update-v1.1.8.8-20261008-165753.zip",
+    "sha256": "464d493e72179f1a8da934eecc46b31473f26faaa1b9b26fba944e0667cbe3ce"
   },
   "sqlScripts": [
     {
