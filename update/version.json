@@ -1,5 +1,5 @@
 {
-  "version": "1.1.8.8",
+  "version": "1.1.8.7",
  "releaseNotes": [
   "Thêm chức năng che tên sản phẩm trên hóa đơn nếu như khách yêu cầu (sp có tên nhạy cảm)",
   "Thêm tính năng tải ảnh chữ ký, dấu mộc trong mục custom hóa đơn (tạo phiếu báo giá)"
