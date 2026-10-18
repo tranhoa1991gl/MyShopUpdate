@@ -1,11 +1,11 @@
 {
-  "version": "1.1.8.9",
+  "version": "1.1.9.0",
  "releaseNotes": [
-  "Tối ưu, nâng cấp hệ thống"
+  "Nâng cấp hệ thống"
 ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.9.0/HoaTranPOS-update-v1.1.9.0-20261018-143207.zip",
-    "sha256": "29c967639f49c2317e6615ee8f5e11022b38bf7726d8871725072024e08312ed"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.9.0/HoaTranPOS-update-v1.1.9.0-20261018-172749.zip",
+    "sha256": "bdeefa7956c9a98d2442617d661da46717c5fd633e28e05f5ec130827e83e5fe"
   },
   "sqlScripts": [
     {
