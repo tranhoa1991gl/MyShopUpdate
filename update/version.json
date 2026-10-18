@@ -1,11 +1,11 @@
 {
-  "version": "1.1.8.9",
+  "version": "1.1.9.0",
  "releaseNotes": [
   "Tối ưu, nâng cấp hệ thống"
 ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.8.9/HoaTranPOS-update-v1.1.8.9-20261012-065222.zip",
-    "sha256": "a2525a6e5b6a70705f5063065c37fc9f01c6f06bccd340ce06d06c0281d60f98"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.9.0/HoaTranPOS-update-v1.1.9.0-20261018-143207.zip",
+    "sha256": "29c967639f49c2317e6615ee8f5e11022b38bf7726d8871725072024e08312ed"
   },
   "sqlScripts": [
     {
@@ -47,6 +47,16 @@
       "migrationId": "20261004_Delivery_Stock_Integrity",
       "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20261004_Delivery_Stock_Integrity.sql",
       "sha256": "552a52d2702edcae9566be1aafcc9393e2b538756b3139dabd4286621686ad33"
+    },
+    {
+      "migrationId": "20261014_Operations_Upgrade",
+      "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20261014_Operations_Upgrade.sql",
+      "sha256": "b9a24da8e700ab1663c4d6ce03097a07e5767ff4a93b52a949df586b8cd7e01a"
+    },
+    {
+      "migrationId": "20261016_Operations_Extensions",
+      "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20261016_Operations_Extensions.sql",
+      "sha256": "d0446a72d2a6a6cdb0ad75e3e91070a0800516765a84f7a5ea0892cb0d02f34a"
     }
   ]
 }
