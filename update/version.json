@@ -1,11 +1,11 @@
 {
-  "version": "1.1.9.0",
+  "version": "1.1.9.1",
  "releaseNotes": [
-  "Nâng cấp hệ thống"
+  "Sửa lỗi tìm kiếm bằng máy quét mã vạch trong Danh sách hàng hóa: kết quả vừa tìm được bị mất do danh sách tự tải lại."
 ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.9.0/HoaTranPOS-update-v1.1.9.0-20261018-172749.zip",
-    "sha256": "bdeefa7956c9a98d2442617d661da46717c5fd633e28e05f5ec130827e83e5fe"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.9.1/HoaTranPOS-update-v1.1.9.1-20261019-121034.zip",
+    "sha256": "6a125bd5066328b42c5be686101edaa8e93ae1a43b71c2990e03b2aab701b6b0"
   },
   "sqlScripts": [
     {
