@@ -1,11 +1,11 @@
 {
-  "version": "1.1.9.2",
+  "version": "1.1.9.3",
  "releaseNotes": [
-  "Nâng cấp tiện ích, chương trình khuyến mãi (Sửa lỗi ghi nhớ nhầm giá khuyến mãi, gây giảm giá chồng khi khách mua lại. Khi chương trình hết hạn hoặc bị tắt, phần mềm sử dụng lại giá trước khuyến mãi.)"
+  "Bổ sung tùy chọn không trừ kho, nhấn chuột phải vào nút Thanh toán để lựa chọn"
 ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.9.2/HoaTranPOS-update-v1.1.9.2-20261019-151345.zip",
-    "sha256": "51166fb85a3b2b0628fa9e26b3d8597792699fb3682a905264800a97f91c82ca"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.9.3/HoaTranPOS-update-v1.1.9.3-20261021-064300.zip",
+    "sha256": "b19d36080af68e2a2de6b962ede6152f272dc70e78ffec3e53b63d394a89fd1b"
   },
   "sqlScripts": [
     {
@@ -57,6 +57,21 @@
       "migrationId": "20261016_Operations_Extensions",
       "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20261016_Operations_Extensions.sql",
       "sha256": "d0446a72d2a6a6cdb0ad75e3e91070a0800516765a84f7a5ea0892cb0d02f34a"
+    },
+    {
+      "migrationId": "20260917_Fix_Service_Product_Support",
+      "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260917_Fix_Service_Product_Support.sql",
+      "sha256": "fd3a134779455dacb78715bd0439e27ca58bde50e8c32a41f9b0175c4b039e5a"
+    },
+    {
+      "migrationId": "20260916_Fix_Combo_Inventory_Movement_Report",
+      "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260916_Fix_Combo_Inventory_Movement_Report.sql",
+      "sha256": "81fcb991e493d0dc15564cf404c4e0a2bf455152fd95583d42b96402972774fa"
+    },
+    {
+      "migrationId": "20261021_Customer_Tax_Code",
+      "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20261021_Customer_Tax_Code.sql",
+      "sha256": "bd0a36f228871f8820bf00e8cbce7c416ff469fb6f91d499dc04a0e370fd48a2"
     }
   ]
 }
