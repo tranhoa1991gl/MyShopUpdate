@@ -1,3 +1,6 @@
+IF COL_LENGTH(N'dbo.orders',N'skip_stock_deduction') IS NULL
+    ALTER TABLE dbo.orders ADD skip_stock_deduction bit NOT NULL CONSTRAINT DF_orders_skip_stock_deduction DEFAULT(0) WITH VALUES;
+GO
 /*
     HoaTran POS - Bổ sung tính năng Sản phẩm Dịch vụ (không quản lý tồn kho).
     
@@ -68,6 +71,7 @@ BEGIN
                                   AND oi.order_id = s.order_id
         INNER JOIN dbo.orders o ON o.order_id = s.order_id
         WHERE ISNULL(o.status, N'') IN (N'Paid', N'Completed', N'Partial')
+          AND ISNULL(o.skip_stock_deduction,0)=0
           AND o.order_date IS NOT NULL
           AND s.component_product_id IS NOT NULL
           AND ISNULL(s.total_quantity, 0) <> 0
@@ -160,6 +164,7 @@ BEGIN
         FROM dbo.order_items oi
         INNER JOIN dbo.orders o ON o.order_id = oi.order_id
         WHERE ISNULL(o.status, N'') IN (N'Paid', N'Completed', N'Partial')
+          AND ISNULL(o.skip_stock_deduction,0)=0
           AND ISNULL(o.order_type, N'') <> N'RETURN'
           AND o.order_date IS NOT NULL
           AND oi.product_id IS NOT NULL
@@ -203,6 +208,7 @@ BEGIN
         FROM dbo.order_items oi
         INNER JOIN dbo.orders o ON o.order_id = oi.order_id
         WHERE ISNULL(o.status, N'') IN (N'Paid', N'Completed', N'Partial')
+          AND ISNULL(o.skip_stock_deduction,0)=0
           AND ISNULL(o.order_type, N'') = N'RETURN'
           AND o.order_date IS NOT NULL
           AND oi.product_id IS NOT NULL
