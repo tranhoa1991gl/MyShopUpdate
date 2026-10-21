@@ -1,11 +1,12 @@
 {
-  "version": "1.1.9.3",
+  "version": "1.1.9.4",
  "releaseNotes": [
-  "Bổ sung tùy chọn không trừ kho, nhấn chuột phải vào nút Thanh toán để lựa chọn"
+  "Nâng cấp tùy chọn quy đổi điểm khi bán hàng",
+   "Fix mã QR lỗi kết nối tới máy chủ VietQR"
 ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.9.3/HoaTranPOS-update-v1.1.9.3-20261021-064300.zip",
-    "sha256": "b19d36080af68e2a2de6b962ede6152f272dc70e78ffec3e53b63d394a89fd1b"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.9.4/HoaTranPOS-update-v1.1.9.4-20261021-100123.zip",
+    "sha256": "0d3aa56abd84fcf3e316437fbf023ee4d228cdd6a6621b6954c3037607901b52"
   },
   "sqlScripts": [
     {
