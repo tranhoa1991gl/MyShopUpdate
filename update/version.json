@@ -1,12 +1,13 @@
 {
-  "version": "1.1.9.4",
+  "version": "1.1.9.5",
  "releaseNotes": [
   "Nâng cấp tùy chọn quy đổi điểm khi bán hàng",
-   "Fix mã QR lỗi kết nối tới máy chủ VietQR"
+   "Fix mã QR lỗi kết nối tới máy chủ VietQR",
+   "Bổ sung cột KM vào tùy chỉnh cột trong Custom hóa đơn"
 ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.9.4/HoaTranPOS-update-v1.1.9.4-20261021-111113.zip",
-    "sha256": "5963c940d7623f366b05082fa88c1779043f566773c05814bfd27f603d40c15d"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.9.5/HoaTranPOS-update-v1.1.9.5-20261021-114509.zip",
+    "sha256": "a669df154968e0216b43aec31827462288e27a1fb32a47a56e0966991da6df35"
   },
   "sqlScripts": [
     {
