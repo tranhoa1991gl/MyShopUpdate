@@ -5,8 +5,8 @@
    "Fix mã QR lỗi kết nối tới máy chủ VietQR"
 ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.9.4/HoaTranPOS-update-v1.1.9.4-20261021-100123.zip",
-    "sha256": "0d3aa56abd84fcf3e316437fbf023ee4d228cdd6a6621b6954c3037607901b52"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.9.4/HoaTranPOS-update-v1.1.9.4-20261021-111113.zip",
+    "sha256": "5963c940d7623f366b05082fa88c1779043f566773c05814bfd27f603d40c15d"
   },
   "sqlScripts": [
     {
