@@ -3,11 +3,12 @@
  "releaseNotes": [
   "Thêm chức năng phóng to màn hình bán hàng, phím tắt F11",
    "Thêm phương thức thanh toán kết hợp",
-   "Tối ưu quy đổi điểm khách hàng khi bán"
+   "Thêm đổi điểm có thể tùy chỉnh, nhập số điểm cần đổi",
+   "Thêm tùy chọn ẩn số hoán đơn trên bill k57 k80"
 ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.9.6/HoaTranPOS-update-v1.1.9.6-20261023-171958.zip",
-    "sha256": "ed7b4b7be7b7e7f5e66bb0eb77704aab82eb9768a31477e22aa75a71748b6077"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.9.6/HoaTranPOS-update-v1.1.9.6-20261023-182051.zip",
+    "sha256": "e85a8f88467445b5b61b6a6e2cc160d1268d99b9dcd860d600b01fa76de7c8f6"
   },
   "sqlScripts": [
     {
