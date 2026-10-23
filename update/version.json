@@ -7,8 +7,8 @@
    "Thêm tùy chọn ẩn số hoá đơn trên bill k57 k80"
 ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.9.6/HoaTranPOS-update-v1.1.9.6-20261023-182051.zip",
-    "sha256": "e85a8f88467445b5b61b6a6e2cc160d1268d99b9dcd860d600b01fa76de7c8f6"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.9.6/HoaTranPOS-update-v1.1.9.6-20261024-001957.zip",
+    "sha256": "53fd4dff5a2536d6ca3d1d82c5bfb352a2b697fc1012b1031bfb0f0b3a1f8998"
   },
   "sqlScripts": [
     {
