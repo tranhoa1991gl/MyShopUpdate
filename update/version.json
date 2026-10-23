@@ -6,8 +6,8 @@
    "Tối ưu quy đổi điểm khách hàng khi bán"
 ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.9.6/HoaTranPOS-update-v1.1.9.6-20261023-151140.zip",
-    "sha256": "91468cf802d217c15cb2e852334b39973ded89a78021e22249080ba56bc948bc"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.9.6/HoaTranPOS-update-v1.1.9.6-20261023-155807.zip",
+    "sha256": "afc6f0c1eeedad0945350e31e3656530d84178690deec51eb84025cd111b1d47"
   },
   "sqlScripts": [
     {
