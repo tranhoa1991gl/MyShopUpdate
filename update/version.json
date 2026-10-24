@@ -12,36 +12,6 @@
   },
   "sqlScripts": [
     {
-      "migrationId": "20260916_Fix_Combo_Inventory_Movement_Report",
-      "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260916_Fix_Combo_Inventory_Movement_Report.sql",
-      "sha256": "81fcb991e493d0dc15564cf404c4e0a2bf455152fd95583d42b96402972774fa"
-    },
-    {
-      "migrationId": "20260917_Fix_Service_Product_Support",
-      "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260917_Fix_Service_Product_Support.sql",
-      "sha256": "729070af43608c106de4a81eac6c5a2ddee721bf98b9efe4d42d028e5558c5ef"
-    },
-    {
-      "migrationId": "20260919_Add_Manufacturing_Module",
-      "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260919_Add_Manufacturing_Module.sql",
-      "sha256": "afe9d90a499cc8edf79ef2d564fb2d394fb69952f3057cea5e4edcff96d237ac"
-    },
-    {
-      "migrationId": "20260920_Add_Stock_Export_Module",
-      "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260920_Add_Stock_Export_Module.sql",
-      "sha256": "36f4464097de9dfa7fee64b8717bf158945cdea998dd87d61c90961a2d299164"
-    },
-    {
-      "migrationId": "20260927_Repair_Sales_Warranty_Link",
-      "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260927_Repair_Sales_Warranty_Link.sql",
-      "sha256": "272d429d9b4f545d2b74daa712275eb933eb4ccdaa5e01aa493804835a13c8de"
-    },
-    {
-      "migrationId": "20260927_Multiple_Qr_Accounts",
-      "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260927_Multiple_Qr_Accounts.sql",
-      "sha256": "6732fbee6d5621cb4c001a5cf7f1bae0b55df3952cf7b297aff03816051635b1"
-    },
-    {
       "migrationId": "20261003_Pinned_Products",
       "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20261003_Pinned_Products.sql",
       "sha256": "ba4b5e96115544d9195fd1d8acbb1651ef8096e7502f230cbaae531feef0c237"
