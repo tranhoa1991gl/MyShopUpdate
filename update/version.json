@@ -14,7 +14,7 @@
     {
       "migrationId": "20260916_Fix_Combo_Inventory_Movement_Report",
       "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260916_Fix_Combo_Inventory_Movement_Report.sql",
-      "sha256": "d6fe6666f1d05294006cf74cd5540610432dae687cfc72d8aa679fd66d9b3bb6"
+      "sha256": "81fcb991e493d0dc15564cf404c4e0a2bf455152fd95583d42b96402972774fa"
     },
     {
       "migrationId": "20260917_Fix_Service_Product_Support",
