@@ -16,10 +16,13 @@ BEGIN
   IsActive BIT NOT NULL DEFAULT 1,
   IsDefault BIT NOT NULL DEFAULT 0,
   AutoConfirm BIT NOT NULL DEFAULT 0,
+  IsArchived BIT NOT NULL DEFAULT 0,
   CONSTRAINT UQ_QrReceivingAccount UNIQUE (BankCode, AccountNumber)
  );
  CREATE UNIQUE INDEX UX_QrReceivingAccount_Default ON dbo.QrReceivingAccount(IsDefault) WHERE IsDefault = 1;
 END;
+IF COL_LENGTH(N'dbo.QrReceivingAccount', N'IsArchived') IS NULL
+ ALTER TABLE dbo.QrReceivingAccount ADD IsArchived BIT NOT NULL DEFAULT 0;
 IF OBJECT_ID(N'dbo.QrPaymentConfig', N'U') IS NULL
  CREATE TABLE dbo.QrPaymentConfig (Id INT PRIMARY KEY CHECK (Id = 1), AllowSelection BIT NOT NULL DEFAULT 0);
 IF NOT EXISTS (SELECT 1 FROM dbo.QrPaymentConfig WHERE Id = 1)
