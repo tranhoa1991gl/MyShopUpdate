@@ -1,11 +1,11 @@
 {
-  "version": "1.1.9.7",
+  "version": "1.1.9.8",
  "releaseNotes": [
-  "Cập nhật mới nhất đã sẵn sàng! Chúng tôi nâng cấp độ ổn định của toàn hệ thống."
+  "Thêm chức năng thống kê theo số tài khoản"
 ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.9.7/HoaTranPOS-update-v1.1.9.7-20261026-062533.zip",
-    "sha256": "ab77db18cdcc3387585095508705cb40507f421831dfe4c87fa89094ef7df5d6"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.9.8/HoaTranPOS-update-v1.1.9.8-20261027-145445.zip",
+    "sha256": "cf593f57d88c976b9d1842a0b99408aecdfc7c0f21f1ed59ed6b85f574118cd7"
   },
   "sqlScripts": [
     {
@@ -42,6 +42,11 @@
       "migrationId": "20261021_Customer_Tax_Code",
       "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20261021_Customer_Tax_Code.sql",
       "sha256": "bd0a36f228871f8820bf00e8cbce7c416ff469fb6f91d499dc04a0e370fd48a2"
+    },
+    {
+      "migrationId": "20260927_Multiple_Qr_Accounts",
+      "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260927_Multiple_Qr_Accounts.sql",
+      "sha256": "1f11f9776b16aa6408c2f7fffe7017c3df498713a5b82a991bb9611bcf0621b7"
     }
   ]
 }
