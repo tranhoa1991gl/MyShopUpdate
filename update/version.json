@@ -1,11 +1,13 @@
 {
-  "version": "1.1.9.8",
+  "version": "1.1.9.9",
  "releaseNotes": [
-  "Thêm chức năng thống kê theo số tài khoản"
+  "Bổ sung tùy chọn hiển thị cột trên các chi tiết hóa đơn",
+   "Bổ sung in tem nhãn trên phiếu nhập hàng",
+   "Một vài nâng cấp khác"
 ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.9.8/HoaTranPOS-update-v1.1.9.8-20261027-145445.zip",
-    "sha256": "cf593f57d88c976b9d1842a0b99408aecdfc7c0f21f1ed59ed6b85f574118cd7"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.9.9/HoaTranPOS_Update_1.1.9.9_x86_20261030_080312_872d30fd.zip",
+    "sha256": "09b3b3872959d7552fa09c966016a1cf46ec7b1e5dcc1a6ec7d1d1dddf7d85dc"
   },
   "sqlScripts": [
     {
@@ -47,6 +49,11 @@
       "migrationId": "20260927_Multiple_Qr_Accounts",
       "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20260927_Multiple_Qr_Accounts.sql",
       "sha256": "1f11f9776b16aa6408c2f7fffe7017c3df498713a5b82a991bb9611bcf0621b7"
+    },
+    {
+      "migrationId": "20261027_Shop_Installments",
+      "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20261027_Shop_Installments.sql",
+      "sha256": "c3cd63ea24fb88fcba3d819c65a1900594dfab9143cb231c91f8d6434fc98620"
     }
   ]
 }
