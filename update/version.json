@@ -1,13 +1,11 @@
 {
-  "version": "1.1.9.9",
+  "version": "1.2.0.0",
  "releaseNotes": [
-  "Bổ sung tùy chọn hiển thị cột trên các chi tiết hóa đơn",
-   "Bổ sung in tem nhãn trên phiếu nhập hàng",
-   "Một vài nâng cấp khác"
+  "Bổ sung nhiều khổ in tem nhãn, hỗ trợ đa dạng thiết bị và các mẫu tem đôi, tem ba."
 ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.1.9.9/HoaTranPOS_Update_1.1.9.9_x86_20261030_080312_872d30fd.zip",
-    "sha256": "09b3b3872959d7552fa09c966016a1cf46ec7b1e5dcc1a6ec7d1d1dddf7d85dc"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.2.0.0/HoaTranPOS_Update_1.2.0.0_x86_20261031_050844_8f6d8b80.zip",
+    "sha256": "89f51a1ffebd281b261488588b9ca7549e6503daca2d43f69a2597795f017c7a"
   },
   "sqlScripts": [
     {
