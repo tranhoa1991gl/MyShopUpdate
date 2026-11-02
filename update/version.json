@@ -1,11 +1,12 @@
 {
-  "version": "1.2.0.0",
+  "version": "1.2.0.1",
  "releaseNotes": [
-  "Bổ sung nhiều khổ in tem nhãn, hỗ trợ đa dạng thiết bị và các mẫu tem đôi, tem ba."
+  "Cải thiện độ nét của chữ theo tỷ lệ hiển thị màn hình (DPI/Scale).",
+  "Bổ sung nhóm nút Tạm tính – In báo giá – Làm mới trên màn hình bán hàng. Có thể bật/tắt từng nút tại Cài đặt → Thiết lập & Hiển thị → Thanh toán."
 ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.2.0.0/HoaTranPOS_Update_1.2.0.0_x86_20261031_050844_8f6d8b80.zip",
-    "sha256": "89f51a1ffebd281b261488588b9ca7549e6503daca2d43f69a2597795f017c7a"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.2.0.1/HoaTranPOS_Update_1.2.0.1_x86_20261102_100058_a7068548.zip",
+    "sha256": "e13828a502b28139f53e8bc5dca860161685a55afe98b51ce3010270ffd77d95"
   },
   "sqlScripts": [
     {
