@@ -1,12 +1,11 @@
 {
-  "version": "1.2.0.1",
+  "version": "1.2.0.2",
  "releaseNotes": [
-  "Cải thiện độ nét của chữ theo tỷ lệ hiển thị màn hình (DPI/Scale).",
-  "Bổ sung nhóm nút Tạm tính – In báo giá – Làm mới trên màn hình bán hàng. Có thể bật/tắt từng nút tại Cài đặt → Thiết lập & Hiển thị → Thanh toán."
+  "Nâng cấp tính năng tích điểm: cho phép thiết lập mức tích điểm riêng theo nhóm hàng và từng sản phẩm (Menu - Cửa hàng - Khách hàng thân thiết)"
 ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.2.0.1/HoaTranPOS_Update_1.2.0.1_x86_20261102_100058_a7068548.zip",
-    "sha256": "e13828a502b28139f53e8bc5dca860161685a55afe98b51ce3010270ffd77d95"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.2.0.2/HoaTranPOS_Update_1.2.0.2_x86_20261109_155212_3bd5fa11.zip",
+    "sha256": "1f91f8f2a85ead1eb47ec2d3059bec6a4fe7143c0edd88d9d02e23aac2d3a700"
   },
   "sqlScripts": [
     {
@@ -53,6 +52,11 @@
       "migrationId": "20261027_Shop_Installments",
       "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20261027_Shop_Installments.sql",
       "sha256": "c3cd63ea24fb88fcba3d819c65a1900594dfab9143cb231c91f8d6434fc98620"
+    },
+    {
+      "migrationId": "20261108_Loyalty_Product_Category_Points",
+      "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20261108_Loyalty_Product_Category_Points.sql",
+      "sha256": "5219ded0b61aeb49aa886ebd84b50e5c0ce5888c2912b7af073d635d6ce1318f"
     }
   ]
 }
