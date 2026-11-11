@@ -1,11 +1,11 @@
 {
-  "version": "1.2.0.2",
+  "version": "1.2.0.3",
  "releaseNotes": [
-  "Nâng cấp tính năng tích điểm: cho phép thiết lập mức tích điểm riêng theo nhóm hàng và từng sản phẩm (Menu - Cửa hàng - Khách hàng thân thiết)"
+  "Nâng cấp thanh toán chuyển khoản QR"
 ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.2.0.2/HoaTranPOS_Update_1.2.0.2_x86_20261109_155212_3bd5fa11.zip",
-    "sha256": "1f91f8f2a85ead1eb47ec2d3059bec6a4fe7143c0edd88d9d02e23aac2d3a700"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.2.0.3/HoaTranPOS_Update_1.2.0.3_x86_20261111_081136_7b10c6e6.zip",
+    "sha256": "73bb520b216e1b979cdb26117c25a41b9d618b23b06726f4c6b9ff25bd8ea7f8"
   },
   "sqlScripts": [
     {
