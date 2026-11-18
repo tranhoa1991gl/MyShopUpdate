@@ -1,11 +1,13 @@
 {
-  "version": "1.2.0.3",
+  "version": "1.2.0.4",
  "releaseNotes": [
-  "Nâng cấp thanh toán chuyển khoản QR"
+  "Tùy chỉnh hóa đơn thêm chức năng di chuyển các cột hóa đơn (nhấp vào bảng - tùy chỉnh cột)",
+   "Nhập hàng bổ sung thêm phí phát sinh (ví dụ phí vận chuyển) tính vào giá vốn của sản phẩm đó",
+   "1 vài tùy chỉnh khác"
 ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.2.0.3/HoaTranPOS_Update_1.2.0.3_x86_20261111_081136_7b10c6e6.zip",
-    "sha256": "73bb520b216e1b979cdb26117c25a41b9d618b23b06726f4c6b9ff25bd8ea7f8"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.2.0.4/HoaTranPOS_Update_1.2.0.4_x86_20261118_123334_3898fd05.zip",
+    "sha256": "f9ea844a5f4e845a85730c5c37e4828419817d5ef019ef1d308159fbb383e4e0"
   },
   "sqlScripts": [
     {
@@ -57,6 +59,16 @@
       "migrationId": "20261108_Loyalty_Product_Category_Points",
       "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20261108_Loyalty_Product_Category_Points.sql",
       "sha256": "5219ded0b61aeb49aa886ebd84b50e5c0ce5888c2912b7af073d635d6ce1318f"
+    },
+    {
+      "migrationId": "20261118_Purchase_Shipping_Fee",
+      "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20261118_Purchase_Shipping_Fee.sql",
+      "sha256": "6053970b022957e815920fc706cf56e35e3cc4604d082de8d3827493f5adb1b0"
+    },
+    {
+      "migrationId": "20261118_Purchase_Line_Discount",
+      "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20261118_Purchase_Line_Discount.sql",
+      "sha256": "49be1b2730a185f493e065414d61164a664957a0c85a95562569a15cb4924687"
     }
   ]
 }
