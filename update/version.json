@@ -1,13 +1,11 @@
 {
-  "version": "1.2.0.4",
+  "version": "1.2.0.5",
  "releaseNotes": [
-  "Tùy chỉnh hóa đơn thêm chức năng di chuyển các cột hóa đơn (nhấp vào bảng - tùy chỉnh cột)",
-   "Nhập hàng bổ sung thêm phí phát sinh (ví dụ phí vận chuyển) tính vào giá vốn của sản phẩm đó",
-   "1 vài tùy chỉnh khác"
+  "Thêm tùy chọn có thể lựa chọn ngày cho 2 form: bán hàng, nhập hàng, có thể tắt đi cho gọn ở trong cài đặt - cửa hàng"
 ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.2.0.4/HoaTranPOS_Update_1.2.0.4_x86_20261118_123334_3898fd05.zip",
-    "sha256": "f9ea844a5f4e845a85730c5c37e4828419817d5ef019ef1d308159fbb383e4e0"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.2.0.5/HoaTranPOS_Update_1.2.0.5_x86_20261119_085357_f650f5eb.zip",
+    "sha256": "7b6076b650f021cce14a584275ee02e5b7c7c53e703394e3fd5311aa73c86a8e"
   },
   "sqlScripts": [
     {
