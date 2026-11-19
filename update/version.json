@@ -1,11 +1,11 @@
 {
-  "version": "1.2.0.5",
+  "version": "1.2.0.6",
  "releaseNotes": [
-  "Thêm tùy chọn có thể lựa chọn ngày cho 2 form: bán hàng, nhập hàng, có thể tắt đi cho gọn ở trong cài đặt - cửa hàng"
+  "Nâng cấp, tối ưu hệ thống"
 ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.2.0.5/HoaTranPOS_Update_1.2.0.5_x86_20261119_085357_f650f5eb.zip",
-    "sha256": "7b6076b650f021cce14a584275ee02e5b7c7c53e703394e3fd5311aa73c86a8e"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.2.0.6/HoaTranPOS_Update_1.2.0.6_x86_20261119_163542_41998ce8.zip",
+    "sha256": "2abd941ab03bc22a57aaf1b90057af71d8235b134ebfe6857b1d5312a6b98767"
   },
   "sqlScripts": [
     {
@@ -67,6 +67,16 @@
       "migrationId": "20261118_Purchase_Line_Discount",
       "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20261118_Purchase_Line_Discount.sql",
       "sha256": "49be1b2730a185f493e065414d61164a664957a0c85a95562569a15cb4924687"
+    },
+    {
+      "migrationId": "20261119_Seed_Cashbook_Opening_Balance",
+      "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20261119_Seed_Cashbook_Opening_Balance.sql",
+      "sha256": "75e9d54096c5925dd04732caf980fae892375332f73c5003e62c313e6f029a14"
+    },
+        {
+      "migrationId": "20261119_Fix_Missing_Serials_Import5",
+      "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20261119_Fix_Missing_Serials_Import5.sql",
+      "sha256": "c0cc520907ba0a378786ad7db1ed3e256644b5f28a388b1649908ad93f81034e"
     }
   ]
 }
