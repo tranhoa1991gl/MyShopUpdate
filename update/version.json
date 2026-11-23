@@ -1,11 +1,13 @@
 {
-  "version": "1.2.0.6",
+  "version": "1.2.0.7",
  "releaseNotes": [
-  "Nâng cấp, tối ưu hệ thống"
+  "Nhân bản hàng hóa ngay trong Danh sách hàng hóa để tạo mặt hàng tương tự nhanh hơn, đỡ phải nhập lại thông tin.",
+   "Thêm biến thể cho combo và cho phép đặt giá bán riêng theo từng biến thể của hàng hóa hoặc combo. Nếu để trống giá, phần mềm dùng giá bán của sản phẩm cha.",
+   "Thêm 3 cách hiển thị tên sản phẩm gồm hiển thị đầy đủ, xuống dòng hoặc rút gọn."
 ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.2.0.6/HoaTranPOS_Update_1.2.0.6_x86_20261119_163542_41998ce8.zip",
-    "sha256": "2abd941ab03bc22a57aaf1b90057af71d8235b134ebfe6857b1d5312a6b98767"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.2.0.7/HoaTranPOS_Update_1.2.0.7_x86_20261124_034611_f60b37c6.zip",
+    "sha256": "0081869f48938d2de12a7756a670292e16d6b271637d8b5e5fb453736aa3186d"
   },
   "sqlScripts": [
     {
@@ -77,6 +79,26 @@
       "migrationId": "20261119_Fix_Missing_Serials_Import5",
       "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20261119_Fix_Missing_Serials_Import5.sql",
       "sha256": "c0cc520907ba0a378786ad7db1ed3e256644b5f28a388b1649908ad93f81034e"
+    },
+    {
+      "migrationId": "20261120_Promotion_BuyX_GetY",
+      "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20261120_Promotion_BuyX_GetY.sql",
+      "sha256": "e955b8c9adff600d3e8c75871acbad5373bd53ce6e52b7a2a0e2a2cb214a5b37"
+    },
+    {
+      "migrationId": "20261124_Combo_Variants_Support",
+      "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20261124_Combo_Variants_Support.sql",
+      "sha256": "55c8901b33fbb24ea44f611021612705c1d6fb639dafb0b5e2a2a35f6735b5a1"
+    },
+    {
+      "migrationId": "20261124_Seed_Loyalty_Point_Settings",
+      "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20261124_Seed_Loyalty_Point_Settings.sql",
+      "sha256": "50ecc87e732890a00dd4e2a0159e28fce72dbca20e8f0873fbb37e6db835a8ec"
+    },
+    {
+      "migrationId": "20261124_Review_Variant_Sell_Prices",
+      "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20261124_Review_Variant_Sell_Prices.sql",
+      "sha256": "d9bc43308540f6c0f2650d6b16f0cb0d2d273dde4544fb496863cf8a12a98b48"
     }
   ]
 }
