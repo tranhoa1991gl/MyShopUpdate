@@ -6,8 +6,8 @@
    "Thêm 3 cách hiển thị tên sản phẩm gồm hiển thị đầy đủ, xuống dòng hoặc rút gọn."
 ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.2.0.7/HoaTranPOS_Update_1.2.0.7_x86_20261124_034611_f60b37c6.zip",
-    "sha256": "0081869f48938d2de12a7756a670292e16d6b271637d8b5e5fb453736aa3186d"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.2.0.7/HoaTranPOS_Update_1.2.0.7_x86_20261124_073221_dccde80d.zip",
+    "sha256": "7cb673d0d2578c8d95881019a6e52057935230418677fc43b16788629763eb96"
   },
   "sqlScripts": [
     {
