@@ -1,13 +1,11 @@
 {
-  "version": "1.2.0.7",
+  "version": "1.2.0.8",
  "releaseNotes": [
-  "Nhân bản hàng hóa ngay trong Danh sách hàng hóa để tạo mặt hàng tương tự nhanh hơn, đỡ phải nhập lại thông tin.",
-   "Thêm biến thể cho combo và cho phép đặt giá bán riêng theo từng biến thể của hàng hóa hoặc combo. Nếu để trống giá, phần mềm dùng giá bán của sản phẩm cha.",
-   "Thêm 3 cách hiển thị tên sản phẩm gồm hiển thị đầy đủ, xuống dòng hoặc rút gọn."
+  "Tối ưu tốc độ xử lý, tăng độ ổn định và an toàn dữ liệu."
 ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.2.0.7/HoaTranPOS_Update_1.2.0.7_x86_20261124_073221_dccde80d.zip",
-    "sha256": "7cb673d0d2578c8d95881019a6e52057935230418677fc43b16788629763eb96"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.2.0.8/HoaTranPOS_Update_1.2.0.8_x86_20261128_182530_6ebb01e7.zip",
+    "sha256": "13b7cf6e424f658310a51991f2ab9bf182e5c73568280a1e862d8ac627d5a6eb"
   },
   "sqlScripts": [
     {
@@ -99,6 +97,11 @@
       "migrationId": "20261124_Review_Variant_Sell_Prices",
       "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20261124_Review_Variant_Sell_Prices.sql",
       "sha256": "d9bc43308540f6c0f2650d6b16f0cb0d2d273dde4544fb496863cf8a12a98b48"
+    },
+    {
+      "migrationId": "20261126_Security_And_Performance_Hardening",
+      "url": "https://raw.githubusercontent.com/tranhoa1991gl/MyShopUpdate/main/sql/20261126_Security_And_Performance_Hardening.sql",
+      "sha256": "870717369b52a8279ce462dcb584c84ea6c481dd7c52e863f13ff1373d7c946e"
     }
   ]
 }
