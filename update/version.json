@@ -4,8 +4,8 @@
   "Tối ưu tốc độ xử lý, tăng độ ổn định và an toàn dữ liệu."
 ],
   "app": {
-    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.2.0.8/HoaTranPOS_Update_1.2.0.8_x86_20261128_190957_f19b6271.zip",
-    "sha256": "002cb3c66960a14f92f7e4afad08ba22df1ad262f08994aac322b8afe941f2b7"
+    "url": "https://github.com/tranhoa1991gl/MyShopUpdate/releases/download/v1.2.0.8/HoaTranPOS_Update_1.2.0.8_x86_20261128_194827_456de828.zip",
+    "sha256": "f6c67301deb229bf43fca4c5b68d13cf1adf4974acb4c0ae8f1dfb75590ff682"
   },
   "sqlScripts": [
     {
